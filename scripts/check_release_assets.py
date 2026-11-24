@@ -28,6 +28,13 @@ for target in ('chat','claude-project','claude-skills','opencode','plugin'):
  with zipfile.ZipFile(dist/f'{pid}-{target}-{version}.zip') as z:
   names=[n for n in z.namelist() if n.endswith(('/SKILL.md','/instructions.md')) or n=='AGENTS.md']
   assert names, target
+  if target=='opencode':
+   assert 'AGENTS.md' in names
+   skills=[n for n in names if n.endswith('/SKILL.md')]
+   assert len(skills)==len(cfg['skills']['definitions'])
+   for name in skills:
+    assert 'Följ obligatorisk Engine-preflight' in z.read(name).decode('utf-8'), (target,name)
+   names=['AGENTS.md']
   for name in names:
    instruction=z.read(name).decode('utf-8')
    assert 'Ingen automatisk fallback' in instruction, (target,name)
