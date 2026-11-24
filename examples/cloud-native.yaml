@@ -1,0 +1,1433 @@
+size:
+- 13.333333333333332
+- 6.8255769958380625
+slides:
+- background: FFFFFF
+  objects:
+  - type: text
+    x: 0.07567158531971245
+    y: 0.0
+    w: 13.181990162693907
+    h: 0.5902383654937571
+    text: Förflyttning till cloud native
+    size: 34.869466515323495
+    bold: true
+    color: 09243D
+    align: center
+    font: Arial
+    allow_overlap: true
+  - type: text
+    x: 0.07567158531971245
+    y: 0.5902383654937571
+    w: 13.181990162693907
+    h: 0.3783579265985622
+    text: Från små tjänster i traditionell drift till cloud native-design och plattform
+    size: 18.524404086265605
+    bold: false
+    color: 31546A
+    align: center
+    font: Arial
+    allow_overlap: true
+  - type: shape
+    shape: round
+    x: 0.10594021944759742
+    y: 1.2107453651153992
+    w: 5.251608021188043
+    h: 4.237608777903897
+    fill: F1F7FA
+    roundness: 0.05
+    allow_overlap: true
+    stroke: 9AB8C9
+    gradient:
+    - FFFFFF
+    - EDF4F8
+  - type: shape
+    shape: round
+    x: 6.855845629965947
+    y: 1.2107453651153992
+    w: 6.401816118047673
+    h: 4.237608777903897
+    fill: EAF7F5
+    roundness: 0.05
+    allow_overlap: true
+    stroke: 92C9C2
+    gradient:
+    - FFFFFF
+    - E1F4F0
+  - type: shape
+    shape: round
+    x: 0.10594021944759742
+    y: 1.2107453651153992
+    w: 5.251608021188043
+    h: 0.5599697313658721
+    fill: 31546A
+    roundness: 0.18
+    allow_overlap: true
+    gradient:
+    - 31546A
+    - 24495F
+  - type: shape
+    shape: round
+    x: 6.855845629965947
+    y: 1.2107453651153992
+    w: 6.401816118047673
+    h: 0.5599697313658721
+    fill: '006353'
+    roundness: 0.18
+    allow_overlap: true
+    gradient:
+    - '006353'
+    - 087366
+  - type: text
+    x: 0.4086265607264472
+    y: 1.2864169504351115
+    w: 4.842981460461597
+    h: 0.4086265607264472
+    text: FRÅN – tjänstebaserad, traditionell miljö
+    size: 15.800227014755958
+    bold: true
+    color: FFFFFF
+    align: left
+    font: Arial
+    allow_overlap: true
+  - type: text
+    x: 7.219069239500567
+    y: 1.2864169504351115
+    w: 5.90238365493757
+    h: 0.4086265607264472
+    text: TILL – cloud native
+    size: 20.703745743473323
+    bold: true
+    color: FFFFFF
+    align: left
+    font: Arial
+    allow_overlap: true
+  - type: shape
+    shape: round
+    x: 0.2875520242149073
+    y: 2.1490730230798336
+    w: 0.771850170261067
+    h: 0.8475217555807794
+    fill: C7EAF2
+    roundness: 0.13
+    allow_overlap: true
+    stroke: 55B8D4
+  - type: icon
+    icon: settings
+    x: 0.5145667801740447
+    y: 2.2398789254634885
+    w: 0.33295497540673474
+    h: 0.33295497540673474
+    color: 09243D
+    allow_overlap: true
+  - type: text
+    x: 0.3178206583427923
+    y: 2.633371169125993
+    w: 0.711312902005297
+    h: 0.2724177071509648
+    text: Tjänst A
+    size: 11.986379114642451
+    bold: false
+    color: 101B20
+    align: center
+    font: Arial
+    allow_overlap: true
+  - type: line
+    from:
+    - 0.681044267877412
+    - 2.996594778660613
+    to:
+    - 0.681044267877412
+    - 3.2992811199394625
+    color: 09243D
+    stroke_pt: 1.3
+  - type: shape
+    shape: round
+    x: 1.1804767309875142
+    y: 2.1490730230798336
+    w: 0.771850170261067
+    h: 0.8475217555807794
+    fill: C7EAF2
+    roundness: 0.13
+    allow_overlap: true
+    stroke: 55B8D4
+  - type: icon
+    icon: settings
+    x: 1.4074914869466515
+    y: 2.2398789254634885
+    w: 0.33295497540673474
+    h: 0.33295497540673474
+    color: 09243D
+    allow_overlap: true
+  - type: text
+    x: 1.2107453651153992
+    y: 2.633371169125993
+    w: 0.711312902005297
+    h: 0.2724177071509648
+    text: Tjänst B
+    size: 11.986379114642451
+    bold: false
+    color: 101B20
+    align: center
+    font: Arial
+    allow_overlap: true
+  - type: line
+    from:
+    - 1.573968974650019
+    - 2.996594778660613
+    to:
+    - 1.573968974650019
+    - 3.2992811199394625
+    color: 09243D
+    stroke_pt: 1.3
+  - type: shape
+    shape: round
+    x: 2.0582671206961787
+    y: 2.1490730230798336
+    w: 0.771850170261067
+    h: 0.8475217555807794
+    fill: C7EAF2
+    roundness: 0.13
+    allow_overlap: true
+    stroke: 55B8D4
+  - type: icon
+    icon: settings
+    x: 2.285281876655316
+    y: 2.2398789254634885
+    w: 0.33295497540673474
+    h: 0.33295497540673474
+    color: 09243D
+    allow_overlap: true
+  - type: text
+    x: 2.0885357548240635
+    y: 2.633371169125993
+    w: 0.711312902005297
+    h: 0.2724177071509648
+    text: Tjänst C
+    size: 11.986379114642451
+    bold: false
+    color: 101B20
+    align: center
+    font: Arial
+    allow_overlap: true
+  - type: line
+    from:
+    - 2.4517593643586832
+    - 2.996594778660613
+    to:
+    - 2.4517593643586832
+    - 3.2992811199394625
+    color: 09243D
+    stroke_pt: 1.3
+  - type: line
+    from:
+    - 0.681044267877412
+    - 3.2992811199394625
+    to:
+    - 2.4517593643586832
+    - 3.2992811199394625
+    color: 09243D
+    stroke_pt: 1.3
+  - type: line
+    from:
+    - 1.5588346575860763
+    - 3.2992811199394625
+    to:
+    - 1.5588346575860763
+    - 3.556564510026485
+    color: 09243D
+    stroke_pt: 1.3
+  - type: shape
+    shape: round
+    x: 0.33295497540673474
+    y: 3.556564510026485
+    w: 2.436625047294741
+    h: 0.48429814604615967
+    fill: B8DFEB
+    roundness: 0.13
+    allow_overlap: true
+  - type: text
+    x: 0.36322360953461974
+    y: 3.6019674612183126
+    w: 2.3760877790389707
+    h: 0.4388951948543322
+    text: 'Applikationsdrift
+
+      (i traditionell miljö)'
+    size: 11.986379114642451
+    bold: false
+    color: 101B20
+    align: center
+    font: Arial
+    allow_overlap: true
+  - type: line
+    from:
+    - 1.5588346575860763
+    - 4.040862656072645
+    to:
+    - 1.5588346575860763
+    - 4.2527430949678395
+    color: 09243D
+    stroke_pt: 1.3
+  - type: line
+    from:
+    - 0.6961785849413545
+    - 4.2527430949678395
+    to:
+    - 2.4214907302307984
+    - 4.2527430949678395
+    color: 09243D
+    stroke_pt: 1.3
+  - type: line
+    from:
+    - 0.6961785849413545
+    - 4.2527430949678395
+    to:
+    - 0.6961785849413545
+    - 4.464623533863034
+    color: 09243D
+    stroke_pt: 1.3
+  - type: shape
+    shape: round
+    x: 0.4086265607264472
+    y: 4.464623533863034
+    w: 0.5751040484298146
+    h: 0.4237608777903897
+    fill: 3B5B70
+    roundness: 0.08
+    allow_overlap: true
+  - type: line
+    from:
+    - 0.48429814604615967
+    - 4.55542943624669
+    to:
+    - 0.8172531214528944
+    - 4.55542943624669
+    color: FFFFFF
+    stroke_pt: 1.3
+  - type: shape
+    shape: round
+    x: 0.8626560726447219
+    y: 4.540295119182747
+    w: 0.04540295119182747
+    h: 0.04540295119182747
+    fill: FFFFFF
+    roundness: 0.4
+    allow_overlap: true
+  - type: line
+    from:
+    - 0.48429814604615967
+    - 4.676503972758229
+    to:
+    - 0.8172531214528944
+    - 4.676503972758229
+    color: FFFFFF
+    stroke_pt: 1.3
+  - type: shape
+    shape: round
+    x: 0.8626560726447219
+    y: 4.661369655694287
+    w: 0.04540295119182747
+    h: 0.04540295119182747
+    fill: FFFFFF
+    roundness: 0.4
+    allow_overlap: true
+  - type: line
+    from:
+    - 0.48429814604615967
+    - 4.797578509269769
+    to:
+    - 0.8172531214528944
+    - 4.797578509269769
+    color: FFFFFF
+    stroke_pt: 1.3
+  - type: shape
+    shape: round
+    x: 0.8626560726447219
+    y: 4.782444192205826
+    w: 0.04540295119182747
+    h: 0.04540295119182747
+    fill: FFFFFF
+    roundness: 0.4
+    allow_overlap: true
+  - type: line
+    from:
+    - 1.5588346575860763
+    - 4.2527430949678395
+    to:
+    - 1.5588346575860763
+    - 4.464623533863034
+    color: 09243D
+    stroke_pt: 1.3
+  - type: shape
+    shape: round
+    x: 1.271282633371169
+    y: 4.464623533863034
+    w: 0.5751040484298146
+    h: 0.4237608777903897
+    fill: 3B5B70
+    roundness: 0.08
+    allow_overlap: true
+  - type: line
+    from:
+    - 1.3469542186908816
+    - 4.55542943624669
+    to:
+    - 1.6799091940976163
+    - 4.55542943624669
+    color: FFFFFF
+    stroke_pt: 1.3
+  - type: shape
+    shape: round
+    x: 1.7253121452894438
+    y: 4.540295119182747
+    w: 0.04540295119182747
+    h: 0.04540295119182747
+    fill: FFFFFF
+    roundness: 0.4
+    allow_overlap: true
+  - type: line
+    from:
+    - 1.3469542186908816
+    - 4.676503972758229
+    to:
+    - 1.6799091940976163
+    - 4.676503972758229
+    color: FFFFFF
+    stroke_pt: 1.3
+  - type: shape
+    shape: round
+    x: 1.7253121452894438
+    y: 4.661369655694287
+    w: 0.04540295119182747
+    h: 0.04540295119182747
+    fill: FFFFFF
+    roundness: 0.4
+    allow_overlap: true
+  - type: line
+    from:
+    - 1.3469542186908816
+    - 4.797578509269769
+    to:
+    - 1.6799091940976163
+    - 4.797578509269769
+    color: FFFFFF
+    stroke_pt: 1.3
+  - type: shape
+    shape: round
+    x: 1.7253121452894438
+    y: 4.782444192205826
+    w: 0.04540295119182747
+    h: 0.04540295119182747
+    fill: FFFFFF
+    roundness: 0.4
+    allow_overlap: true
+  - type: line
+    from:
+    - 2.4214907302307984
+    - 4.2527430949678395
+    to:
+    - 2.4214907302307984
+    - 4.464623533863034
+    color: 09243D
+    stroke_pt: 1.3
+  - type: shape
+    shape: round
+    x: 2.1339387060158908
+    y: 4.464623533863034
+    w: 0.5751040484298146
+    h: 0.4237608777903897
+    fill: 3B5B70
+    roundness: 0.08
+    allow_overlap: true
+  - type: line
+    from:
+    - 2.2096102913356033
+    - 4.55542943624669
+    to:
+    - 2.542565266742338
+    - 4.55542943624669
+    color: FFFFFF
+    stroke_pt: 1.3
+  - type: shape
+    shape: round
+    x: 2.5879682179341654
+    y: 4.540295119182747
+    w: 0.04540295119182747
+    h: 0.04540295119182747
+    fill: FFFFFF
+    roundness: 0.4
+    allow_overlap: true
+  - type: line
+    from:
+    - 2.2096102913356033
+    - 4.676503972758229
+    to:
+    - 2.542565266742338
+    - 4.676503972758229
+    color: FFFFFF
+    stroke_pt: 1.3
+  - type: shape
+    shape: round
+    x: 2.5879682179341654
+    y: 4.661369655694287
+    w: 0.04540295119182747
+    h: 0.04540295119182747
+    fill: FFFFFF
+    roundness: 0.4
+    allow_overlap: true
+  - type: line
+    from:
+    - 2.2096102913356033
+    - 4.797578509269769
+    to:
+    - 2.542565266742338
+    - 4.797578509269769
+    color: FFFFFF
+    stroke_pt: 1.3
+  - type: shape
+    shape: round
+    x: 2.5879682179341654
+    y: 4.782444192205826
+    w: 0.04540295119182747
+    h: 0.04540295119182747
+    fill: FFFFFF
+    roundness: 0.4
+    allow_overlap: true
+  - type: text
+    x: 0.3783579265985622
+    y: 4.964055996973136
+    w: 2.391222096102913
+    h: 0.4388951948543322
+    text: 'Fasta servrar / VM
+
+      (on-prem)'
+    size: 11.986379114642451
+    bold: false
+    color: 101B20
+    align: center
+    font: Arial
+    allow_overlap: true
+  - type: line
+    from:
+    - 2.966326144532728
+    - 1.9674612183125235
+    to:
+    - 2.966326144532728
+    - 5.2213393870601585
+    color: 9AB8C9
+    stroke_pt: 1.3
+  - type: icon
+    icon: settings
+    x: 3.147937949300038
+    y: 1.9674612183125235
+    w: 0.4388951948543322
+    h: 0.4388951948543322
+    color: 09243D
+    allow_overlap: true
+  - type: text
+    x: 3.8138479001135073
+    y: 1.9674612183125235
+    w: 1.483163072266364
+    h: 0.681044267877412
+    text: 'Små, separata
+
+      tjänster'
+    size: 12.53121452894438
+    bold: false
+    color: 101B20
+    align: left
+    font: Arial
+    allow_overlap: true
+  - type: icon
+    icon: server
+    x: 3.147937949300038
+    y: 2.572833900870223
+    w: 0.4388951948543322
+    h: 0.4388951948543322
+    color: 09243D
+    allow_overlap: true
+  - type: text
+    x: 3.8138479001135073
+    y: 2.572833900870223
+    w: 1.483163072266364
+    h: 0.681044267877412
+    text: 'Fasta servrar /
+
+      VM'
+    size: 12.53121452894438
+    bold: false
+    color: 101B20
+    align: left
+    font: Arial
+    allow_overlap: true
+  - type: icon
+    icon: wrench
+    x: 3.147937949300038
+    y: 3.193340900491865
+    w: 0.4388951948543322
+    h: 0.4388951948543322
+    color: 09243D
+    allow_overlap: true
+  - type: text
+    x: 3.8138479001135073
+    y: 3.193340900491865
+    w: 1.483163072266364
+    h: 0.681044267877412
+    text: 'Manuell
+
+      provisionering
+
+      och driftsättning'
+    size: 12.53121452894438
+    bold: false
+    color: 101B20
+    align: left
+    font: Arial
+    allow_overlap: true
+  - type: icon
+    icon: layers
+    x: 3.147937949300038
+    y: 3.9651910707529323
+    w: 0.4388951948543322
+    h: 0.4388951948543322
+    color: 09243D
+    allow_overlap: true
+  - type: text
+    x: 3.8138479001135073
+    y: 3.9651910707529323
+    w: 1.483163072266364
+    h: 0.681044267877412
+    text: 'Skalning via
+
+      infrastruktur
+
+      (fler servrar/VM)'
+    size: 12.53121452894438
+    bold: false
+    color: 101B20
+    align: left
+    font: Arial
+    allow_overlap: true
+  - type: icon
+    icon: team
+    x: 3.147937949300038
+    y: 4.7370412410139995
+    w: 0.4388951948543322
+    h: 0.4388951948543322
+    color: 09243D
+    allow_overlap: true
+  - type: text
+    x: 3.8138479001135073
+    y: 4.7370412410139995
+    w: 1.483163072266364
+    h: 0.681044267877412
+    text: 'Traditionell drift
+
+      och underhåll'
+    size: 12.53121452894438
+    bold: false
+    color: 101B20
+    align: left
+    font: Arial
+    allow_overlap: true
+  - type: path
+    x: 5.145667801740446
+    y: 2.2701475595913734
+    w: 2.0582671206961787
+    h: 2.300416193719258
+    points:
+    - - 0
+      - 20
+    - - 59
+      - 20
+    - - 59
+      - 0
+    - - 100
+      - 50
+    - - 59
+      - 100
+    - - 59
+      - 82
+    - - 0
+      - 82
+    closed: true
+    fill: 007B79
+    allow_overlap: true
+  - type: shape
+    shape: round
+    x: 5.145667801740446
+    y: 2.724177071509648
+    w: 1.2864169504351115
+    h: 1.4377601210745365
+    fill: 078D8B
+    roundness: 0.13
+    allow_overlap: true
+    gradient:
+    - 65C2C1
+    - 007B79
+  - type: text
+    x: 5.2213393870601585
+    y: 2.845251608021188
+    w: 1.6647748770336739
+    h: 1.2864169504351115
+    text: 'Förflyttning:
+
+      designa, bygg och
+
+      drifta för
+
+      plattformens
+
+      förmågor'
+    size: 12.53121452894438
+    bold: true
+    color: FFFFFF
+    align: center
+    font: Arial
+    allow_overlap: true
+  - type: shape
+    shape: round
+    x: 7.203934922436625
+    y: 2.012864169504351
+    w: 1.0442678774120318
+    h: 1.0442678774120318
+    fill: C7EAF2
+    roundness: 0.13
+    allow_overlap: true
+    stroke: 55B8D4
+  - type: icon
+    icon: cube
+    x: 7.612561483163072
+    y: 2.073401437760121
+    w: 0.24214907302307984
+    h: 0.2724177071509648
+    color: 007568
+    allow_overlap: true
+  - type: text
+    x: 7.23420355656451
+    y: 2.391222096102913
+    w: 0.9837306091562618
+    h: 0.25728339008702233
+    text: Tjänst A
+    size: 11.986379114642451
+    bold: false
+    color: 101B20
+    align: center
+    font: Arial
+    allow_overlap: true
+  - type: icon
+    icon: container
+    x: 7.506621263715474
+    y: 2.633371169125993
+    w: 0.4388951948543322
+    h: 0.36322360953461974
+    color: 007568
+    allow_overlap: true
+  - type: line
+    from:
+    - 7.718501702610669
+    - 3.057132046916383
+    to:
+    - 7.718501702610669
+    - 3.238743851683693
+    color: 09243D
+    stroke_pt: 1.3
+  - type: shape
+    shape: round
+    x: 8.429814604615967
+    y: 2.012864169504351
+    w: 1.0442678774120318
+    h: 1.0442678774120318
+    fill: C7EAF2
+    roundness: 0.13
+    allow_overlap: true
+    stroke: 55B8D4
+  - type: icon
+    icon: cube
+    x: 8.838441165342413
+    y: 2.073401437760121
+    w: 0.24214907302307984
+    h: 0.2724177071509648
+    color: 007568
+    allow_overlap: true
+  - type: text
+    x: 8.46008323874385
+    y: 2.391222096102913
+    w: 0.9837306091562618
+    h: 0.25728339008702233
+    text: Tjänst B
+    size: 11.986379114642451
+    bold: false
+    color: 101B20
+    align: center
+    font: Arial
+    allow_overlap: true
+  - type: icon
+    icon: container
+    x: 8.732500945894817
+    y: 2.633371169125993
+    w: 0.4388951948543322
+    h: 0.36322360953461974
+    color: 007568
+    allow_overlap: true
+  - type: line
+    from:
+    - 8.944381384790011
+    - 3.057132046916383
+    to:
+    - 8.944381384790011
+    - 3.238743851683693
+    color: 09243D
+    stroke_pt: 1.3
+  - type: shape
+    shape: round
+    x: 9.655694286795308
+    y: 2.012864169504351
+    w: 1.0442678774120318
+    h: 1.0442678774120318
+    fill: C7EAF2
+    roundness: 0.13
+    allow_overlap: true
+    stroke: 55B8D4
+  - type: icon
+    icon: cube
+    x: 10.064320847521754
+    y: 2.073401437760121
+    w: 0.24214907302307984
+    h: 0.2724177071509648
+    color: 007568
+    allow_overlap: true
+  - type: text
+    x: 9.685962920923194
+    y: 2.391222096102913
+    w: 0.9837306091562618
+    h: 0.25728339008702233
+    text: Tjänst C
+    size: 11.986379114642451
+    bold: false
+    color: 101B20
+    align: center
+    font: Arial
+    allow_overlap: true
+  - type: icon
+    icon: container
+    x: 9.958380628074158
+    y: 2.633371169125993
+    w: 0.4388951948543322
+    h: 0.36322360953461974
+    color: 007568
+    allow_overlap: true
+  - type: line
+    from:
+    - 10.170261066969353
+    - 3.057132046916383
+    to:
+    - 10.170261066969353
+    - 3.238743851683693
+    color: 09243D
+    stroke_pt: 1.3
+  - type: line
+    from:
+    - 7.718501702610669
+    - 3.238743851683693
+    to:
+    - 10.170261066969353
+    - 3.238743851683693
+    color: 09243D
+    stroke_pt: 1.3
+  - type: line
+    from:
+    - 8.263337116912599
+    - 3.238743851683693
+    to:
+    - 8.263337116912599
+    - 3.4203556564510027
+    color: 09243D
+    stroke_pt: 1.3
+  - type: line
+    from:
+    - 9.807037457434733
+    - 3.238743851683693
+    to:
+    - 9.807037457434733
+    - 3.4203556564510027
+    color: 09243D
+    stroke_pt: 1.3
+  - type: shape
+    shape: round
+    x: 7.552024214907302
+    y: 3.435489973514945
+    w: 1.2864169504351115
+    h: 0.4237608777903897
+    fill: C4E8EF
+    roundness: 0.13
+    allow_overlap: true
+    stroke: 477E92
+  - type: icon
+    icon: api
+    x: 7.688233068482784
+    y: 3.5111615588346576
+    w: 0.33295497540673474
+    h: 0.2724177071509648
+    color: 007568
+    allow_overlap: true
+  - type: text
+    x: 8.066590995081347
+    y: 3.4808929247067724
+    w: 0.8323874385168369
+    h: 0.36322360953461974
+    text: API:er
+    size: 10.896708286038592
+    bold: false
+    color: 101B20
+    align: center
+    font: Arial
+    allow_overlap: true
+  - type: shape
+    shape: round
+    x: 9.11085887249338
+    y: 3.435489973514945
+    w: 1.392357169882709
+    h: 0.4237608777903897
+    fill: C4E8EF
+    roundness: 0.13
+    allow_overlap: true
+    stroke: 477E92
+  - type: icon
+    icon: events
+    x: 9.247067726068861
+    y: 3.5111615588346576
+    w: 0.33295497540673474
+    h: 0.2724177071509648
+    color: 007568
+    allow_overlap: true
+  - type: text
+    x: 9.625425652667422
+    y: 3.4808929247067724
+    w: 0.8323874385168369
+    h: 0.36322360953461974
+    text: 'Händelser
+
+      (Events)'
+    size: 10.896708286038592
+    bold: false
+    color: 101B20
+    align: center
+    font: Arial
+    allow_overlap: true
+  - type: line
+    from:
+    - 8.263337116912599
+    - 3.8592508513053345
+    to:
+    - 8.263337116912599
+    - 4.01059402194476
+    color: 09243D
+    stroke_pt: 1.3
+  - type: line
+    from:
+    - 9.807037457434733
+    - 3.8592508513053345
+    to:
+    - 9.807037457434733
+    - 4.01059402194476
+    color: 09243D
+    stroke_pt: 1.3
+  - type: line
+    from:
+    - 8.263337116912599
+    - 4.01059402194476
+    to:
+    - 9.807037457434733
+    - 4.01059402194476
+    color: 09243D
+    stroke_pt: 1.3
+  - type: line
+    from:
+    - 8.944381384790011
+    - 4.01059402194476
+    to:
+    - 8.944381384790011
+    - 4.07113129020053
+    color: 09243D
+    stroke_pt: 1.3
+  - type: shape
+    shape: round
+    x: 7.037457434733257
+    y: 4.07113129020053
+    w: 3.7230419977298523
+    h: 0.5448354143019296
+    fill: B6E4EB
+    roundness: 0.13
+    allow_overlap: true
+  - type: icon
+    icon: cloud
+    x: 7.536889897843359
+    y: 4.146802875520242
+    w: 0.48429814604615967
+    h: 0.3783579265985622
+    color: 007568
+    allow_overlap: true
+  - type: text
+    x: 8.248202799848656
+    y: 4.131668558456299
+    w: 2.391222096102913
+    h: 0.4388951948543322
+    text: 'Cloud native-plattform
+
+      (on-prem och externt)'
+    size: 11.986379114642451
+    bold: false
+    color: 101B20
+    align: center
+    font: Arial
+    allow_overlap: true
+  - type: shape
+    shape: round
+    x: 7.3250094589481645
+    y: 5.024593265228907
+    w: 3.238743851683693
+    h: 0.21188043889519484
+    fill: B6E4EB
+    roundness: 0.13
+    allow_overlap: true
+  - type: icon
+    icon: cube
+    x: 7.673098751418842
+    y: 4.691638289822172
+    w: 0.22701475595913734
+    h: 0.24214907302307984
+    color: 007568
+    allow_overlap: true
+  - type: icon
+    icon: cube
+    x: 7.552024214907302
+    y: 4.888384411653424
+    w: 0.22701475595913734
+    h: 0.24214907302307984
+    color: 007568
+    allow_overlap: true
+  - type: icon
+    icon: cube
+    x: 7.7941732879303816
+    y: 4.888384411653424
+    w: 0.22701475595913734
+    h: 0.24214907302307984
+    color: 007568
+    allow_overlap: true
+  - type: icon
+    icon: cube
+    x: 8.581157775255392
+    y: 4.691638289822172
+    w: 0.22701475595913734
+    h: 0.24214907302307984
+    color: 007568
+    allow_overlap: true
+  - type: icon
+    icon: cube
+    x: 8.46008323874385
+    y: 4.888384411653424
+    w: 0.22701475595913734
+    h: 0.24214907302307984
+    color: 007568
+    allow_overlap: true
+  - type: icon
+    icon: cube
+    x: 8.702232311766931
+    y: 4.888384411653424
+    w: 0.22701475595913734
+    h: 0.24214907302307984
+    color: 007568
+    allow_overlap: true
+  - type: icon
+    icon: cube
+    x: 9.48921679909194
+    y: 4.691638289822172
+    w: 0.22701475595913734
+    h: 0.24214907302307984
+    color: 007568
+    allow_overlap: true
+  - type: icon
+    icon: cube
+    x: 9.3681422625804
+    y: 4.888384411653424
+    w: 0.22701475595913734
+    h: 0.24214907302307984
+    color: 007568
+    allow_overlap: true
+  - type: icon
+    icon: cube
+    x: 9.610291335603481
+    y: 4.888384411653424
+    w: 0.22701475595913734
+    h: 0.24214907302307984
+    color: 007568
+    allow_overlap: true
+  - type: text
+    x: 10.200529701097237
+    y: 4.691638289822172
+    w: 0.4540295119182747
+    h: 0.3783579265985622
+    text: …
+    size: 21.793416572077184
+    bold: true
+    color: 09243D
+    align: left
+    font: Arial
+    allow_overlap: true
+  - type: line
+    from:
+    - 10.896708286038592
+    - 1.8917896329928112
+    to:
+    - 10.896708286038592
+    - 5.2213393870601585
+    color: 8BC9C0
+    stroke_pt: 1.3
+  - type: icon
+    icon: cube
+    x: 11.12372304199773
+    y: 1.8917896329928112
+    w: 0.4086265607264472
+    h: 0.4086265607264472
+    color: 007568
+    allow_overlap: true
+  - type: text
+    x: 11.729095724555428
+    y: 1.8917896329928112
+    w: 1.483163072266364
+    h: 0.6507756337495271
+    text: 'Containeriserade
+
+      tjänster'
+    size: 11.22360953461975
+    bold: false
+    color: 101B20
+    align: left
+    font: Arial
+    allow_overlap: true
+  - type: icon
+    icon: infinity
+    x: 11.12372304199773
+    y: 2.4063564131668556
+    w: 0.4086265607264472
+    h: 0.4086265607264472
+    color: 007568
+    allow_overlap: true
+  - type: text
+    x: 11.729095724555428
+    y: 2.4063564131668556
+    w: 1.483163072266364
+    h: 0.6507756337495271
+    text: 'Automatiserad
+
+      CI/CD'
+    size: 11.22360953461975
+    bold: false
+    color: 101B20
+    align: left
+    font: Arial
+    allow_overlap: true
+  - type: icon
+    icon: layers
+    x: 11.12372304199773
+    y: 2.951191827468785
+    w: 0.4086265607264472
+    h: 0.4086265607264472
+    color: 007568
+    allow_overlap: true
+  - type: text
+    x: 11.729095724555428
+    y: 2.951191827468785
+    w: 1.483163072266364
+    h: 0.6507756337495271
+    text: 'Orkestrering
+
+      och plattform
+
+      (t.ex. Kubernetes)'
+    size: 11.22360953461975
+    bold: false
+    color: 101B20
+    align: left
+    font: Arial
+    allow_overlap: true
+  - type: icon
+    icon: scale
+    x: 11.12372304199773
+    y: 3.5868331441543697
+    w: 0.4086265607264472
+    h: 0.4086265607264472
+    color: 007568
+    allow_overlap: true
+  - type: text
+    x: 11.729095724555428
+    y: 3.5868331441543697
+    w: 1.483163072266364
+    h: 0.6507756337495271
+    text: 'Skalning efter
+
+      behov (automatisk)'
+    size: 11.22360953461975
+    bold: false
+    color: 101B20
+    align: left
+    font: Arial
+    allow_overlap: true
+  - type: icon
+    icon: settings
+    x: 11.12372304199773
+    y: 4.146802875520242
+    w: 0.4086265607264472
+    h: 0.4086265607264472
+    color: 007568
+    allow_overlap: true
+  - type: text
+    x: 11.729095724555428
+    y: 4.146802875520242
+    w: 1.483163072266364
+    h: 0.6507756337495271
+    text: 'Automatiserad
+
+      drift (IaC, övervakning)'
+    size: 11.22360953461975
+    bold: false
+    color: 101B20
+    align: left
+    font: Arial
+    allow_overlap: true
+  - type: icon
+    icon: shield
+    x: 11.12372304199773
+    y: 4.706772606886114
+    w: 0.4086265607264472
+    h: 0.4086265607264472
+    color: 007568
+    allow_overlap: true
+  - type: text
+    x: 11.729095724555428
+    y: 4.706772606886114
+    w: 1.483163072266364
+    h: 0.6507756337495271
+    text: 'Robusthet och
+
+      återhämtning
+
+      (self-healing)'
+    size: 11.22360953461975
+    bold: false
+    color: 101B20
+    align: left
+    font: Arial
+    allow_overlap: true
+  - type: shape
+    shape: round
+    x: 0.10594021944759742
+    y: 5.7056375331063185
+    w: 13.151721528566023
+    h: 1.0291335603480893
+    fill: E0F5F0
+    roundness: 0.13
+    allow_overlap: true
+    gradient:
+    - EBF8F6
+    - D7F2EE
+  - type: text
+    x: 0.34808929247067727
+    y: 5.90238365493757
+    w: 1.7404464623533862
+    h: 0.7264472190692395
+    text: 'Fördelar med
+
+      cloud native'
+    size: 17.434733257661748
+    bold: true
+    color: 09243D
+    align: left
+    font: Arial
+    allow_overlap: true
+  - type: line
+    from:
+    - 2.1490730230798336
+    - 5.887249337873628
+    to:
+    - 2.1490730230798336
+    - 6.5228906545592125
+    color: 64B9B4
+    stroke_pt: 1.3
+  - type: icon
+    icon: rocket
+    x: 2.3155505107832006
+    y: 5.962920923193341
+    w: 0.4540295119182747
+    h: 0.46916382898221715
+    color: 007568
+    allow_overlap: true
+  - type: text
+    x: 2.8603859250851302
+    y: 5.978055240257283
+    w: 0.9534619750283768
+    h: 0.5297010972379871
+    text: 'Snabbare
+
+      förändring'
+    size: 11.441543700340521
+    bold: false
+    color: 101B20
+    align: left
+    font: Arial
+    allow_overlap: true
+  - type: line
+    from:
+    - 3.8289822171774497
+    - 5.887249337873628
+    to:
+    - 3.8289822171774497
+    - 6.5228906545592125
+    color: 64B9B4
+    stroke_pt: 1.3
+  - type: icon
+    icon: database
+    x: 3.995459704880817
+    y: 5.962920923193341
+    w: 0.4540295119182747
+    h: 0.46916382898221715
+    color: 007568
+    allow_overlap: true
+  - type: text
+    x: 4.540295119182747
+    y: 5.978055240257283
+    w: 1.3469542186908816
+    h: 0.5297010972379871
+    text: 'Effektivare
+
+      resursutnyttjande'
+    size: 11.441543700340521
+    bold: false
+    color: 101B20
+    align: left
+    font: Arial
+    allow_overlap: true
+  - type: line
+    from:
+    - 5.90238365493757
+    - 5.887249337873628
+    to:
+    - 5.90238365493757
+    - 6.5228906545592125
+    color: 64B9B4
+    stroke_pt: 1.3
+  - type: icon
+    icon: shield
+    x: 6.068861142640938
+    y: 5.962920923193341
+    w: 0.4540295119182747
+    h: 0.46916382898221715
+    color: 007568
+    allow_overlap: true
+  - type: text
+    x: 6.613696556942868
+    y: 5.978055240257283
+    w: 0.8626560726447219
+    h: 0.5297010972379871
+    text: 'Ökad
+
+      robusthet'
+    size: 11.441543700340521
+    bold: false
+    color: 101B20
+    align: left
+    font: Arial
+    allow_overlap: true
+  - type: line
+    from:
+    - 7.491486946651532
+    - 5.887249337873628
+    to:
+    - 7.491486946651532
+    - 6.5228906545592125
+    color: 64B9B4
+    stroke_pt: 1.3
+  - type: icon
+    icon: chart
+    x: 7.657964434354899
+    y: 5.962920923193341
+    w: 0.4540295119182747
+    h: 0.46916382898221715
+    color: 007568
+    allow_overlap: true
+  - type: text
+    x: 8.202799848656829
+    y: 5.978055240257283
+    w: 0.9534619750283768
+    h: 0.5297010972379871
+    text: Skalbarhet
+    size: 11.441543700340521
+    bold: false
+    color: 101B20
+    align: left
+    font: Arial
+    allow_overlap: true
+  - type: line
+    from:
+    - 9.171396140749149
+    - 5.887249337873628
+    to:
+    - 9.171396140749149
+    - 6.5228906545592125
+    color: 64B9B4
+    stroke_pt: 1.3
+  - type: icon
+    icon: layers
+    x: 9.337873628452515
+    y: 5.962920923193341
+    w: 0.4540295119182747
+    h: 0.46916382898221715
+    color: 007568
+    allow_overlap: true
+  - type: text
+    x: 9.882709042754446
+    y: 5.978055240257283
+    w: 1.362088535754824
+    h: 0.5297010972379871
+    text: 'Standardiserad
+
+      drift'
+    size: 11.441543700340521
+    bold: false
+    color: 101B20
+    align: left
+    font: Arial
+    allow_overlap: true
+  - type: line
+    from:
+    - 11.259931895573212
+    - 5.887249337873628
+    to:
+    - 11.259931895573212
+    - 6.5228906545592125
+    color: 64B9B4
+    stroke_pt: 1.3
+  - type: icon
+    icon: refresh
+    x: 11.42640938327658
+    y: 5.962920923193341
+    w: 0.4540295119182747
+    h: 0.46916382898221715
+    color: 007568
+    allow_overlap: true
+  - type: text
+    x: 11.971244797578509
+    y: 5.978055240257283
+    w: 1.241013999243284
+    h: 0.5297010972379871
+    text: 'Kontinuerlig
+
+      förbättring'
+    size: 11.441543700340521
+    bold: false
+    color: 101B20
+    align: left
+    font: Arial
+    allow_overlap: true

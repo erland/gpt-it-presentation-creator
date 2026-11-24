@@ -1,0 +1,394 @@
+schema_version: 1
+project:
+  id: it-presentation-creator
+  name: IT Presentation Creator
+  language: sv
+  description: Professionell visuell kommunikation om IT och förändring med redigerbar
+    PowerPoint.
+structure:
+  canonical_root: canonical
+  instructions:
+    path: canonical
+    required: true
+  conversation_starters:
+    path: src/conversation-starters
+    required: true
+  runtime_policy:
+    path: src/runtime-policy
+    required: false
+  knowledge:
+    path: knowledge
+    required: false
+  templates:
+    path: templates
+    required: false
+  schemas:
+    path: schemas
+    required: false
+  scripts:
+    path: scripts
+    required: false
+  tests:
+    path: tests
+    required: false
+  evals:
+    path: evals
+    required: false
+  research:
+    path: research
+    required: false
+  build:
+    path: build
+    generated: true
+    create_when_needed: true
+  dist:
+    path: dist
+    generated: true
+    create_when_needed: true
+runtime:
+  primary: none
+  chat_zip:
+    enabled: true
+    bundle_distribution_engine: false
+    role: peer_distribution
+    allow_richer_runtime_than_custom_gpt: true
+    entrypoint: START-HERE.md
+    start_here_template: templates/START-HERE.chat.md.tpl
+    layout:
+      assistant: assistant
+      knowledge: knowledge
+      schemas: schemas
+      scripts: scripts
+      templates: templates
+      runtime: runtime
+    include:
+      instructions:
+      - src/instructions/system.md
+      policies:
+      - src/runtime-policy/*.md
+      conversation_starters:
+      - src/conversation-starters/**
+      knowledge:
+      - knowledge/**
+      schemas:
+      - schemas/**
+      scripts:
+      - scripts/**
+      templates:
+      - templates/**
+    exclude:
+    - docs/**
+    - tests/**
+    - evals/**
+    - research/**
+    - .github/**
+    - .git/**
+    - build/**
+    - dist/**
+    - project-status.yaml
+    - PROJECT.md
+    - STATUS.md
+    manifest:
+      required: true
+      checksums: true
+    deterministic_build: true
+    omit_empty_runtime_directories: true
+  claude:
+    enabled: true
+    role: peer_distribution
+    mode: claude_project
+    project:
+      instructions: project/instructions.md
+      knowledge: project/knowledge
+      runtime_contract: project/runtime-contract.json
+    templates:
+      readme: templates/README.claude.md.tpl
+    validation:
+      require_instructions: true
+      require_runtime_contract: true
+  opencode:
+    enabled: true
+    role: peer_distribution
+    mode: opencode_workspace
+    layout:
+      instructions: AGENTS.md
+      config: opencode.json
+      tools: .opencode/tools
+      runtime_scripts: scripts
+      runtime_contract: .opencode/runtime-contract.json
+      knowledge: knowledge
+    templates:
+      readme: templates/README.opencode.md.tpl
+    skills:
+      enabled: true
+      directory: .opencode/skills
+      definitions: []
+    validation:
+      require_agents_md: true
+      require_runtime_contract: true
+  plugin:
+    enabled: true
+    role: peer_distribution
+    mode: openai_plugin
+    layout:
+      manifest_file: plugin.json
+      skills: skills
+      references: references
+      assets: assets
+      scripts: scripts
+    templates:
+      readme: templates/README.plugin.md.tpl
+    validation:
+      require_manifest: true
+      require_skill: true
+      require_skill_frontmatter: true
+  custom_gpt:
+    enabled: false
+    role: peer_distribution
+    compilation_mode: adaptive
+    allow_reduced_functionality: true
+    platform_limits:
+      instruction_max_characters: 8000
+      knowledge_max_files: 20
+    notes:
+    - Platform limits are configuration values and must be easy to update.
+    - Custom GPT and Chat ZIP are peer distribution targets derived from the same
+      canonical contract.
+    instruction:
+      mode: compressed
+      max_characters: 8000
+    knowledge:
+      strategy: hybrid
+      max_files: 20
+    builder:
+      instructions: builder/instructions.md
+      conversation_starters: builder/conversation-starters.md
+      capabilities: builder/capabilities.md
+      runtime_contract: builder/runtime-contract.json
+      knowledge_package: builder/knowledge-package
+    templates:
+      readme: templates/README.custom-gpt.md.tpl
+      compatibility: templates/COMPATIBILITY.md.tpl
+      capabilities: templates/capabilities.md.tpl
+    compatibility:
+      report_required: true
+      parity_symbols:
+        equivalent: ✓
+        reduced: '~'
+        missing: '-'
+    validation:
+      block_on_instruction_limit: true
+      block_on_knowledge_limit: true
+      block_on_misleading_core_functionality: true
+build_system:
+  build_script: scripts/build_distributions.py
+  validation_script: scripts/validate_distributions.py
+  targets:
+  - project
+  - chat
+  - claude_project
+  - claude_skills
+  - opencode
+  - plugin
+  runtime_targets:
+    chat:
+      runtime_id: chatgpt_chat
+      runtime_key: chat_zip
+      builder: chat
+      artifact_type: chat_zip
+      filename_pattern: <project-id>-chat-<version>.zip
+    claude_project:
+      runtime_id: claude_project
+      runtime_key: claude
+      builder: claude
+      artifact_type: claude_project_zip
+      filename_pattern: <project-id>-claude-project-<version>.zip
+    claude_skills:
+      runtime_id: claude_skills
+      runtime_key: claude
+      builder: claude_skills
+      artifact_type: claude_skills_zip
+      filename_pattern: <project-id>-claude-skills-<version>.zip
+    opencode:
+      runtime_id: opencode
+      runtime_key: opencode
+      builder: opencode
+      artifact_type: opencode_zip
+      filename_pattern: <project-id>-opencode-<version>.zip
+    plugin:
+      runtime_id: openai_plugin
+      runtime_key: plugin
+      builder: plugin
+      artifact_type: plugin_zip
+      filename_pattern: <project-id>-plugin-<version>.zip
+  output_root: dist
+  working_root: build
+  deterministic_zip: true
+  manifest: true
+  checksums: sha256
+  project_zip_excludes:
+  - build/**
+  - dist/**
+  - .git/**
+  - '**/__pycache__/**'
+  - '**/.pytest_cache/**'
+knowledge_architecture:
+  canonical_root: knowledge
+model_robustness:
+  level: guided
+  separate_model_instructions: false
+  prefer_deterministic_validation: true
+  max_core_policy_hops: 1
+instructions:
+  mode: modular_skills
+  canonical: canonical/core.md
+  core: canonical/core.md
+development:
+  plan: docs/development-plan.md
+  status: project-status.yaml
+engine:
+  enabled: true
+  resources:
+  - scripts/itpc
+  - knowledge/figures/library.yaml
+  - knowledge/design/themes.yaml
+  - scripts/itpc/existing.py
+  - knowledge/figures/outline-icons.yaml
+  - knowledge/figures/professional-icons.yaml
+  selftest: scripts/itpc/selftest.py
+  required_files:
+  - scripts/itpc/render.py
+  - scripts/itpc/figures.py
+  - scripts/itpc/demo.yaml
+  - knowledge/figures/library.yaml
+  - knowledge/design/themes.yaml
+  - scripts/itpc/quality.py
+  - scripts/itpc/quality-demo.yaml
+  - scripts/itpc/vector.py
+  - knowledge/figures/outline-icons.yaml
+  - knowledge/figures/professional-icons.yaml
+  - scripts/itpc/svg_native.py
+  python_dependencies:
+  - python-pptx
+  - PyYAML
+  - CairoSVG
+  - fonttools
+  release_repository: erland/gpt-it-presentation-creator
+ci:
+  enabled: true
+  workflow: .github/workflows/ci.yml
+skills:
+  contract_version: 1
+  schema: schemas/itpc-skill-contract.schema.json
+  mode: explicit
+  resource_policy: explicit
+  definitions:
+  - id: presentation-design
+    name: presentation-design
+    description: Utforma budskap, storytelling, disposition och visuella koncept.
+    source: canonical/skills/presentation-design/behavior.md
+    references:
+    - knowledge/design/design-system.md
+    - knowledge/design/themes.yaml
+    - knowledge/figures/README.md
+    - knowledge/figures/library.yaml
+    - knowledge/visualizations/visualization-guide.md
+    - knowledge/visualizations/patterns.yaml
+    - knowledge/quality-guide.md
+    - knowledge/existing-guide.md
+    - knowledge/figures/outline-icons.yaml
+    - knowledge/reconstruction-guide.md
+    - knowledge/figures/professional-icons.yaml
+    - knowledge/professional-icons-guide.md
+    - knowledge/visual-acceptance.md
+    assets: []
+    scripts: []
+  - id: powerpoint-creation
+    name: powerpoint-creation
+    description: Skapa professionella och redigerbara PowerPoint-bilder.
+    source: canonical/skills/powerpoint-creation/behavior.md
+    references:
+    - knowledge/design/design-system.md
+    - knowledge/design/themes.yaml
+    - knowledge/figures/README.md
+    - knowledge/figures/library.yaml
+    - knowledge/visualizations/visualization-guide.md
+    - knowledge/visualizations/patterns.yaml
+    - knowledge/engine-guide.md
+    - knowledge/quality-guide.md
+    - knowledge/existing-guide.md
+    - knowledge/figures/outline-icons.yaml
+    - knowledge/reconstruction-guide.md
+    - knowledge/figures/professional-icons.yaml
+    - knowledge/professional-icons-guide.md
+    - knowledge/visual-acceptance.md
+    assets: []
+    scripts: []
+  - id: presentation-review
+    name: presentation-review
+    description: Granska och förbättra visuella presentationer.
+    source: canonical/skills/presentation-review/behavior.md
+    references:
+    - knowledge/design/design-system.md
+    - knowledge/design/themes.yaml
+    - knowledge/figures/README.md
+    - knowledge/figures/library.yaml
+    - knowledge/visualizations/visualization-guide.md
+    - knowledge/visualizations/patterns.yaml
+    - knowledge/quality-guide.md
+    - knowledge/existing-guide.md
+    - knowledge/figures/outline-icons.yaml
+    - knowledge/reconstruction-guide.md
+    - knowledge/figures/professional-icons.yaml
+    - knowledge/professional-icons-guide.md
+    - knowledge/visual-acceptance.md
+    assets: []
+    scripts: []
+capabilities:
+  contract_version: 1
+  schema: schemas/capability-contract.schema.json
+  requirements:
+    filesystem:
+      read: required
+      write: required
+    code_execution:
+      level: required
+    image_generation:
+      level: optional
+    web:
+      level: optional
+    persistent_state:
+      level: optional
+  recommendation_mode: explicit
+tools:
+  contract_version: 1
+  schema: schemas/tool-contract.schema.json
+  tools: []
+artifacts:
+  contract_version: 1
+  schema: schemas/artifact-contract.schema.json
+  outputs:
+    presentation:
+      kind: document
+      format: pptx
+      requirement: required
+      persistence: persistent
+      multiplicity: many
+      description: Redigerbar PowerPoint när värden stödjer export.
+workspace_state:
+  contract_version: 1
+  schema: schemas/workspace-state-contract.schema.json
+  workspace:
+    requirement: optional
+    persistence: preferred
+    portable: true
+    separate_from_assistant: true
+  state:
+    requirement: optional
+    persistence: preferred
+    authority: conversation
+    conversation_fallback: true
+release:
+  github:
+    enabled: true
+    workflow: .github/workflows/release.yml

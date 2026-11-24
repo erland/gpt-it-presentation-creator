@@ -1,0 +1,41 @@
+version: 1
+themes:
+  executive-clean:
+    background: F5F7FA
+    text: 183B56
+    muted: '486477'
+    surface: FFFFFF
+    primary: 183B56
+    accent: 2878AD
+    secondary: 70B8BC
+    line: DCE6EF
+    on_primary: FFFFFF
+  modern-technology:
+    background: '142038'
+    text: FFFFFF
+    muted: B9C9E1
+    surface: 24334D
+    primary: 345B9E
+    accent: 47B8CE
+    secondary: 9474D8
+    line: 30415D
+    on_primary: FFFFFF
+  editorial-professional:
+    background: F7F5EF
+    text: 344C47
+    muted: 52665D
+    surface: FFFFFF
+    primary: 344C47
+    accent: B98C42
+    secondary: 77968B
+    line: DEDACD
+    on_primary: FFFFFF
+layout:
+  width_in: 13.333
+  height_in: 7.5
+  margin_in: 0.55
+  gap_in: 0.24
+  title_pt: 36
+  body_pt: 20
+  label_pt: 15
+  font: Aptos

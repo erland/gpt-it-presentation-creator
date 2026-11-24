@@ -1,0 +1,23 @@
+# Utvecklingsplan
+
+1. **Projektgrund** – Kanonisk profil, tre Skills, status och fem validerade paket.
+2. **Designsystem** – Tre stilar med färgroller, typografi, avstånd och exempelbilder.
+3. **Figurbibliotek** – 20–30 generiska IT-figurer, presentationskomponenter och metaforer med licensinformation.
+4. **Visualiseringsbibliotek** – Fem flexibla layouter; före–efter, lager, generationer, förmågekarta, informationsflöde.
+5. **PowerPoint-motor** – Redigerbara former, text och samband; separat Engine ZIP och verkligt självtest.
+6. **Visuell kvalitetskontroll** – Rendera, inspektera och korrigera; kontrollera klippning, kontrast och överlapp.
+7. **Befintliga presentationer** – Bevara original; granska och skapa reviderad PPTX.
+8. **Acceptanstester** – Testa fyra IT-generationer, AI-förflyttning och plattformsarkitektur; bedöm visuell kvalitet och redigerbarhet.
+9. **Release** – Lint, tester, runtimekontroller, hygiene och kompletta ZIP-paket.
+
+**DEV-008B (komplettering till steg 8):** avancerad grafisk rekonstruktion, genomförd lokalt i 0.8.1.
+
+DEV-008C: lokalt regressionstest för komplexa kompositioner.
+
+DEV-008D – grafisk förädling, lokalt verifierad; värdtester återstår.
+
+DEV-008F: grafisk komposition och obligatorisk visuell acceptansgrind; värdtester och oberoende användaracceptans återstår.
+
+DEV-008E: professionella originalikoner och native SVG. DEV-009: releasekandidat; stabil release först efter värdacceptans.
+
+DEV-009B: GitHub CI och manuell taggbaserad release, lokalt verifierade.

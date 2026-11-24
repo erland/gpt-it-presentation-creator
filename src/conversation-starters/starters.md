@@ -1,0 +1,3 @@
+- Skapa en snygg bild som visar en IT-förflyttning.
+- Förbättra designen i min PowerPoint.
+- Visa en modern plattformsarkitektur för ledningen.
