@@ -1,6 +1,8 @@
 name: Build release distributions
 
 on:
+  release:
+    types: [published]
   workflow_dispatch:
     inputs:
       tag:
@@ -15,14 +17,14 @@ jobs:
   build-release:
     runs-on: ubuntu-latest
     concurrency:
-      group: release-${{ inputs.tag }}
+      group: release-${{ github.event.release.tag_name || inputs.tag }}
       cancel-in-progress: false
     env:
       PYTHONDONTWRITEBYTECODE: "1"
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: refs/tags/${{ inputs.tag }}
+          ref: refs/tags/${{ github.event.release.tag_name || inputs.tag }}
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
@@ -37,7 +39,7 @@ jobs:
         id: version
         shell: bash
         env:
-          TAG: ${{ inputs.tag }}
+          TAG: ${{ github.event.release.tag_name || inputs.tag }}
         run: |
           set -euo pipefail
           # Manual equivalent of github.event.release.tag_name.
@@ -63,15 +65,14 @@ jobs:
         run: |
           python scripts/validate_distributions.py --project-root .
           python scripts/check_release_assets.py
-      - name: Create draft release if absent
+      - name: Ensure release exists
         env:
           GH_TOKEN: ${{ github.token }}
-          TAG: ${{ inputs.tag }}
+          TAG: ${{ github.event.release.tag_name || inputs.tag }}
         run: |
           set -euo pipefail
-          if gh release view "$TAG" >/dev/null 2>&1; then
-            test "$(gh release view "$TAG" --json isDraft --jq .isDraft)" = true
-          else
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            test "$GITHUB_EVENT_NAME" = workflow_dispatch
             args=()
             if [[ "$TAG" == *-* ]]; then args+=(--prerelease); fi
             gh release create "$TAG" --verify-tag --draft --title "$TAG" --generate-notes "${args[@]}"
@@ -79,8 +80,17 @@ jobs:
       - name: Upload release artifacts
         env:
           GH_TOKEN: ${{ github.token }}
-          TAG: ${{ inputs.tag }}
+          TAG: ${{ github.event.release.tag_name || inputs.tag }}
         shell: bash
         run: |
           set -euo pipefail
-          gh release upload "$TAG" dist/*.zip dist/SHA256SUMS.txt dist/DELIVERY-MANIFEST.json
+          assets=$(gh release view "$TAG" --json assets --jq '.assets[].name')
+          files=(dist/*.zip dist/SHA256SUMS.txt dist/DELIVERY-MANIFEST.json)
+          for file in "${files[@]}"; do
+            test -f "$file"
+            if grep -Fxq -- "$(basename "$file")" <<< "$assets"; then
+              echo "Release asset already exists: $(basename "$file")"
+              exit 1
+            fi
+          done
+          gh release upload "$TAG" "${files[@]}"
