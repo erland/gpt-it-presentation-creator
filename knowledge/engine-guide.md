@@ -9,3 +9,6 @@ DEV-008B: native gradienter, normaliserade fria polygoner och grupperade konturi
 `transform_objects(objects, scale, dx, dy)` skalar och förflyttar nästlade objekt, textstorlek och explicita linjebredder utan att mutera originalet. Koordinater är i tum. `arrow: both` ger pilspetsar i båda ändar. `roles` på figure åsidosätter temats färgroller. Skapa en komposition en gång och använd samma modell för översikt och detaljbild. Konturikonernas linjebredd skalas med stroke_scale vid kompositionstransformering.
 
 Använd professional-icon för originalikoner enligt professional-icons-guide.md; behåll licensinformation vid distribution.
+
+## DEV-010
+Följ kärnans obligatoriska Engine-preflight. Vid saknad eller ogiltig motor: ge exakt versionslänk och invänta uppladdning; alternativ exekvering endast efter uttryckligt godkännande. Ren rådgivning kräver ingen motor.
