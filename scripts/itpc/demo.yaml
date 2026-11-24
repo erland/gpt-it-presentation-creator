@@ -1,0 +1,16 @@
+theme: executive-clean
+slides:
+- objects:
+  - {type: text, x: 0.65, y: 0.45, w: 12, h: 0.4, text: 'IT-FÖRFLYTTNING  /  01', size: 14, color: muted, bold: true}
+  - {type: text, x: 0.65, y: 1, w: 12, h: 0.8, text: Från teknikbeställning till självservice, size: 34, bold: true}
+  - {type: figure, figure: legacy, x: 1.1, y: 2, w: 3.5, h: 3.5}
+  - {type: line, from: [5.1, 3.7], to: [7.1, 3.7], arrow: true, stroke_pt: 5}
+  - {type: figure, figure: platform, x: 8, y: 1.9, w: 4, h: 3.7}
+  - {type: text, x: 0.8, y: 5.8, w: 4.4, h: 0.8, text: Separata beställningar, size: 24, align: center, bold: true}
+  - {type: text, x: 7.5, y: 5.8, w: 5, h: 0.8, text: Gemensamma plattformstjänster, size: 24, align: center, bold: true}
+- theme: modern-technology
+  objects:
+  - {type: text, x: 0.65, y: 0.5, w: 12, h: 0.8, text: AI nära verksamheten, size: 36, bold: true}
+  - {type: figure, figure: ai-environment, x: 6.3, y: 1.6, w: 6, h: 5.2}
+  - {type: text, x: 0.65, y: 2.1, w: 5.2, h: 1.2, text: Från enskilda verktyg till integrerat AI-stöd, size: 29, bold: true}
+  - {type: text, x: 0.65, y: 3.8, w: 5, h: 1.4, text: Assistenter och agenter samverkar med data och befintliga IT-stöd., size: 22, color: muted}

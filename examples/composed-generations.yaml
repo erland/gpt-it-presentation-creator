@@ -1,0 +1,6326 @@
+size:
+- 15.36
+- 10.24
+slides:
+- background: FFFFFF
+  objects:
+  - children:
+    - allow_overlap: true
+      fill: FFFFFF
+      h: 4.96
+      roundness: 0.035
+      shape: round
+      stroke: 314F67
+      stroke_pt: 0.7
+      type: shape
+      w: 7.48
+      x: 0.12
+      y: 0.12
+    - allow_overlap: true
+      fill: 314F67
+      h: 0.57
+      roundness: 0.16
+      shape: round
+      stroke_pt: 0.7
+      type: shape
+      w: 7.48
+      x: 0.12
+      y: 0.12
+    - allow_overlap: true
+      color: FFFFFF
+      h: 0.4
+      icon: phosphor/bold/hard-drives
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.53
+      x: 0.5
+      y: 0.21
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: FFFFFF
+      font: Liberation Sans
+      h: 0.42
+      size: 20
+      text: Generation 1 – Det sammanhållna IT-stödet
+      type: text
+      valign: middle
+      w: 6.25
+      x: 1.27
+      y: 0.22
+    - arrow: false
+      color: B9B4A9
+      from:
+      - 4.87
+      - 0.89
+      stroke_pt: 1.5
+      to:
+      - 4.87
+      - 4.84
+      type: line
+    - allow_overlap: true
+      fill: F0F4F7
+      h: 0.91
+      roundness: 0.12
+      shape: round
+      stroke_pt: 0.7
+      type: shape
+      w: 2.47
+      x: 5.0
+      y: 1.06
+    - allow_overlap: true
+      color: 65963E
+      h: 0.4
+      icon: phosphor/fill/check-circle
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.4
+      x: 5.09
+      y: 1.1800000000000002
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: '101010'
+      font: Liberation Sans
+      h: 0.31
+      size: 17.5
+      text: 'Löser:'
+      type: text
+      valign: top
+      w: 1.81
+      x: 5.61
+      y: 1.17
+    - align: left
+      allow_overlap: true
+      bold: false
+      color: '101010'
+      font: Liberation Sans
+      h: 0.36
+      size: 14
+      text: Samlad IT
+      type: text
+      valign: top
+      w: 1.81
+      x: 5.61
+      y: 1.4900000000000002
+    - allow_overlap: true
+      fill: F0F4F7
+      h: 1.4300000000000002
+      roundness: 0.12
+      shape: round
+      stroke_pt: 0.7
+      type: shape
+      w: 2.47
+      x: 5.0
+      y: 2.39
+    - allow_overlap: true
+      color: D29A25
+      h: 0.4
+      icon: phosphor/fill/warning
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.4
+      x: 5.09
+      y: 2.5100000000000002
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: '101010'
+      font: Liberation Sans
+      h: 0.31
+      size: 17.5
+      text: 'Utmaning:'
+      type: text
+      valign: top
+      w: 1.81
+      x: 5.61
+      y: 2.5
+    - align: left
+      allow_overlap: true
+      bold: false
+      color: '101010'
+      font: Liberation Sans
+      h: 0.88
+      size: 14
+      text: 'Svårt att
+
+        förändra stora
+
+        IT-stöd'
+      type: text
+      valign: top
+      w: 1.81
+      x: 5.61
+      y: 2.8200000000000003
+    - children:
+      - color: 394B59
+        h: 0.3835
+        icon: phosphor/fill/users
+        type: professional-icon
+        w: 0.66
+        x: 2.2800000000000002
+        y: 0.77
+      - fill: FFFFFF
+        h: 0.195
+        roundness: 0.08
+        shape: round
+        stroke: 394B59
+        stroke_pt: 1.7
+        type: shape
+        w: 0.3432
+        x: 2.4384
+        y: 1.1665
+      - color: 394B59
+        from:
+        - 2.6100000000000003
+        - 1.3615
+        stroke_pt: 1.5
+        to:
+        - 2.6100000000000003
+        - 1.407
+        type: line
+      - color: 394B59
+        from:
+        - 2.511
+        - 1.407
+        stroke_pt: 1.5
+        to:
+        - 2.7090000000000005
+        - 1.407
+        type: line
+      type: group
+    - arrow: both
+      color: 293A46
+      from:
+      - 2.6100000000000003
+      - 1.42
+      stroke_pt: 1.5
+      to:
+      - 2.6100000000000003
+      - 1.69
+      type: line
+    - allow_overlap: true
+      fill: D8E3E7
+      h: 1.77
+      roundness: 0.11299435028248588
+      shape: round
+      stroke: '718994'
+      stroke_pt: 0.7
+      type: shape
+      w: 3.97
+      x: 0.64
+      y: 1.7000000000000002
+    - align: center
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.31
+      size: 18.0
+      text: Stort IT-stöd
+      type: text
+      valign: middle
+      w: 3.97
+      x: 0.64
+      y: 1.75
+    - allow_overlap: true
+      fill: EDF2F3
+      h: 0.36
+      roundness: 0.19
+      shape: round
+      stroke: 8DA5AE
+      stroke_pt: 0.7
+      type: shape
+      w: 1.74
+      x: 0.84
+      y: 2.15
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.25
+      size: 12.959999999999999
+      text: Delsystem A
+      type: text
+      valign: middle
+      w: 1.74
+      x: 0.84
+      y: 2.21
+    - allow_overlap: true
+      fill: EDF2F3
+      h: 0.36
+      roundness: 0.19
+      shape: round
+      stroke: 8DA5AE
+      stroke_pt: 0.7
+      type: shape
+      w: 1.74
+      x: 2.7
+      y: 2.15
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.25
+      size: 12.959999999999999
+      text: Delsystem B
+      type: text
+      valign: middle
+      w: 1.74
+      x: 2.7
+      y: 2.21
+    - allow_overlap: true
+      fill: EDF2F3
+      h: 0.36
+      roundness: 0.19
+      shape: round
+      stroke: 8DA5AE
+      stroke_pt: 0.7
+      type: shape
+      w: 1.74
+      x: 0.84
+      y: 2.56
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.25
+      size: 12.959999999999999
+      text: Delsystem C
+      type: text
+      valign: middle
+      w: 1.74
+      x: 0.84
+      y: 2.62
+    - allow_overlap: true
+      fill: EDF2F3
+      h: 0.36
+      roundness: 0.19
+      shape: round
+      stroke: 8DA5AE
+      stroke_pt: 0.7
+      type: shape
+      w: 1.74
+      x: 2.7
+      y: 2.56
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.25
+      size: 12.959999999999999
+      text: Delsystem D
+      type: text
+      valign: middle
+      w: 1.74
+      x: 2.7
+      y: 2.62
+    - allow_overlap: true
+      fill: EDF2F3
+      h: 0.36
+      roundness: 0.19
+      shape: round
+      stroke: 8DA5AE
+      stroke_pt: 0.7
+      type: shape
+      w: 1.74
+      x: 0.84
+      y: 2.97
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.25
+      size: 12.959999999999999
+      text: Delsystem E
+      type: text
+      valign: middle
+      w: 1.74
+      x: 0.84
+      y: 3.0300000000000002
+    - allow_overlap: true
+      fill: EDF2F3
+      h: 0.36
+      roundness: 0.19
+      shape: round
+      stroke: 8DA5AE
+      stroke_pt: 0.7
+      type: shape
+      w: 1.74
+      x: 2.7
+      y: 2.97
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.25
+      size: 12.959999999999999
+      text: Delsystem F
+      type: text
+      valign: middle
+      w: 1.74
+      x: 2.7
+      y: 3.0300000000000002
+    - arrow: both
+      color: 293A46
+      from:
+      - 2.6100000000000003
+      - 3.48
+      stroke_pt: 1.5
+      to:
+      - 2.6100000000000003
+      - 3.7800000000000002
+      type: line
+    - allow_overlap: true
+      fill: DFE7E9
+      h: 0.38
+      roundness: 0.19
+      shape: round
+      stroke: '718994'
+      stroke_pt: 0.7
+      type: shape
+      w: 4.2
+      x: 0.53
+      y: 3.8000000000000003
+    - allow_overlap: true
+      color: 293A46
+      h: 0.3
+      icon: phosphor/bold/gear
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.31
+      x: 1.02
+      y: 3.8400000000000003
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.27
+      size: 11.52
+      text: Konfigurera plattformar/infrastruktur
+      type: text
+      valign: top
+      w: 3.18
+      x: 1.5099999999999998
+      y: 3.87
+    - arrow: both
+      color: 293A46
+      from:
+      - 2.63
+      - 4.19
+      stroke_pt: 1.5
+      to:
+      - 2.63
+      - 4.39
+      type: line
+    - children:
+      - allow_overlap: true
+        fill: DFE7E9
+        h: 0.54
+        roundness: 0.19
+        shape: round
+        stroke: '718994'
+        stroke_pt: 0.7
+        type: shape
+        w: 4.2
+        x: 0.53
+        y: 4.4
+      - allow_overlap: true
+        color: 293A46
+        h: 0.45
+        icon: phosphor/bold/hard-drives
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.6
+        x: 1.154
+        y: 4.445
+      - allow_overlap: true
+        color: 293A46
+        h: 0.45
+        icon: phosphor/bold/database
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.6
+        x: 2.3720000000000003
+        y: 4.445
+      - allow_overlap: true
+        color: 293A46
+        h: 0.45
+        icon: phosphor/bold/cloud
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.6
+        x: 3.548
+        y: 4.445
+      type: group
+    type: group
+  - children:
+    - allow_overlap: true
+      fill: FFFFFF
+      h: 4.96
+      roundness: 0.035
+      shape: round
+      stroke: 007F87
+      stroke_pt: 0.7
+      type: shape
+      w: 7.48
+      x: 7.72
+      y: 0.12
+    - allow_overlap: true
+      fill: 007F87
+      h: 0.57
+      roundness: 0.16
+      shape: round
+      stroke_pt: 0.7
+      type: shape
+      w: 7.48
+      x: 7.72
+      y: 0.12
+    - allow_overlap: true
+      color: FFFFFF
+      h: 0.4
+      icon: phosphor/bold/network
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.53
+      x: 8.1
+      y: 0.21
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: FFFFFF
+      font: Liberation Sans
+      h: 0.42
+      size: 20
+      text: Generation 2 – Tjänsteorienterad IT
+      type: text
+      valign: middle
+      w: 6.25
+      x: 8.87
+      y: 0.22
+    - arrow: false
+      color: B9B4A9
+      from:
+      - 12.469999999999999
+      - 0.89
+      stroke_pt: 1.5
+      to:
+      - 12.469999999999999
+      - 4.84
+      type: line
+    - allow_overlap: true
+      fill: F0F4F7
+      h: 1.17
+      roundness: 0.12
+      shape: round
+      stroke_pt: 0.7
+      type: shape
+      w: 2.47
+      x: 12.6
+      y: 1.06
+    - allow_overlap: true
+      color: 65963E
+      h: 0.4
+      icon: phosphor/fill/check-circle
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.4
+      x: 12.69
+      y: 1.1800000000000002
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: '101010'
+      font: Liberation Sans
+      h: 0.31
+      size: 17.5
+      text: 'Löser:'
+      type: text
+      valign: top
+      w: 1.81
+      x: 13.21
+      y: 1.17
+    - align: left
+      allow_overlap: true
+      bold: false
+      color: '101010'
+      font: Liberation Sans
+      h: 0.62
+      size: 14
+      text: 'Snabb parallell
+
+        utveckling'
+      type: text
+      valign: top
+      w: 1.81
+      x: 13.21
+      y: 1.4900000000000002
+    - allow_overlap: true
+      fill: F0F4F7
+      h: 1.6900000000000004
+      roundness: 0.12
+      shape: round
+      stroke_pt: 0.7
+      type: shape
+      w: 2.47
+      x: 12.6
+      y: 2.39
+    - allow_overlap: true
+      color: D29A25
+      h: 0.4
+      icon: phosphor/fill/warning
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.4
+      x: 12.69
+      y: 2.5100000000000002
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: '101010'
+      font: Liberation Sans
+      h: 0.31
+      size: 17.5
+      text: 'Utmaning:'
+      type: text
+      valign: top
+      w: 1.81
+      x: 13.21
+      y: 2.5
+    - align: left
+      allow_overlap: true
+      bold: false
+      color: '101010'
+      font: Liberation Sans
+      h: 1.1400000000000001
+      size: 14
+      text: 'Snabb applikations-
+
+        utveckling –
+
+        trögrörlig
+
+        infrastruktur'
+      type: text
+      valign: top
+      w: 1.81
+      x: 13.21
+      y: 2.8200000000000003
+    - children:
+      - color: 247D80
+        h: 0.3835
+        icon: phosphor/fill/users
+        type: professional-icon
+        w: 0.66
+        x: 8.469999999999999
+        y: 0.77
+      - fill: FFFFFF
+        h: 0.195
+        roundness: 0.08
+        shape: round
+        stroke: 247D80
+        stroke_pt: 1.7
+        type: shape
+        w: 0.3432
+        x: 8.6284
+        y: 1.1665
+      - color: 247D80
+        from:
+        - 8.799999999999999
+        - 1.3615
+        stroke_pt: 1.5
+        to:
+        - 8.799999999999999
+        - 1.407
+        type: line
+      - color: 247D80
+        from:
+        - 8.700999999999999
+        - 1.407
+        stroke_pt: 1.5
+        to:
+        - 8.899
+        - 1.407
+        type: line
+      type: group
+    - arrow: both
+      color: 293A46
+      from:
+      - 8.8
+      - 1.42
+      stroke_pt: 1.5
+      to:
+      - 8.8
+      - 1.65
+      type: line
+    - allow_overlap: true
+      fill: E2F0EF
+      h: 1.81
+      roundness: 0.11049723756906078
+      shape: round
+      stroke: 247D80
+      stroke_pt: 0.7
+      type: shape
+      w: 1.27
+      x: 8.17
+      y: 1.6600000000000001
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 8.37
+      y: 1.77
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 8.959999999999999
+      y: 1.77
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 8.37
+      y: 2.1
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 8.959999999999999
+      y: 2.1
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 8.37
+      y: 2.43
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 8.959999999999999
+      y: 2.43
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 8.37
+      y: 2.7600000000000002
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 8.959999999999999
+      y: 2.7600000000000002
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 8.37
+      y: 3.0900000000000003
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 8.959999999999999
+      y: 3.0900000000000003
+    - align: center
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.21
+      size: 12.959999999999999
+      text: •••
+      type: text
+      valign: middle
+      w: 1.27
+      x: 8.17
+      y: 3.24
+    - arrow: both
+      color: 293A46
+      from:
+      - 8.8
+      - 3.47
+      stroke_pt: 1.5
+      to:
+      - 8.8
+      - 3.7800000000000002
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 8.7
+      - 2.02
+      stroke_pt: 1.5
+      to:
+      - 8.92
+      - 2.17
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 8.7
+      - 2.35
+      stroke_pt: 1.5
+      to:
+      - 8.92
+      - 2.5
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 8.7
+      - 2.68
+      stroke_pt: 1.5
+      to:
+      - 8.92
+      - 2.83
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 8.7
+      - 3.0100000000000002
+      stroke_pt: 1.5
+      to:
+      - 8.92
+      - 3.16
+      type: line
+    - children:
+      - color: A45F43
+        h: 0.3835
+        icon: phosphor/fill/users
+        type: professional-icon
+        w: 0.66
+        x: 9.92
+        y: 0.77
+      - fill: FFFFFF
+        h: 0.195
+        roundness: 0.08
+        shape: round
+        stroke: A45F43
+        stroke_pt: 1.7
+        type: shape
+        w: 0.3432
+        x: 10.0784
+        y: 1.1665
+      - color: A45F43
+        from:
+        - 10.25
+        - 1.3615
+        stroke_pt: 1.5
+        to:
+        - 10.25
+        - 1.407
+        type: line
+      - color: A45F43
+        from:
+        - 10.151
+        - 1.407
+        stroke_pt: 1.5
+        to:
+        - 10.349
+        - 1.407
+        type: line
+      type: group
+    - arrow: both
+      color: 293A46
+      from:
+      - 10.25
+      - 1.42
+      stroke_pt: 1.5
+      to:
+      - 10.25
+      - 1.65
+      type: line
+    - allow_overlap: true
+      fill: F6E9E1
+      h: 1.81
+      roundness: 0.11049723756906078
+      shape: round
+      stroke: A45F43
+      stroke_pt: 0.7
+      type: shape
+      w: 1.27
+      x: 9.62
+      y: 1.6600000000000001
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 9.82
+      y: 1.77
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 10.41
+      y: 1.77
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 9.82
+      y: 2.1
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 10.41
+      y: 2.1
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 9.82
+      y: 2.43
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 10.41
+      y: 2.43
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 9.82
+      y: 2.7600000000000002
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 10.41
+      y: 2.7600000000000002
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 9.82
+      y: 3.0900000000000003
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 10.41
+      y: 3.0900000000000003
+    - align: center
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.21
+      size: 12.959999999999999
+      text: •••
+      type: text
+      valign: middle
+      w: 1.27
+      x: 9.62
+      y: 3.24
+    - arrow: both
+      color: 293A46
+      from:
+      - 10.25
+      - 3.47
+      stroke_pt: 1.5
+      to:
+      - 10.25
+      - 3.7800000000000002
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 10.15
+      - 2.02
+      stroke_pt: 1.5
+      to:
+      - 10.37
+      - 2.17
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 10.15
+      - 2.35
+      stroke_pt: 1.5
+      to:
+      - 10.37
+      - 2.5
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 10.15
+      - 2.68
+      stroke_pt: 1.5
+      to:
+      - 10.37
+      - 2.83
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 10.15
+      - 3.0100000000000002
+      stroke_pt: 1.5
+      to:
+      - 10.37
+      - 3.16
+      type: line
+    - children:
+      - color: 647D48
+        h: 0.3835
+        icon: phosphor/fill/users
+        type: professional-icon
+        w: 0.66
+        x: 11.37
+        y: 0.77
+      - fill: FFFFFF
+        h: 0.195
+        roundness: 0.08
+        shape: round
+        stroke: 647D48
+        stroke_pt: 1.7
+        type: shape
+        w: 0.3432
+        x: 11.5284
+        y: 1.1665
+      - color: 647D48
+        from:
+        - 11.7
+        - 1.3615
+        stroke_pt: 1.5
+        to:
+        - 11.7
+        - 1.407
+        type: line
+      - color: 647D48
+        from:
+        - 11.600999999999999
+        - 1.407
+        stroke_pt: 1.5
+        to:
+        - 11.799
+        - 1.407
+        type: line
+      type: group
+    - arrow: both
+      color: 293A46
+      from:
+      - 11.7
+      - 1.42
+      stroke_pt: 1.5
+      to:
+      - 11.7
+      - 1.65
+      type: line
+    - allow_overlap: true
+      fill: EDF1E3
+      h: 1.81
+      roundness: 0.11049723756906078
+      shape: round
+      stroke: 647D48
+      stroke_pt: 0.7
+      type: shape
+      w: 1.27
+      x: 11.07
+      y: 1.6600000000000001
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 11.27
+      y: 1.77
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 11.86
+      y: 1.77
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 11.27
+      y: 2.1
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 11.86
+      y: 2.1
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 11.27
+      y: 2.43
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 11.86
+      y: 2.43
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 11.27
+      y: 2.7600000000000002
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 11.86
+      y: 2.7600000000000002
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 11.27
+      y: 3.0900000000000003
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 11.86
+      y: 3.0900000000000003
+    - align: center
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.21
+      size: 12.959999999999999
+      text: •••
+      type: text
+      valign: middle
+      w: 1.27
+      x: 11.07
+      y: 3.24
+    - arrow: both
+      color: 293A46
+      from:
+      - 11.7
+      - 3.47
+      stroke_pt: 1.5
+      to:
+      - 11.7
+      - 3.7800000000000002
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 11.6
+      - 2.02
+      stroke_pt: 1.5
+      to:
+      - 11.82
+      - 2.17
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 11.6
+      - 2.35
+      stroke_pt: 1.5
+      to:
+      - 11.82
+      - 2.5
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 11.6
+      - 2.68
+      stroke_pt: 1.5
+      to:
+      - 11.82
+      - 2.83
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 11.6
+      - 3.0100000000000002
+      stroke_pt: 1.5
+      to:
+      - 11.82
+      - 3.16
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 9.215
+      - 1.88
+      stroke_pt: 1.25
+      to:
+      - 9.795
+      - 2.54
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 9.215
+      - 2.21
+      stroke_pt: 1.25
+      to:
+      - 9.795
+      - 1.88
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 9.215
+      - 2.54
+      stroke_pt: 1.25
+      to:
+      - 9.795
+      - 2.87
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 9.215
+      - 2.87
+      stroke_pt: 1.25
+      to:
+      - 9.795
+      - 2.21
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 10.665
+      - 1.88
+      stroke_pt: 1.25
+      to:
+      - 11.245
+      - 2.54
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 10.665
+      - 2.21
+      stroke_pt: 1.25
+      to:
+      - 11.245
+      - 1.88
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 10.665
+      - 2.54
+      stroke_pt: 1.25
+      to:
+      - 11.245
+      - 2.87
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 10.665
+      - 2.87
+      stroke_pt: 1.25
+      to:
+      - 11.245
+      - 2.21
+      type: line
+    - allow_overlap: true
+      fill: DFE7E9
+      h: 0.38
+      roundness: 0.19
+      shape: round
+      stroke: '718994'
+      stroke_pt: 0.7
+      type: shape
+      w: 4.2
+      x: 8.129999999999999
+      y: 3.8000000000000003
+    - allow_overlap: true
+      color: 293A46
+      h: 0.3
+      icon: phosphor/bold/gear
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.31
+      x: 8.62
+      y: 3.8400000000000003
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.27
+      size: 11.52
+      text: Konfigurera plattformar/infrastruktur
+      type: text
+      valign: top
+      w: 3.18
+      x: 9.11
+      y: 3.87
+    - arrow: both
+      color: 293A46
+      from:
+      - 10.23
+      - 4.19
+      stroke_pt: 1.5
+      to:
+      - 10.23
+      - 4.39
+      type: line
+    - children:
+      - allow_overlap: true
+        fill: DFE7E9
+        h: 0.54
+        roundness: 0.19
+        shape: round
+        stroke: '718994'
+        stroke_pt: 0.7
+        type: shape
+        w: 4.2
+        x: 8.129999999999999
+        y: 4.4
+      - allow_overlap: true
+        color: 293A46
+        h: 0.45
+        icon: phosphor/bold/hard-drives
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.6
+        x: 8.754
+        y: 4.445
+      - allow_overlap: true
+        color: 293A46
+        h: 0.45
+        icon: phosphor/bold/database
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.6
+        x: 9.972
+        y: 4.445
+      - allow_overlap: true
+        color: 293A46
+        h: 0.45
+        icon: phosphor/bold/cloud
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.6
+        x: 11.148
+        y: 4.445
+      type: group
+    type: group
+  - children:
+    - allow_overlap: true
+      fill: FFFFFF
+      h: 4.96
+      roundness: 0.035
+      shape: round
+      stroke: 557B37
+      stroke_pt: 0.7
+      type: shape
+      w: 7.48
+      x: 0.12
+      y: 5.24
+    - allow_overlap: true
+      fill: 557B37
+      h: 0.57
+      roundness: 0.16
+      shape: round
+      stroke_pt: 0.7
+      type: shape
+      w: 7.48
+      x: 0.12
+      y: 5.24
+    - allow_overlap: true
+      color: FFFFFF
+      h: 0.4
+      icon: phosphor/bold/stack
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.53
+      x: 0.5
+      y: 5.33
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: FFFFFF
+      font: Liberation Sans
+      h: 0.42
+      size: 20
+      text: Generation 3 – Plattformsbaserad IT
+      type: text
+      valign: middle
+      w: 6.25
+      x: 1.27
+      y: 5.34
+    - arrow: false
+      color: B9B4A9
+      from:
+      - 5.37
+      - 6.01
+      stroke_pt: 1.5
+      to:
+      - 5.37
+      - 9.96
+      type: line
+    - allow_overlap: true
+      fill: F0F4F7
+      h: 1.4300000000000006
+      roundness: 0.12
+      shape: round
+      stroke_pt: 0.7
+      type: shape
+      w: 1.97
+      x: 5.5
+      y: 6.18
+    - allow_overlap: true
+      color: 65963E
+      h: 0.4
+      icon: phosphor/fill/check-circle
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.4
+      x: 5.59
+      y: 6.300000000000001
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: '101010'
+      font: Liberation Sans
+      h: 0.31
+      size: 17.5
+      text: 'Löser:'
+      type: text
+      valign: top
+      w: 1.31
+      x: 6.11
+      y: 6.29
+    - align: left
+      allow_overlap: true
+      bold: false
+      color: '101010'
+      font: Liberation Sans
+      h: 0.88
+      size: 13.5
+      text: 'Självservice
+
+        genom
+
+        plattformar'
+      type: text
+      valign: top
+      w: 1.31
+      x: 6.11
+      y: 6.61
+    - allow_overlap: true
+      fill: F0F4F7
+      h: 1.1700000000000008
+      roundness: 0.12
+      shape: round
+      stroke_pt: 0.7
+      type: shape
+      w: 1.97
+      x: 5.5
+      y: 7.73
+    - allow_overlap: true
+      color: D29A25
+      h: 0.4
+      icon: phosphor/fill/warning
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.4
+      x: 5.59
+      y: 7.850000000000001
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: '101010'
+      font: Liberation Sans
+      h: 0.31
+      size: 17.5
+      text: 'Utmaning:'
+      type: text
+      valign: top
+      w: 1.31
+      x: 6.11
+      y: 7.840000000000001
+    - align: left
+      allow_overlap: true
+      bold: false
+      color: '101010'
+      font: Liberation Sans
+      h: 0.62
+      size: 13.5
+      text: 'Kräver satsning
+
+        på plattform'
+      type: text
+      valign: top
+      w: 1.31
+      x: 6.11
+      y: 8.16
+    - children:
+      - color: 247D80
+        h: 0.3835
+        icon: phosphor/fill/users
+        type: professional-icon
+        w: 0.66
+        x: 0.96
+        y: 5.890000000000001
+      - fill: FFFFFF
+        h: 0.195
+        roundness: 0.08
+        shape: round
+        stroke: 247D80
+        stroke_pt: 1.7
+        type: shape
+        w: 0.3432
+        x: 1.1183999999999998
+        y: 6.2865
+      - color: 247D80
+        from:
+        - 1.29
+        - 6.4815000000000005
+        stroke_pt: 1.5
+        to:
+        - 1.29
+        - 6.527000000000001
+        type: line
+      - color: 247D80
+        from:
+        - 1.1909999999999998
+        - 6.527000000000001
+        stroke_pt: 1.5
+        to:
+        - 1.3890000000000002
+        - 6.527000000000001
+        type: line
+      type: group
+    - arrow: both
+      color: 293A46
+      from:
+      - 1.29
+      - 6.54
+      stroke_pt: 1.5
+      to:
+      - 1.29
+      - 6.7700000000000005
+      type: line
+    - allow_overlap: true
+      fill: E2F0EF
+      h: 0.89
+      roundness: 0.19
+      shape: round
+      stroke: 247D80
+      stroke_pt: 0.7
+      type: shape
+      w: 1.27
+      x: 0.66
+      y: 6.78
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 0.995
+      y: 6.88
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 1.3450000000000002
+      y: 6.88
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 0.82
+      y: 7.18
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 1.17
+      y: 7.18
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 1.52
+      y: 7.18
+    - align: center
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.21
+      size: 12.959999999999999
+      text: •••
+      type: text
+      valign: middle
+      w: 1.27
+      x: 0.66
+      y: 7.44
+    - arrow: both
+      color: 293A46
+      from:
+      - 1.29
+      - 7.67
+      stroke_pt: 1.5
+      to:
+      - 1.29
+      - 7.970000000000001
+      type: line
+    - children:
+      - color: A45F43
+        h: 0.3835
+        icon: phosphor/fill/users
+        type: professional-icon
+        w: 0.66
+        x: 2.49
+        y: 5.890000000000001
+      - fill: FFFFFF
+        h: 0.195
+        roundness: 0.08
+        shape: round
+        stroke: A45F43
+        stroke_pt: 1.7
+        type: shape
+        w: 0.3432
+        x: 2.6484
+        y: 6.2865
+      - color: A45F43
+        from:
+        - 2.8200000000000003
+        - 6.4815000000000005
+        stroke_pt: 1.5
+        to:
+        - 2.8200000000000003
+        - 6.527000000000001
+        type: line
+      - color: A45F43
+        from:
+        - 2.721
+        - 6.527000000000001
+        stroke_pt: 1.5
+        to:
+        - 2.9190000000000005
+        - 6.527000000000001
+        type: line
+      type: group
+    - arrow: both
+      color: 293A46
+      from:
+      - 2.8200000000000003
+      - 6.54
+      stroke_pt: 1.5
+      to:
+      - 2.8200000000000003
+      - 6.7700000000000005
+      type: line
+    - allow_overlap: true
+      fill: F6E9E1
+      h: 0.89
+      roundness: 0.19
+      shape: round
+      stroke: A45F43
+      stroke_pt: 0.7
+      type: shape
+      w: 1.27
+      x: 2.19
+      y: 6.78
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 2.525
+      y: 6.88
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 2.875
+      y: 6.88
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 2.35
+      y: 7.18
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 2.7
+      y: 7.18
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 3.05
+      y: 7.18
+    - align: center
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.21
+      size: 12.959999999999999
+      text: •••
+      type: text
+      valign: middle
+      w: 1.27
+      x: 2.19
+      y: 7.44
+    - arrow: both
+      color: 293A46
+      from:
+      - 2.8200000000000003
+      - 7.67
+      stroke_pt: 1.5
+      to:
+      - 2.8200000000000003
+      - 7.970000000000001
+      type: line
+    - children:
+      - color: 647D48
+        h: 0.3835
+        icon: phosphor/fill/users
+        type: professional-icon
+        w: 0.66
+        x: 4.02
+        y: 5.890000000000001
+      - fill: FFFFFF
+        h: 0.195
+        roundness: 0.08
+        shape: round
+        stroke: 647D48
+        stroke_pt: 1.7
+        type: shape
+        w: 0.3432
+        x: 4.1784
+        y: 6.2865
+      - color: 647D48
+        from:
+        - 4.35
+        - 6.4815000000000005
+        stroke_pt: 1.5
+        to:
+        - 4.35
+        - 6.527000000000001
+        type: line
+      - color: 647D48
+        from:
+        - 4.2509999999999994
+        - 6.527000000000001
+        stroke_pt: 1.5
+        to:
+        - 4.449
+        - 6.527000000000001
+        type: line
+      type: group
+    - arrow: both
+      color: 293A46
+      from:
+      - 4.3500000000000005
+      - 6.54
+      stroke_pt: 1.5
+      to:
+      - 4.3500000000000005
+      - 6.7700000000000005
+      type: line
+    - allow_overlap: true
+      fill: EDF1E3
+      h: 0.89
+      roundness: 0.19
+      shape: round
+      stroke: 647D48
+      stroke_pt: 0.7
+      type: shape
+      w: 1.27
+      x: 3.72
+      y: 6.78
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 4.055
+      y: 6.88
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 4.405
+      y: 6.88
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 3.88
+      y: 7.18
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 4.2299999999999995
+      y: 7.18
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.22
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 0.7
+      stroke_scale: 1
+      type: icon
+      w: 0.23
+      x: 4.58
+      y: 7.18
+    - align: center
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.21
+      size: 12.959999999999999
+      text: •••
+      type: text
+      valign: middle
+      w: 1.27
+      x: 3.72
+      y: 7.44
+    - arrow: both
+      color: 293A46
+      from:
+      - 4.3500000000000005
+      - 7.67
+      stroke_pt: 1.5
+      to:
+      - 4.3500000000000005
+      - 7.970000000000001
+      type: line
+    - children:
+      - allow_overlap: true
+        fill: E4EBD7
+        h: 1.11
+        roundness: 0.18018018018018017
+        shape: round
+        stroke: 8B9F6E
+        stroke_pt: 0.7
+        type: shape
+        w: 4.74
+        x: 0.46
+        y: 7.98
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.27
+        size: 15.84
+        text: Utvecklingsplattform
+        type: text
+        valign: middle
+        w: 4.74
+        x: 0.46
+        y: 8.02
+      - allow_overlap: true
+        fill: F8FAF4
+        h: 0.64
+        roundness: 0.19
+        shape: round
+        stroke_pt: 0.7
+        type: shape
+        w: 0.84
+        x: 0.5800000000000001
+        y: 8.34
+      - allow_overlap: true
+        color: 526D38
+        h: 0.32
+        icon: phosphor/bold/stack
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.34
+        x: 0.83
+        y: 8.39
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.19
+        size: 9.36
+        text: Körmiljö
+        type: text
+        valign: middle
+        w: 0.84
+        x: 0.5800000000000001
+        y: 8.75
+      - allow_overlap: true
+        fill: F8FAF4
+        h: 0.64
+        roundness: 0.19
+        shape: round
+        stroke_pt: 0.7
+        type: shape
+        w: 0.84
+        x: 1.48
+        y: 8.34
+      - allow_overlap: true
+        color: 526D38
+        h: 0.39
+        icon: phosphor/bold/database
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.46
+        x: 1.67
+        y: 8.355
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.19
+        size: 9.36
+        text: Data
+        type: text
+        valign: middle
+        w: 0.84
+        x: 1.48
+        y: 8.75
+      - allow_overlap: true
+        fill: F8FAF4
+        h: 0.64
+        roundness: 0.19
+        shape: round
+        stroke_pt: 0.7
+        type: shape
+        w: 0.84
+        x: 2.38
+        y: 8.34
+      - allow_overlap: true
+        color: 526D38
+        h: 0.32
+        icon: phosphor/bold/network
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.34
+        x: 2.63
+        y: 8.39
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.19
+        size: 9.36
+        text: Integration
+        type: text
+        valign: middle
+        w: 0.84
+        x: 2.38
+        y: 8.75
+      - allow_overlap: true
+        fill: F8FAF4
+        h: 0.64
+        roundness: 0.19
+        shape: round
+        stroke_pt: 0.7
+        type: shape
+        w: 0.84
+        x: 3.2800000000000002
+        y: 8.34
+      - allow_overlap: true
+        color: 526D38
+        h: 0.32
+        icon: phosphor/bold/shield-check
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.34
+        x: 3.5300000000000002
+        y: 8.39
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.19
+        size: 9.36
+        text: Säkerhet
+        type: text
+        valign: middle
+        w: 0.84
+        x: 3.2800000000000002
+        y: 8.75
+      - allow_overlap: true
+        fill: F8FAF4
+        h: 0.64
+        roundness: 0.19
+        shape: round
+        stroke_pt: 0.7
+        type: shape
+        w: 0.84
+        x: 4.18
+        y: 8.34
+      - allow_overlap: true
+        color: 526D38
+        h: 0.32
+        icon: phosphor/bold/chart-bar
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.34
+        x: 4.43
+        y: 8.39
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.19
+        size: 9.36
+        text: Övervakning
+        type: text
+        valign: middle
+        w: 0.84
+        x: 4.18
+        y: 8.75
+      type: group
+    - arrow: both
+      color: 293A46
+      from:
+      - 2.83
+      - 9.1
+      stroke_pt: 1.5
+      to:
+      - 2.83
+      - 9.4
+      type: line
+    - children:
+      - allow_overlap: true
+        fill: DFE7E9
+        h: 0.54
+        roundness: 0.19
+        shape: round
+        stroke: '718994'
+        stroke_pt: 0.7
+        type: shape
+        w: 4.77
+        x: 0.44
+        y: 9.4
+      - allow_overlap: true
+        color: 293A46
+        h: 0.45
+        icon: phosphor/bold/hard-drives
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.6
+        x: 1.1894
+        y: 9.445
+      - allow_overlap: true
+        color: 293A46
+        h: 0.45
+        icon: phosphor/bold/database
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.6
+        x: 2.5726999999999998
+        y: 9.445
+      - allow_overlap: true
+        color: 293A46
+        h: 0.45
+        icon: phosphor/bold/cloud
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.6
+        x: 3.9083000000000006
+        y: 9.445
+      type: group
+    type: group
+  - children:
+    - allow_overlap: true
+      fill: FFFFFF
+      h: 4.96
+      roundness: 0.035
+      shape: round
+      stroke: A34E35
+      stroke_pt: 0.7
+      type: shape
+      w: 7.48
+      x: 7.72
+      y: 5.24
+    - allow_overlap: true
+      fill: A34E35
+      h: 0.57
+      roundness: 0.16
+      shape: round
+      stroke_pt: 0.7
+      type: shape
+      w: 7.48
+      x: 7.72
+      y: 5.24
+    - allow_overlap: true
+      color: FFFFFF
+      h: 0.4
+      icon: team
+      stroke_scale: 1.15
+      type: icon
+      w: 0.53
+      x: 8.1
+      y: 5.33
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: FFFFFF
+      font: Liberation Sans
+      h: 0.42
+      size: 18.6
+      text: Generation 4 – Tjänstemannadriven utveckling
+      type: text
+      valign: middle
+      w: 6.25
+      x: 8.87
+      y: 5.34
+    - arrow: false
+      color: B9B4A9
+      from:
+      - 12.969999999999999
+      - 6.01
+      stroke_pt: 1.5
+      to:
+      - 12.969999999999999
+      - 9.96
+      type: line
+    - allow_overlap: true
+      fill: F0F4F7
+      h: 1.1700000000000008
+      roundness: 0.12
+      shape: round
+      stroke_pt: 0.7
+      type: shape
+      w: 1.97
+      x: 13.1
+      y: 6.18
+    - allow_overlap: true
+      color: 65963E
+      h: 0.4
+      icon: phosphor/fill/check-circle
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.4
+      x: 13.19
+      y: 6.300000000000001
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: '101010'
+      font: Liberation Sans
+      h: 0.31
+      size: 17.5
+      text: 'Löser:'
+      type: text
+      valign: top
+      w: 1.31
+      x: 13.71
+      y: 6.29
+    - align: left
+      allow_overlap: true
+      bold: false
+      color: '101010'
+      font: Liberation Sans
+      h: 0.62
+      size: 13.5
+      text: 'Bred
+
+        utvecklingskraft'
+      type: text
+      valign: top
+      w: 1.31
+      x: 13.71
+      y: 6.61
+    - allow_overlap: true
+      fill: F0F4F7
+      h: 1.1700000000000008
+      roundness: 0.12
+      shape: round
+      stroke_pt: 0.7
+      type: shape
+      w: 1.97
+      x: 13.1
+      y: 7.51
+    - allow_overlap: true
+      color: D29A25
+      h: 0.4
+      icon: phosphor/fill/warning
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.4
+      x: 13.19
+      y: 7.630000000000001
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: '101010'
+      font: Liberation Sans
+      h: 0.31
+      size: 17.5
+      text: 'Utmaning:'
+      type: text
+      valign: top
+      w: 1.31
+      x: 13.71
+      y: 7.62
+    - align: left
+      allow_overlap: true
+      bold: false
+      color: '101010'
+      font: Liberation Sans
+      h: 0.62
+      size: 13.5
+      text: 'Många lösningar
+
+        att hålla ihop'
+      type: text
+      valign: top
+      w: 1.31
+      x: 13.71
+      y: 7.94
+    - allow_overlap: true
+      color: A45F43
+      h: 0.32
+      icon: phosphor/fill/user
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.35
+      x: 8.25
+      y: 5.93
+    - allow_overlap: true
+      color: A45F43
+      h: 0.32
+      icon: phosphor/fill/user
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.35
+      x: 8.629999999999999
+      y: 5.93
+    - allow_overlap: true
+      color: A45F43
+      h: 0.32
+      icon: phosphor/fill/user
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.35
+      x: 9.01
+      y: 5.93
+    - allow_overlap: true
+      color: A45F43
+      h: 0.32
+      icon: phosphor/fill/user
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.35
+      x: 9.39
+      y: 5.93
+    - allow_overlap: true
+      color: A45F43
+      h: 0.32
+      icon: phosphor/fill/user
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.35
+      x: 9.77
+      y: 5.93
+    - allow_overlap: true
+      color: A45F43
+      h: 0.32
+      icon: phosphor/fill/user
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.35
+      x: 10.15
+      y: 5.93
+    - allow_overlap: true
+      color: A45F43
+      h: 0.32
+      icon: phosphor/fill/user
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.35
+      x: 10.53
+      y: 5.93
+    - allow_overlap: true
+      color: A45F43
+      h: 0.32
+      icon: phosphor/fill/user
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.35
+      x: 10.91
+      y: 5.93
+    - allow_overlap: true
+      fill: EED8CC
+      h: 0.35
+      roundness: 0.19
+      shape: round
+      stroke_pt: 0.7
+      type: shape
+      w: 3.45
+      x: 7.97
+      y: 6.24
+    - align: center
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.23
+      size: 12.24
+      text: Verksamhetens medarbetare
+      type: text
+      valign: middle
+      w: 3.45
+      x: 7.97
+      y: 6.3100000000000005
+    - children:
+      - color: 247D80
+        h: 0.28909999999999997
+        icon: phosphor/fill/users
+        type: professional-icon
+        w: 0.55
+        x: 11.995000000000001
+        y: 5.86
+      - fill: FFFFFF
+        h: 0.147
+        roundness: 0.08
+        shape: round
+        stroke: 247D80
+        stroke_pt: 1.7
+        type: shape
+        w: 0.28600000000000003
+        x: 12.126999999999999
+        y: 6.1589
+      - color: 247D80
+        from:
+        - 12.27
+        - 6.3059
+        stroke_pt: 1.5
+        to:
+        - 12.27
+        - 6.3402
+        type: line
+      - color: 247D80
+        from:
+        - 12.1875
+        - 6.3402
+        stroke_pt: 1.5
+        to:
+        - 12.3525
+        - 6.3402
+        type: line
+      type: group
+    - allow_overlap: true
+      fill: EED8CC
+      h: 0.25
+      roundness: 0.19
+      shape: round
+      stroke_pt: 0.7
+      type: shape
+      w: 1.1
+      x: 11.719999999999999
+      y: 6.390000000000001
+    - align: center
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.22
+      size: 10.799999999999999
+      text: IT-team
+      type: text
+      valign: middle
+      w: 1.1
+      x: 11.719999999999999
+      y: 6.41
+    - arrow: both
+      color: 293A46
+      from:
+      - 8.4
+      - 6.640000000000001
+      stroke_pt: 1.5
+      to:
+      - 8.4
+      - 6.88
+      type: line
+    - allow_overlap: true
+      fill: F6E9E1
+      h: 0.72
+      roundness: 0.19
+      shape: round
+      stroke: A45F43
+      stroke_pt: 0.7
+      type: shape
+      w: 0.87
+      x: 7.97
+      y: 6.890000000000001
+    - allow_overlap: true
+      color: A45F43
+      h: 0.32
+      icon: phosphor/bold/robot
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.39
+      x: 8.209999999999999
+      y: 6.96
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.28
+      size: 9.36
+      text: AI-assistenter
+      type: text
+      valign: middle
+      w: 0.87
+      x: 7.97
+      y: 7.33
+    - arrow: both
+      color: 293A46
+      from:
+      - 8.4
+      - 7.62
+      stroke_pt: 1.5
+      to:
+      - 8.4
+      - 7.970000000000001
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 9.34
+      - 6.640000000000001
+      stroke_pt: 1.5
+      to:
+      - 9.34
+      - 6.88
+      type: line
+    - allow_overlap: true
+      fill: F6E9E1
+      h: 0.72
+      roundness: 0.19
+      shape: round
+      stroke: A45F43
+      stroke_pt: 0.7
+      type: shape
+      w: 0.87
+      x: 8.91
+      y: 6.890000000000001
+    - allow_overlap: true
+      color: A45F43
+      h: 0.32
+      icon: phosphor/bold/sparkle
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.39
+      x: 9.15
+      y: 6.96
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.28
+      size: 9.36
+      text: AI-agenter
+      type: text
+      valign: middle
+      w: 0.87
+      x: 8.91
+      y: 7.33
+    - arrow: both
+      color: 293A46
+      from:
+      - 9.34
+      - 7.62
+      stroke_pt: 1.5
+      to:
+      - 9.34
+      - 7.970000000000001
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 10.28
+      - 6.640000000000001
+      stroke_pt: 1.5
+      to:
+      - 10.28
+      - 6.88
+      type: line
+    - allow_overlap: true
+      fill: F6E9E1
+      h: 0.72
+      roundness: 0.19
+      shape: round
+      stroke: A45F43
+      stroke_pt: 0.7
+      type: shape
+      w: 0.87
+      x: 9.85
+      y: 6.890000000000001
+    - allow_overlap: true
+      color: A45F43
+      h: 0.32
+      icon: phosphor/bold/cube
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.39
+      x: 10.09
+      y: 6.96
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.28
+      size: 9.36
+      text: Applikationer
+      type: text
+      valign: middle
+      w: 0.87
+      x: 9.85
+      y: 7.33
+    - arrow: both
+      color: 293A46
+      from:
+      - 10.28
+      - 7.62
+      stroke_pt: 1.5
+      to:
+      - 10.28
+      - 7.970000000000001
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 11.219999999999999
+      - 6.640000000000001
+      stroke_pt: 1.5
+      to:
+      - 11.219999999999999
+      - 6.88
+      type: line
+    - allow_overlap: true
+      fill: F6E9E1
+      h: 0.72
+      roundness: 0.19
+      shape: round
+      stroke: A45F43
+      stroke_pt: 0.7
+      type: shape
+      w: 0.87
+      x: 10.79
+      y: 6.890000000000001
+    - allow_overlap: true
+      color: A45F43
+      h: 0.32
+      icon: phosphor/bold/gear
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.39
+      x: 11.03
+      y: 6.96
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.28
+      size: 9.36
+      text: Automationer
+      type: text
+      valign: middle
+      w: 0.87
+      x: 10.79
+      y: 7.33
+    - arrow: both
+      color: 293A46
+      from:
+      - 11.219999999999999
+      - 7.62
+      stroke_pt: 1.5
+      to:
+      - 11.219999999999999
+      - 7.970000000000001
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 12.149999999999999
+      - 6.640000000000001
+      stroke_pt: 1.5
+      to:
+      - 12.149999999999999
+      - 6.88
+      type: line
+    - allow_overlap: true
+      fill: F6E9E1
+      h: 0.72
+      roundness: 0.19
+      shape: round
+      stroke: A45F43
+      stroke_pt: 0.7
+      type: shape
+      w: 1.1
+      x: 11.719999999999999
+      y: 6.890000000000001
+    - allow_overlap: true
+      color: A45F43
+      h: 0.32
+      icon: phosphor/bold/stack
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.39
+      x: 11.96
+      y: 6.96
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.28
+      size: 9.36
+      text: Enterprise IT
+      type: text
+      valign: middle
+      w: 1.1
+      x: 11.719999999999999
+      y: 7.33
+    - arrow: both
+      color: 293A46
+      from:
+      - 12.149999999999999
+      - 7.62
+      stroke_pt: 1.5
+      to:
+      - 12.149999999999999
+      - 7.970000000000001
+      type: line
+    - children:
+      - allow_overlap: true
+        fill: E4EBD7
+        h: 1.11
+        roundness: 0.18018018018018017
+        shape: round
+        stroke: 8B9F6E
+        stroke_pt: 0.7
+        type: shape
+        w: 4.86
+        x: 7.9799999999999995
+        y: 7.98
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.27
+        size: 15.84
+        text: Utvecklingsplattform
+        type: text
+        valign: middle
+        w: 4.86
+        x: 7.9799999999999995
+        y: 8.02
+      - allow_overlap: true
+        fill: F8FAF4
+        h: 0.64
+        roundness: 0.19
+        shape: round
+        stroke_pt: 0.7
+        type: shape
+        w: 0.8640000000000001
+        x: 8.1
+        y: 8.34
+      - allow_overlap: true
+        color: 526D38
+        h: 0.32
+        icon: phosphor/bold/stack
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.34
+        x: 8.362
+        y: 8.39
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.19
+        size: 9.36
+        text: Körmiljö
+        type: text
+        valign: middle
+        w: 0.8640000000000001
+        x: 8.1
+        y: 8.75
+      - allow_overlap: true
+        fill: F8FAF4
+        h: 0.64
+        roundness: 0.19
+        shape: round
+        stroke_pt: 0.7
+        type: shape
+        w: 0.8640000000000001
+        x: 9.024
+        y: 8.34
+      - allow_overlap: true
+        color: 526D38
+        h: 0.39
+        icon: phosphor/bold/database
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.46
+        x: 9.225999999999999
+        y: 8.355
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.19
+        size: 9.36
+        text: Data
+        type: text
+        valign: middle
+        w: 0.8640000000000001
+        x: 9.024
+        y: 8.75
+      - allow_overlap: true
+        fill: F8FAF4
+        h: 0.64
+        roundness: 0.19
+        shape: round
+        stroke_pt: 0.7
+        type: shape
+        w: 0.8640000000000001
+        x: 9.948
+        y: 8.34
+      - allow_overlap: true
+        color: 526D38
+        h: 0.32
+        icon: phosphor/bold/network
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.34
+        x: 10.21
+        y: 8.39
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.19
+        size: 9.36
+        text: Integration
+        type: text
+        valign: middle
+        w: 0.8640000000000001
+        x: 9.948
+        y: 8.75
+      - allow_overlap: true
+        fill: F8FAF4
+        h: 0.64
+        roundness: 0.19
+        shape: round
+        stroke_pt: 0.7
+        type: shape
+        w: 0.8640000000000001
+        x: 10.872
+        y: 8.34
+      - allow_overlap: true
+        color: 526D38
+        h: 0.32
+        icon: phosphor/bold/shield-check
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.34
+        x: 11.134
+        y: 8.39
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.19
+        size: 9.36
+        text: Säkerhet
+        type: text
+        valign: middle
+        w: 0.8640000000000001
+        x: 10.872
+        y: 8.75
+      - allow_overlap: true
+        fill: F8FAF4
+        h: 0.64
+        roundness: 0.19
+        shape: round
+        stroke_pt: 0.7
+        type: shape
+        w: 0.8640000000000001
+        x: 11.796
+        y: 8.34
+      - allow_overlap: true
+        color: 526D38
+        h: 0.32
+        icon: phosphor/bold/chart-bar
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.34
+        x: 12.058
+        y: 8.39
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.19
+        size: 9.36
+        text: Övervakning
+        type: text
+        valign: middle
+        w: 0.8640000000000001
+        x: 11.796
+        y: 8.75
+      type: group
+    - arrow: both
+      color: 293A46
+      from:
+      - 10.41
+      - 9.1
+      stroke_pt: 1.5
+      to:
+      - 10.41
+      - 9.4
+      type: line
+    - children:
+      - allow_overlap: true
+        fill: DFE7E9
+        h: 0.54
+        roundness: 0.19
+        shape: round
+        stroke: '718994'
+        stroke_pt: 0.7
+        type: shape
+        w: 4.77
+        x: 8.04
+        y: 9.4
+      - allow_overlap: true
+        color: 293A46
+        h: 0.45
+        icon: phosphor/bold/hard-drives
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.6
+        x: 8.789399999999999
+        y: 9.445
+      - allow_overlap: true
+        color: 293A46
+        h: 0.45
+        icon: phosphor/bold/database
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.6
+        x: 10.172699999999999
+        y: 9.445
+      - allow_overlap: true
+        color: 293A46
+        h: 0.45
+        icon: phosphor/bold/cloud
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.6
+        x: 11.5083
+        y: 9.445
+      type: group
+    type: group
+- background: FFFFFF
+  objects:
+  - children:
+    - allow_overlap: true
+      fill: FFFFFF
+      h: 9.8704
+      roundness: 0.035
+      shape: round
+      stroke: 314F67
+      stroke_pt: 1.393
+      type: shape
+      w: 14.885200000000001
+      x: 0.24
+      y: 0.18
+    - allow_overlap: true
+      fill: 314F67
+      h: 1.1342999999999999
+      roundness: 0.16
+      shape: round
+      stroke_pt: 1.393
+      type: shape
+      w: 14.885200000000001
+      x: 0.24
+      y: 0.18
+    - allow_overlap: true
+      color: FFFFFF
+      h: 0.796
+      icon: phosphor/bold/hard-drives
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 1.0547
+      x: 0.9962
+      y: 0.3591
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: FFFFFF
+      font: Liberation Sans
+      h: 0.8358
+      size: 39.8
+      text: Generation 1 – Det sammanhållna IT-stödet
+      type: text
+      valign: middle
+      w: 12.4375
+      x: 2.5285
+      y: 0.379
+    - arrow: false
+      color: B9B4A9
+      from:
+      - 9.6925
+      - 1.7123
+      stroke_pt: 2.985
+      to:
+      - 9.6925
+      - 9.572799999999999
+      type: line
+    - allow_overlap: true
+      fill: F0F4F7
+      h: 1.8109
+      roundness: 0.12
+      shape: round
+      stroke_pt: 1.393
+      type: shape
+      w: 4.9153
+      x: 9.9512
+      y: 2.0506
+    - allow_overlap: true
+      color: 65963E
+      h: 0.796
+      icon: phosphor/fill/check-circle
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.796
+      x: 10.1303
+      y: 2.2894
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: '101010'
+      font: Liberation Sans
+      h: 0.6169
+      size: 34.825
+      text: 'Löser:'
+      type: text
+      valign: top
+      w: 3.6019
+      x: 11.1651
+      y: 2.2695
+    - align: left
+      allow_overlap: true
+      bold: false
+      color: '101010'
+      font: Liberation Sans
+      h: 0.7163999999999999
+      size: 27.86
+      text: Samlad IT
+      type: text
+      valign: top
+      w: 3.6019
+      x: 11.1651
+      y: 2.9063000000000003
+    - allow_overlap: true
+      fill: F0F4F7
+      h: 2.8457000000000003
+      roundness: 0.12
+      shape: round
+      stroke_pt: 1.393
+      type: shape
+      w: 4.9153
+      x: 9.9512
+      y: 4.697299999999999
+    - allow_overlap: true
+      color: D29A25
+      h: 0.796
+      icon: phosphor/fill/warning
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.796
+      x: 10.1303
+      y: 4.9361
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: '101010'
+      font: Liberation Sans
+      h: 0.6169
+      size: 34.825
+      text: 'Utmaning:'
+      type: text
+      valign: top
+      w: 3.6019
+      x: 11.1651
+      y: 4.9162
+    - align: left
+      allow_overlap: true
+      bold: false
+      color: '101010'
+      font: Liberation Sans
+      h: 1.7512
+      size: 27.86
+      text: 'Svårt att
+
+        förändra stora
+
+        IT-stöd'
+      type: text
+      valign: top
+      w: 3.6019
+      x: 11.1651
+      y: 5.553
+    - children:
+      - color: 394B59
+        h: 0.763165
+        icon: phosphor/fill/users
+        type: professional-icon
+        w: 1.3134000000000001
+        x: 4.5384
+        y: 1.4735
+      - fill: FFFFFF
+        h: 0.38805
+        roundness: 0.08
+        shape: round
+        stroke: 394B59
+        stroke_pt: 3.383
+        type: shape
+        w: 0.682968
+        x: 4.853616000000001
+        y: 2.262535
+      - color: 394B59
+        from:
+        - 5.195100000000001
+        - 2.6505850000000004
+        stroke_pt: 2.985
+        to:
+        - 5.195100000000001
+        - 2.74113
+        type: line
+      - color: 394B59
+        from:
+        - 4.99809
+        - 2.74113
+        stroke_pt: 2.985
+        to:
+        - 5.392110000000001
+        - 2.74113
+        type: line
+      type: group
+    - arrow: both
+      color: 293A46
+      from:
+      - 5.195100000000001
+      - 2.767
+      stroke_pt: 2.985
+      to:
+      - 5.195100000000001
+      - 3.3043
+      type: line
+    - allow_overlap: true
+      fill: D8E3E7
+      h: 3.5223
+      roundness: 0.11299435028248588
+      shape: round
+      stroke: '718994'
+      stroke_pt: 1.393
+      type: shape
+      w: 7.9003000000000005
+      x: 1.2748
+      y: 3.3242000000000003
+    - align: center
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.6169
+      size: 35.82
+      text: Stort IT-stöd
+      type: text
+      valign: middle
+      w: 7.9003000000000005
+      x: 1.2748
+      y: 3.4236999999999997
+    - allow_overlap: true
+      fill: EDF2F3
+      h: 0.7163999999999999
+      roundness: 0.19
+      shape: round
+      stroke: 8DA5AE
+      stroke_pt: 1.393
+      type: shape
+      w: 3.4626
+      x: 1.6727999999999998
+      y: 4.2197
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.4975
+      size: 25.790399999999998
+      text: Delsystem A
+      type: text
+      valign: middle
+      w: 3.4626
+      x: 1.6727999999999998
+      y: 4.339099999999999
+    - allow_overlap: true
+      fill: EDF2F3
+      h: 0.7163999999999999
+      roundness: 0.19
+      shape: round
+      stroke: 8DA5AE
+      stroke_pt: 1.393
+      type: shape
+      w: 3.4626
+      x: 5.3742
+      y: 4.2197
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.4975
+      size: 25.790399999999998
+      text: Delsystem B
+      type: text
+      valign: middle
+      w: 3.4626
+      x: 5.3742
+      y: 4.339099999999999
+    - allow_overlap: true
+      fill: EDF2F3
+      h: 0.7163999999999999
+      roundness: 0.19
+      shape: round
+      stroke: 8DA5AE
+      stroke_pt: 1.393
+      type: shape
+      w: 3.4626
+      x: 1.6727999999999998
+      y: 5.0356
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.4975
+      size: 25.790399999999998
+      text: Delsystem C
+      type: text
+      valign: middle
+      w: 3.4626
+      x: 1.6727999999999998
+      y: 5.154999999999999
+    - allow_overlap: true
+      fill: EDF2F3
+      h: 0.7163999999999999
+      roundness: 0.19
+      shape: round
+      stroke: 8DA5AE
+      stroke_pt: 1.393
+      type: shape
+      w: 3.4626
+      x: 5.3742
+      y: 5.0356
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.4975
+      size: 25.790399999999998
+      text: Delsystem D
+      type: text
+      valign: middle
+      w: 3.4626
+      x: 5.3742
+      y: 5.154999999999999
+    - allow_overlap: true
+      fill: EDF2F3
+      h: 0.7163999999999999
+      roundness: 0.19
+      shape: round
+      stroke: 8DA5AE
+      stroke_pt: 1.393
+      type: shape
+      w: 3.4626
+      x: 1.6727999999999998
+      y: 5.8515
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.4975
+      size: 25.790399999999998
+      text: Delsystem E
+      type: text
+      valign: middle
+      w: 3.4626
+      x: 1.6727999999999998
+      y: 5.9709
+    - allow_overlap: true
+      fill: EDF2F3
+      h: 0.7163999999999999
+      roundness: 0.19
+      shape: round
+      stroke: 8DA5AE
+      stroke_pt: 1.393
+      type: shape
+      w: 3.4626
+      x: 5.3742
+      y: 5.8515
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.4975
+      size: 25.790399999999998
+      text: Delsystem F
+      type: text
+      valign: middle
+      w: 3.4626
+      x: 5.3742
+      y: 5.9709
+    - arrow: both
+      color: 293A46
+      from:
+      - 5.195100000000001
+      - 6.8664
+      stroke_pt: 2.985
+      to:
+      - 5.195100000000001
+      - 7.4634
+      type: line
+    - allow_overlap: true
+      fill: DFE7E9
+      h: 0.7562
+      roundness: 0.19
+      shape: round
+      stroke: '718994'
+      stroke_pt: 1.393
+      type: shape
+      w: 8.358
+      x: 1.0559
+      y: 7.5032
+    - allow_overlap: true
+      color: 293A46
+      h: 0.597
+      icon: phosphor/bold/gear
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.6169
+      x: 2.0309999999999997
+      y: 7.5828
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.5373
+      size: 22.924799999999998
+      text: Konfigurera plattformar/infrastruktur
+      type: text
+      valign: top
+      w: 6.328200000000001
+      x: 3.006099999999999
+      y: 7.6425
+    - arrow: both
+      color: 293A46
+      from:
+      - 5.2349
+      - 8.279300000000001
+      stroke_pt: 2.985
+      to:
+      - 5.2349
+      - 8.677299999999999
+      type: line
+    - children:
+      - allow_overlap: true
+        fill: DFE7E9
+        h: 1.0746
+        roundness: 0.19
+        shape: round
+        stroke: '718994'
+        stroke_pt: 1.393
+        type: shape
+        w: 8.358
+        x: 1.0559
+        y: 8.6972
+      - allow_overlap: true
+        color: 293A46
+        h: 0.8955
+        icon: phosphor/bold/hard-drives
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 1.194
+        x: 2.2976599999999996
+        y: 8.78675
+      - allow_overlap: true
+        color: 293A46
+        h: 0.8955
+        icon: phosphor/bold/database
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 1.194
+        x: 4.721480000000001
+        y: 8.78675
+      - allow_overlap: true
+        color: 293A46
+        h: 0.8955
+        icon: phosphor/bold/cloud
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 1.194
+        x: 7.06172
+        y: 8.78675
+      type: group
+    type: group
+- background: FFFFFF
+  objects:
+  - children:
+    - allow_overlap: true
+      fill: FFFFFF
+      h: 9.8704
+      roundness: 0.035
+      shape: round
+      stroke: 007F87
+      stroke_pt: 1.393
+      type: shape
+      w: 14.885200000000001
+      x: 0.24
+      y: 0.18
+    - allow_overlap: true
+      fill: 007F87
+      h: 1.1342999999999999
+      roundness: 0.16
+      shape: round
+      stroke_pt: 1.393
+      type: shape
+      w: 14.885200000000001
+      x: 0.24
+      y: 0.18
+    - allow_overlap: true
+      color: FFFFFF
+      h: 0.796
+      icon: phosphor/bold/network
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 1.0547
+      x: 0.9961999999999998
+      y: 0.3591
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: FFFFFF
+      font: Liberation Sans
+      h: 0.8358
+      size: 39.8
+      text: Generation 2 – Tjänsteorienterad IT
+      type: text
+      valign: middle
+      w: 12.4375
+      x: 2.5284999999999993
+      y: 0.379
+    - arrow: false
+      color: B9B4A9
+      from:
+      - 9.692499999999999
+      - 1.7123
+      stroke_pt: 2.985
+      to:
+      - 9.692499999999999
+      - 9.572799999999999
+      type: line
+    - allow_overlap: true
+      fill: F0F4F7
+      h: 2.3283
+      roundness: 0.12
+      shape: round
+      stroke_pt: 1.393
+      type: shape
+      w: 4.9153
+      x: 9.9512
+      y: 2.0506
+    - allow_overlap: true
+      color: 65963E
+      h: 0.796
+      icon: phosphor/fill/check-circle
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.796
+      x: 10.1303
+      y: 2.2894
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: '101010'
+      font: Liberation Sans
+      h: 0.6169
+      size: 34.825
+      text: 'Löser:'
+      type: text
+      valign: top
+      w: 3.6019
+      x: 11.165100000000002
+      y: 2.2695
+    - align: left
+      allow_overlap: true
+      bold: false
+      color: '101010'
+      font: Liberation Sans
+      h: 1.2338
+      size: 27.86
+      text: 'Snabb parallell
+
+        utveckling'
+      type: text
+      valign: top
+      w: 3.6019
+      x: 11.165100000000002
+      y: 2.9063000000000003
+    - allow_overlap: true
+      fill: F0F4F7
+      h: 3.3631000000000006
+      roundness: 0.12
+      shape: round
+      stroke_pt: 1.393
+      type: shape
+      w: 4.9153
+      x: 9.9512
+      y: 4.697299999999999
+    - allow_overlap: true
+      color: D29A25
+      h: 0.796
+      icon: phosphor/fill/warning
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.796
+      x: 10.1303
+      y: 4.9361
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: '101010'
+      font: Liberation Sans
+      h: 0.6169
+      size: 34.825
+      text: 'Utmaning:'
+      type: text
+      valign: top
+      w: 3.6019
+      x: 11.165100000000002
+      y: 4.9162
+    - align: left
+      allow_overlap: true
+      bold: false
+      color: '101010'
+      font: Liberation Sans
+      h: 2.2686
+      size: 27.86
+      text: 'Snabb applikations-
+
+        utveckling –
+
+        trögrörlig
+
+        infrastruktur'
+      type: text
+      valign: top
+      w: 3.6019
+      x: 11.165100000000002
+      y: 5.553
+    - children:
+      - color: 247D80
+        h: 0.763165
+        icon: phosphor/fill/users
+        type: professional-icon
+        w: 1.3134000000000001
+        x: 1.7324999999999982
+        y: 1.4735
+      - fill: FFFFFF
+        h: 0.38805
+        roundness: 0.08
+        shape: round
+        stroke: 247D80
+        stroke_pt: 3.383
+        type: shape
+        w: 0.682968
+        x: 2.047715999999998
+        y: 2.262535
+      - color: 247D80
+        from:
+        - 2.389199999999998
+        - 2.6505850000000004
+        stroke_pt: 2.985
+        to:
+        - 2.389199999999998
+        - 2.74113
+        type: line
+      - color: 247D80
+        from:
+        - 2.1921899999999983
+        - 2.74113
+        stroke_pt: 2.985
+        to:
+        - 2.5862099999999986
+        - 2.74113
+        type: line
+      type: group
+    - arrow: both
+      color: 293A46
+      from:
+      - 2.3892000000000015
+      - 2.767
+      stroke_pt: 2.985
+      to:
+      - 2.3892000000000015
+      - 3.2247
+      type: line
+    - allow_overlap: true
+      fill: E2F0EF
+      h: 3.6019
+      roundness: 0.11049723756906078
+      shape: round
+      stroke: 247D80
+      stroke_pt: 1.393
+      type: shape
+      w: 2.5273
+      x: 1.1355000000000004
+      y: 3.2446
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 1.533499999999999
+      y: 3.4635
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 2.7075999999999985
+      y: 3.4635
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 1.533499999999999
+      y: 4.1202
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 2.7075999999999985
+      y: 4.1202
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 1.533499999999999
+      y: 4.7768999999999995
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 2.7075999999999985
+      y: 4.7768999999999995
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 1.533499999999999
+      y: 5.4336
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 2.7075999999999985
+      y: 5.4336
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 1.533499999999999
+      y: 6.0903
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 2.7075999999999985
+      y: 6.0903
+    - align: center
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.4179
+      size: 25.790399999999998
+      text: •••
+      type: text
+      valign: middle
+      w: 2.5273
+      x: 1.1355000000000004
+      y: 6.3888
+    - arrow: both
+      color: 293A46
+      from:
+      - 2.3892000000000015
+      - 6.8465
+      stroke_pt: 2.985
+      to:
+      - 2.3892000000000015
+      - 7.4634
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 2.190199999999999
+      - 3.961
+      stroke_pt: 2.985
+      to:
+      - 2.628
+      - 4.259499999999999
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 2.190199999999999
+      - 4.617699999999999
+      stroke_pt: 2.985
+      to:
+      - 2.628
+      - 4.9162
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 2.190199999999999
+      - 5.2744
+      stroke_pt: 2.985
+      to:
+      - 2.628
+      - 5.5729
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 2.190199999999999
+      - 5.9311
+      stroke_pt: 2.985
+      to:
+      - 2.628
+      - 6.2296
+      type: line
+    - children:
+      - color: A45F43
+        h: 0.763165
+        icon: phosphor/fill/users
+        type: professional-icon
+        w: 1.3134000000000001
+        x: 4.618
+        y: 1.4735
+      - fill: FFFFFF
+        h: 0.38805
+        roundness: 0.08
+        shape: round
+        stroke: A45F43
+        stroke_pt: 3.383
+        type: shape
+        w: 0.682968
+        x: 4.933216000000001
+        y: 2.262535
+      - color: A45F43
+        from:
+        - 5.274700000000001
+        - 2.6505850000000004
+        stroke_pt: 2.985
+        to:
+        - 5.274700000000001
+        - 2.74113
+        type: line
+      - color: A45F43
+        from:
+        - 5.0776900000000005
+        - 2.74113
+        stroke_pt: 2.985
+        to:
+        - 5.471710000000001
+        - 2.74113
+        type: line
+      type: group
+    - arrow: both
+      color: 293A46
+      from:
+      - 5.274700000000001
+      - 2.767
+      stroke_pt: 2.985
+      to:
+      - 5.274700000000001
+      - 3.2247
+      type: line
+    - allow_overlap: true
+      fill: F6E9E1
+      h: 3.6019
+      roundness: 0.11049723756906078
+      shape: round
+      stroke: A45F43
+      stroke_pt: 1.393
+      type: shape
+      w: 2.5273
+      x: 4.020999999999999
+      y: 3.2446
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 4.419000000000001
+      y: 3.4635
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 5.593100000000001
+      y: 3.4635
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 4.419000000000001
+      y: 4.1202
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 5.593100000000001
+      y: 4.1202
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 4.419000000000001
+      y: 4.7768999999999995
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 5.593100000000001
+      y: 4.7768999999999995
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 4.419000000000001
+      y: 5.4336
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 5.593100000000001
+      y: 5.4336
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 4.419000000000001
+      y: 6.0903
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 5.593100000000001
+      y: 6.0903
+    - align: center
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.4179
+      size: 25.790399999999998
+      text: •••
+      type: text
+      valign: middle
+      w: 2.5273
+      x: 4.020999999999999
+      y: 6.3888
+    - arrow: both
+      color: 293A46
+      from:
+      - 5.274700000000001
+      - 6.8465
+      stroke_pt: 2.985
+      to:
+      - 5.274700000000001
+      - 7.4634
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 5.075700000000001
+      - 3.961
+      stroke_pt: 2.985
+      to:
+      - 5.513499999999999
+      - 4.259499999999999
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 5.075700000000001
+      - 4.617699999999999
+      stroke_pt: 2.985
+      to:
+      - 5.513499999999999
+      - 4.9162
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 5.075700000000001
+      - 5.2744
+      stroke_pt: 2.985
+      to:
+      - 5.513499999999999
+      - 5.5729
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 5.075700000000001
+      - 5.9311
+      stroke_pt: 2.985
+      to:
+      - 5.513499999999999
+      - 6.2296
+      type: line
+    - children:
+      - color: 647D48
+        h: 0.763165
+        icon: phosphor/fill/users
+        type: professional-icon
+        w: 1.3134000000000001
+        x: 7.503499999999999
+        y: 1.4735
+      - fill: FFFFFF
+        h: 0.38805
+        roundness: 0.08
+        shape: round
+        stroke: 647D48
+        stroke_pt: 3.383
+        type: shape
+        w: 0.682968
+        x: 7.8187159999999984
+        y: 2.262535
+      - color: 647D48
+        from:
+        - 8.1602
+        - 2.6505850000000004
+        stroke_pt: 2.985
+        to:
+        - 8.1602
+        - 2.74113
+        type: line
+      - color: 647D48
+        from:
+        - 7.963189999999999
+        - 2.74113
+        stroke_pt: 2.985
+        to:
+        - 8.35721
+        - 2.74113
+        type: line
+      type: group
+    - arrow: both
+      color: 293A46
+      from:
+      - 8.1602
+      - 2.767
+      stroke_pt: 2.985
+      to:
+      - 8.1602
+      - 3.2247
+      type: line
+    - allow_overlap: true
+      fill: EDF1E3
+      h: 3.6019
+      roundness: 0.11049723756906078
+      shape: round
+      stroke: 647D48
+      stroke_pt: 1.393
+      type: shape
+      w: 2.5273
+      x: 6.906500000000001
+      y: 3.2446
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 7.3045
+      y: 3.4635
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 8.4786
+      y: 3.4635
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 7.3045
+      y: 4.1202
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 8.4786
+      y: 4.1202
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 7.3045
+      y: 4.7768999999999995
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 8.4786
+      y: 4.7768999999999995
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 7.3045
+      y: 5.4336
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 8.4786
+      y: 5.4336
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 7.3045
+      y: 6.0903
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 8.4786
+      y: 6.0903
+    - align: center
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.4179
+      size: 25.790399999999998
+      text: •••
+      type: text
+      valign: middle
+      w: 2.5273
+      x: 6.906500000000001
+      y: 6.3888
+    - arrow: both
+      color: 293A46
+      from:
+      - 8.1602
+      - 6.8465
+      stroke_pt: 2.985
+      to:
+      - 8.1602
+      - 7.4634
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 7.9612
+      - 3.961
+      stroke_pt: 2.985
+      to:
+      - 8.399000000000001
+      - 4.259499999999999
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 7.9612
+      - 4.617699999999999
+      stroke_pt: 2.985
+      to:
+      - 8.399000000000001
+      - 4.9162
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 7.9612
+      - 5.2744
+      stroke_pt: 2.985
+      to:
+      - 8.399000000000001
+      - 5.5729
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 7.9612
+      - 5.9311
+      stroke_pt: 2.985
+      to:
+      - 8.399000000000001
+      - 6.2296
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 3.215049999999999
+      - 3.6824000000000003
+      stroke_pt: 2.4875
+      to:
+      - 4.369250000000002
+      - 4.995799999999999
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 3.215049999999999
+      - 4.339099999999999
+      stroke_pt: 2.4875
+      to:
+      - 4.369250000000002
+      - 3.6824000000000003
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 3.215049999999999
+      - 4.995799999999999
+      stroke_pt: 2.4875
+      to:
+      - 4.369250000000002
+      - 5.6525
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 3.215049999999999
+      - 5.6525
+      stroke_pt: 2.4875
+      to:
+      - 4.369250000000002
+      - 4.339099999999999
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 6.100550000000001
+      - 3.6824000000000003
+      stroke_pt: 2.4875
+      to:
+      - 7.25475
+      - 4.995799999999999
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 6.100550000000001
+      - 4.339099999999999
+      stroke_pt: 2.4875
+      to:
+      - 7.25475
+      - 3.6824000000000003
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 6.100550000000001
+      - 4.995799999999999
+      stroke_pt: 2.4875
+      to:
+      - 7.25475
+      - 5.6525
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 6.100550000000001
+      - 5.6525
+      stroke_pt: 2.4875
+      to:
+      - 7.25475
+      - 4.339099999999999
+      type: line
+    - allow_overlap: true
+      fill: DFE7E9
+      h: 0.7562
+      roundness: 0.19
+      shape: round
+      stroke: '718994'
+      stroke_pt: 1.393
+      type: shape
+      w: 8.358
+      x: 1.0558999999999985
+      y: 7.5032
+    - allow_overlap: true
+      color: 293A46
+      h: 0.597
+      icon: phosphor/bold/gear
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.6169
+      x: 2.030999999999999
+      y: 7.5828
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.5373
+      size: 22.924799999999998
+      text: Konfigurera plattformar/infrastruktur
+      type: text
+      valign: top
+      w: 6.328200000000001
+      x: 3.006099999999999
+      y: 7.6425
+    - arrow: both
+      color: 293A46
+      from:
+      - 5.234900000000001
+      - 8.279300000000001
+      stroke_pt: 2.985
+      to:
+      - 5.234900000000001
+      - 8.677299999999999
+      type: line
+    - children:
+      - allow_overlap: true
+        fill: DFE7E9
+        h: 1.0746
+        roundness: 0.19
+        shape: round
+        stroke: '718994'
+        stroke_pt: 1.393
+        type: shape
+        w: 8.358
+        x: 1.0558999999999985
+        y: 8.6972
+      - allow_overlap: true
+        color: 293A46
+        h: 0.8955
+        icon: phosphor/bold/hard-drives
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 1.194
+        x: 2.2976600000000005
+        y: 8.78675
+      - allow_overlap: true
+        color: 293A46
+        h: 0.8955
+        icon: phosphor/bold/database
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 1.194
+        x: 4.721480000000001
+        y: 8.78675
+      - allow_overlap: true
+        color: 293A46
+        h: 0.8955
+        icon: phosphor/bold/cloud
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 1.194
+        x: 7.061720000000001
+        y: 8.78675
+      type: group
+    type: group
+- background: FFFFFF
+  objects:
+  - children:
+    - allow_overlap: true
+      fill: FFFFFF
+      h: 9.8704
+      roundness: 0.035
+      shape: round
+      stroke: 557B37
+      stroke_pt: 1.393
+      type: shape
+      w: 14.885200000000001
+      x: 0.24
+      y: 0.18
+    - allow_overlap: true
+      fill: 557B37
+      h: 1.1342999999999999
+      roundness: 0.16
+      shape: round
+      stroke_pt: 1.393
+      type: shape
+      w: 14.885200000000001
+      x: 0.24
+      y: 0.18
+    - allow_overlap: true
+      color: FFFFFF
+      h: 0.796
+      icon: phosphor/bold/stack
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 1.0547
+      x: 0.9962
+      y: 0.3590999999999997
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: FFFFFF
+      font: Liberation Sans
+      h: 0.8358
+      size: 39.8
+      text: Generation 3 – Plattformsbaserad IT
+      type: text
+      valign: middle
+      w: 12.4375
+      x: 2.5285
+      y: 0.379
+    - arrow: false
+      color: B9B4A9
+      from:
+      - 10.6875
+      - 1.712299999999999
+      stroke_pt: 2.985
+      to:
+      - 10.6875
+      - 9.5728
+      type: line
+    - allow_overlap: true
+      fill: F0F4F7
+      h: 2.8457000000000012
+      roundness: 0.12
+      shape: round
+      stroke_pt: 1.393
+      type: shape
+      w: 3.9203
+      x: 10.9462
+      y: 2.050599999999999
+    - allow_overlap: true
+      color: 65963E
+      h: 0.796
+      icon: phosphor/fill/check-circle
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.796
+      x: 11.1253
+      y: 2.289400000000001
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: '101010'
+      font: Liberation Sans
+      h: 0.6169
+      size: 34.825
+      text: 'Löser:'
+      type: text
+      valign: top
+      w: 2.6069
+      x: 12.1601
+      y: 2.2695
+    - align: left
+      allow_overlap: true
+      bold: false
+      color: '101010'
+      font: Liberation Sans
+      h: 1.7512
+      size: 26.865
+      text: 'Självservice
+
+        genom
+
+        plattformar'
+      type: text
+      valign: top
+      w: 2.6069
+      x: 12.1601
+      y: 2.9063000000000003
+    - allow_overlap: true
+      fill: F0F4F7
+      h: 2.328300000000002
+      roundness: 0.12
+      shape: round
+      stroke_pt: 1.393
+      type: shape
+      w: 3.9203
+      x: 10.9462
+      y: 5.1351
+    - allow_overlap: true
+      color: D29A25
+      h: 0.796
+      icon: phosphor/fill/warning
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.796
+      x: 11.1253
+      y: 5.373900000000002
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: '101010'
+      font: Liberation Sans
+      h: 0.6169
+      size: 34.825
+      text: 'Utmaning:'
+      type: text
+      valign: top
+      w: 2.6069
+      x: 12.1601
+      y: 5.354000000000001
+    - align: left
+      allow_overlap: true
+      bold: false
+      color: '101010'
+      font: Liberation Sans
+      h: 1.2338
+      size: 26.865
+      text: 'Kräver satsning
+
+        på plattform'
+      type: text
+      valign: top
+      w: 2.6069
+      x: 12.1601
+      y: 5.990800000000001
+    - children:
+      - color: 247D80
+        h: 0.763165
+        icon: phosphor/fill/users
+        type: professional-icon
+        w: 1.3134000000000001
+        x: 1.9116
+        y: 1.4735000000000007
+      - fill: FFFFFF
+        h: 0.38805
+        roundness: 0.08
+        shape: round
+        stroke: 247D80
+        stroke_pt: 3.383
+        type: shape
+        w: 0.682968
+        x: 2.226816
+        y: 2.262535000000001
+      - color: 247D80
+        from:
+        - 2.5683
+        - 2.650585000000001
+        stroke_pt: 2.985
+        to:
+        - 2.5683
+        - 2.741130000000001
+        type: line
+      - color: 247D80
+        from:
+        - 2.37129
+        - 2.741130000000001
+        stroke_pt: 2.985
+        to:
+        - 2.7653100000000004
+        - 2.741130000000001
+        type: line
+      type: group
+    - arrow: both
+      color: 293A46
+      from:
+      - 2.5683
+      - 2.767
+      stroke_pt: 2.985
+      to:
+      - 2.5683
+      - 3.224700000000001
+      type: line
+    - allow_overlap: true
+      fill: E2F0EF
+      h: 1.7711000000000001
+      roundness: 0.19
+      shape: round
+      stroke: 247D80
+      stroke_pt: 1.393
+      type: shape
+      w: 2.5273
+      x: 1.3146
+      y: 3.2446
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 1.98125
+      y: 3.4435999999999996
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 2.6777500000000005
+      y: 3.4435999999999996
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 1.633
+      y: 4.0405999999999995
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 2.3294999999999995
+      y: 4.0405999999999995
+    - allow_overlap: true
+      color: 247D80
+      fill: ADD7D5
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 247D80
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 3.026
+      y: 4.0405999999999995
+    - align: center
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.4179
+      size: 25.790399999999998
+      text: •••
+      type: text
+      valign: middle
+      w: 2.5273
+      x: 1.3146
+      y: 4.558
+    - arrow: both
+      color: 293A46
+      from:
+      - 2.5683
+      - 5.015699999999999
+      stroke_pt: 2.985
+      to:
+      - 2.5683
+      - 5.6127
+      type: line
+    - children:
+      - color: A45F43
+        h: 0.763165
+        icon: phosphor/fill/users
+        type: professional-icon
+        w: 1.3134000000000001
+        x: 4.956300000000001
+        y: 1.4735000000000007
+      - fill: FFFFFF
+        h: 0.38805
+        roundness: 0.08
+        shape: round
+        stroke: A45F43
+        stroke_pt: 3.383
+        type: shape
+        w: 0.682968
+        x: 5.271516
+        y: 2.262535000000001
+      - color: A45F43
+        from:
+        - 5.613
+        - 2.650585000000001
+        stroke_pt: 2.985
+        to:
+        - 5.613
+        - 2.741130000000001
+        type: line
+      - color: A45F43
+        from:
+        - 5.41599
+        - 2.741130000000001
+        stroke_pt: 2.985
+        to:
+        - 5.810010000000001
+        - 2.741130000000001
+        type: line
+      type: group
+    - arrow: both
+      color: 293A46
+      from:
+      - 5.613
+      - 2.767
+      stroke_pt: 2.985
+      to:
+      - 5.613
+      - 3.224700000000001
+      type: line
+    - allow_overlap: true
+      fill: F6E9E1
+      h: 1.7711000000000001
+      roundness: 0.19
+      shape: round
+      stroke: A45F43
+      stroke_pt: 1.393
+      type: shape
+      w: 2.5273
+      x: 4.3593
+      y: 3.2446
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 5.02595
+      y: 3.4435999999999996
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 5.72245
+      y: 3.4435999999999996
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 4.6777
+      y: 4.0405999999999995
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 5.3742
+      y: 4.0405999999999995
+    - allow_overlap: true
+      color: A45F43
+      fill: E6BDA9
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: A45F43
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 6.0706999999999995
+      y: 4.0405999999999995
+    - align: center
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.4179
+      size: 25.790399999999998
+      text: •••
+      type: text
+      valign: middle
+      w: 2.5273
+      x: 4.3593
+      y: 4.558
+    - arrow: both
+      color: 293A46
+      from:
+      - 5.613
+      - 5.015699999999999
+      stroke_pt: 2.985
+      to:
+      - 5.613
+      - 5.6127
+      type: line
+    - children:
+      - color: 647D48
+        h: 0.763165
+        icon: phosphor/fill/users
+        type: professional-icon
+        w: 1.3134000000000001
+        x: 8.001
+        y: 1.4735000000000007
+      - fill: FFFFFF
+        h: 0.38805
+        roundness: 0.08
+        shape: round
+        stroke: 647D48
+        stroke_pt: 3.383
+        type: shape
+        w: 0.682968
+        x: 8.316215999999999
+        y: 2.262535000000001
+      - color: 647D48
+        from:
+        - 8.657699999999998
+        - 2.650585000000001
+        stroke_pt: 2.985
+        to:
+        - 8.657699999999998
+        - 2.741130000000001
+        type: line
+      - color: 647D48
+        from:
+        - 8.46069
+        - 2.741130000000001
+        stroke_pt: 2.985
+        to:
+        - 8.854709999999999
+        - 2.741130000000001
+        type: line
+      type: group
+    - arrow: both
+      color: 293A46
+      from:
+      - 8.6577
+      - 2.767
+      stroke_pt: 2.985
+      to:
+      - 8.6577
+      - 3.224700000000001
+      type: line
+    - allow_overlap: true
+      fill: EDF1E3
+      h: 1.7711000000000001
+      roundness: 0.19
+      shape: round
+      stroke: 647D48
+      stroke_pt: 1.393
+      type: shape
+      w: 2.5273
+      x: 7.404
+      y: 3.2446
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 8.070649999999999
+      y: 3.4435999999999996
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 8.76715
+      y: 3.4435999999999996
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 7.7223999999999995
+      y: 4.0405999999999995
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 8.418899999999999
+      y: 4.0405999999999995
+    - allow_overlap: true
+      color: 647D48
+      fill: C9D8AC
+      h: 0.4378
+      icon: cube-faceted
+      roundness: 0.12
+      stroke: 647D48
+      stroke_pt: 1.393
+      stroke_scale: 1.99
+      type: icon
+      w: 0.4577
+      x: 9.1154
+      y: 4.0405999999999995
+    - align: center
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.4179
+      size: 25.790399999999998
+      text: •••
+      type: text
+      valign: middle
+      w: 2.5273
+      x: 7.404
+      y: 4.558
+    - arrow: both
+      color: 293A46
+      from:
+      - 8.6577
+      - 5.015699999999999
+      stroke_pt: 2.985
+      to:
+      - 8.6577
+      - 5.6127
+      type: line
+    - children:
+      - allow_overlap: true
+        fill: E4EBD7
+        h: 2.2089000000000003
+        roundness: 0.18018018018018017
+        shape: round
+        stroke: 8B9F6E
+        stroke_pt: 1.393
+        type: shape
+        w: 9.4326
+        x: 0.9166000000000001
+        y: 5.6326
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.5373
+        size: 31.5216
+        text: Utvecklingsplattform
+        type: text
+        valign: middle
+        w: 9.4326
+        x: 0.9166000000000001
+        y: 5.712199999999998
+      - allow_overlap: true
+        fill: F8FAF4
+        h: 1.2736
+        roundness: 0.19
+        shape: round
+        stroke_pt: 1.393
+        type: shape
+        w: 1.6716
+        x: 1.1554000000000002
+        y: 6.348999999999999
+      - allow_overlap: true
+        color: 526D38
+        h: 0.6368
+        icon: phosphor/bold/stack
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.6766000000000001
+        x: 1.6528999999999998
+        y: 6.4485
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.3781
+        size: 18.6264
+        text: Körmiljö
+        type: text
+        valign: middle
+        w: 1.6716
+        x: 1.1554000000000002
+        y: 7.164899999999999
+      - allow_overlap: true
+        fill: F8FAF4
+        h: 1.2736
+        roundness: 0.19
+        shape: round
+        stroke_pt: 1.393
+        type: shape
+        w: 1.6716
+        x: 2.9463999999999997
+        y: 6.348999999999999
+      - allow_overlap: true
+        color: 526D38
+        h: 0.7761
+        icon: phosphor/bold/database
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.9154
+        x: 3.3244999999999996
+        y: 6.37885
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.3781
+        size: 18.6264
+        text: Data
+        type: text
+        valign: middle
+        w: 1.6716
+        x: 2.9463999999999997
+        y: 7.164899999999999
+      - allow_overlap: true
+        fill: F8FAF4
+        h: 1.2736
+        roundness: 0.19
+        shape: round
+        stroke_pt: 1.393
+        type: shape
+        w: 1.6716
+        x: 4.7374
+        y: 6.348999999999999
+      - allow_overlap: true
+        color: 526D38
+        h: 0.6368
+        icon: phosphor/bold/network
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.6766000000000001
+        x: 5.2349
+        y: 6.4485
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.3781
+        size: 18.6264
+        text: Integration
+        type: text
+        valign: middle
+        w: 1.6716
+        x: 4.7374
+        y: 7.164899999999999
+      - allow_overlap: true
+        fill: F8FAF4
+        h: 1.2736
+        roundness: 0.19
+        shape: round
+        stroke_pt: 1.393
+        type: shape
+        w: 1.6716
+        x: 6.5284
+        y: 6.348999999999999
+      - allow_overlap: true
+        color: 526D38
+        h: 0.6368
+        icon: phosphor/bold/shield-check
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.6766000000000001
+        x: 7.0259
+        y: 6.4485
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.3781
+        size: 18.6264
+        text: Säkerhet
+        type: text
+        valign: middle
+        w: 1.6716
+        x: 6.5284
+        y: 7.164899999999999
+      - allow_overlap: true
+        fill: F8FAF4
+        h: 1.2736
+        roundness: 0.19
+        shape: round
+        stroke_pt: 1.393
+        type: shape
+        w: 1.6716
+        x: 8.3194
+        y: 6.348999999999999
+      - allow_overlap: true
+        color: 526D38
+        h: 0.6368
+        icon: phosphor/bold/chart-bar
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.6766000000000001
+        x: 8.816899999999999
+        y: 6.4485
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.3781
+        size: 18.6264
+        text: Övervakning
+        type: text
+        valign: middle
+        w: 1.6716
+        x: 8.3194
+        y: 7.164899999999999
+      type: group
+    - arrow: both
+      color: 293A46
+      from:
+      - 5.6329
+      - 7.861399999999999
+      stroke_pt: 2.985
+      to:
+      - 5.6329
+      - 8.4584
+      type: line
+    - children:
+      - allow_overlap: true
+        fill: DFE7E9
+        h: 1.0746
+        roundness: 0.19
+        shape: round
+        stroke: '718994'
+        stroke_pt: 1.393
+        type: shape
+        w: 9.492299999999998
+        x: 0.8768
+        y: 8.4584
+      - allow_overlap: true
+        color: 293A46
+        h: 0.8955
+        icon: phosphor/bold/hard-drives
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 1.194
+        x: 2.368106
+        y: 8.54795
+      - allow_overlap: true
+        color: 293A46
+        h: 0.8955
+        icon: phosphor/bold/database
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 1.194
+        x: 5.120873
+        y: 8.54795
+      - allow_overlap: true
+        color: 293A46
+        h: 0.8955
+        icon: phosphor/bold/cloud
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 1.194
+        x: 7.778717000000001
+        y: 8.54795
+      type: group
+    type: group
+- background: FFFFFF
+  objects:
+  - children:
+    - allow_overlap: true
+      fill: FFFFFF
+      h: 9.8704
+      roundness: 0.035
+      shape: round
+      stroke: A34E35
+      stroke_pt: 1.393
+      type: shape
+      w: 14.885200000000001
+      x: 0.24
+      y: 0.18
+    - allow_overlap: true
+      fill: A34E35
+      h: 1.1342999999999999
+      roundness: 0.16
+      shape: round
+      stroke_pt: 1.393
+      type: shape
+      w: 14.885200000000001
+      x: 0.24
+      y: 0.18
+    - allow_overlap: true
+      color: FFFFFF
+      h: 0.796
+      icon: team
+      stroke_scale: 2.2885
+      type: icon
+      w: 1.0547
+      x: 0.9961999999999998
+      y: 0.3590999999999997
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: FFFFFF
+      font: Liberation Sans
+      h: 0.8358
+      size: 37.014
+      text: Generation 4 – Tjänstemannadriven utveckling
+      type: text
+      valign: middle
+      w: 12.4375
+      x: 2.5284999999999993
+      y: 0.379
+    - arrow: false
+      color: B9B4A9
+      from:
+      - 10.687499999999998
+      - 1.712299999999999
+      stroke_pt: 2.985
+      to:
+      - 10.687499999999998
+      - 9.5728
+      type: line
+    - allow_overlap: true
+      fill: F0F4F7
+      h: 2.328300000000002
+      roundness: 0.12
+      shape: round
+      stroke_pt: 1.393
+      type: shape
+      w: 3.9203
+      x: 10.9462
+      y: 2.050599999999999
+    - allow_overlap: true
+      color: 65963E
+      h: 0.796
+      icon: phosphor/fill/check-circle
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.796
+      x: 11.1253
+      y: 2.289400000000001
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: '101010'
+      font: Liberation Sans
+      h: 0.6169
+      size: 34.825
+      text: 'Löser:'
+      type: text
+      valign: top
+      w: 2.6069
+      x: 12.160100000000002
+      y: 2.2695
+    - align: left
+      allow_overlap: true
+      bold: false
+      color: '101010'
+      font: Liberation Sans
+      h: 1.2338
+      size: 26.865
+      text: 'Bred
+
+        utvecklingskraft'
+      type: text
+      valign: top
+      w: 2.6069
+      x: 12.160100000000002
+      y: 2.9063000000000003
+    - allow_overlap: true
+      fill: F0F4F7
+      h: 2.328300000000002
+      roundness: 0.12
+      shape: round
+      stroke_pt: 1.393
+      type: shape
+      w: 3.9203
+      x: 10.9462
+      y: 4.6972999999999985
+    - allow_overlap: true
+      color: D29A25
+      h: 0.796
+      icon: phosphor/fill/warning
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.796
+      x: 11.1253
+      y: 4.936100000000001
+    - align: left
+      allow_overlap: true
+      bold: true
+      color: '101010'
+      font: Liberation Sans
+      h: 0.6169
+      size: 34.825
+      text: 'Utmaning:'
+      type: text
+      valign: top
+      w: 2.6069
+      x: 12.160100000000002
+      y: 4.9162
+    - align: left
+      allow_overlap: true
+      bold: false
+      color: '101010'
+      font: Liberation Sans
+      h: 1.2338
+      size: 26.865
+      text: 'Många lösningar
+
+        att hålla ihop'
+      type: text
+      valign: top
+      w: 2.6069
+      x: 12.160100000000002
+      y: 5.553
+    - allow_overlap: true
+      color: A45F43
+      h: 0.6368
+      icon: phosphor/fill/user
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.6965
+      x: 1.2947000000000004
+      y: 1.553099999999999
+    - allow_overlap: true
+      color: A45F43
+      h: 0.6368
+      icon: phosphor/fill/user
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.6965
+      x: 2.0508999999999986
+      y: 1.553099999999999
+    - allow_overlap: true
+      color: A45F43
+      h: 0.6368
+      icon: phosphor/fill/user
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.6965
+      x: 2.8071
+      y: 1.553099999999999
+    - allow_overlap: true
+      color: A45F43
+      h: 0.6368
+      icon: phosphor/fill/user
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.6965
+      x: 3.5633000000000017
+      y: 1.553099999999999
+    - allow_overlap: true
+      color: A45F43
+      h: 0.6368
+      icon: phosphor/fill/user
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.6965
+      x: 4.3195
+      y: 1.553099999999999
+    - allow_overlap: true
+      color: A45F43
+      h: 0.6368
+      icon: phosphor/fill/user
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.6965
+      x: 5.075700000000001
+      y: 1.553099999999999
+    - allow_overlap: true
+      color: A45F43
+      h: 0.6368
+      icon: phosphor/fill/user
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.6965
+      x: 5.831899999999999
+      y: 1.553099999999999
+    - allow_overlap: true
+      color: A45F43
+      h: 0.6368
+      icon: phosphor/fill/user
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.6965
+      x: 6.588100000000001
+      y: 1.553099999999999
+    - allow_overlap: true
+      fill: EED8CC
+      h: 0.6965
+      roundness: 0.19
+      shape: round
+      stroke_pt: 1.393
+      type: shape
+      w: 6.8655
+      x: 0.7375
+      y: 2.17
+    - align: center
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.4577
+      size: 24.3576
+      text: Verksamhetens medarbetare
+      type: text
+      valign: middle
+      w: 6.8655
+      x: 0.7375
+      y: 2.309300000000001
+    - children:
+      - color: 247D80
+        h: 0.575309
+        icon: phosphor/fill/users
+        type: professional-icon
+        w: 1.0945
+        x: 8.747250000000001
+        y: 1.4138
+      - fill: FFFFFF
+        h: 0.29252999999999996
+        roundness: 0.08
+        shape: round
+        stroke: 247D80
+        stroke_pt: 3.383
+        type: shape
+        w: 0.5691400000000001
+        x: 9.00993
+        y: 2.008611
+      - color: 247D80
+        from:
+        - 9.294500000000001
+        - 2.3011410000000003
+        stroke_pt: 2.985
+        to:
+        - 9.294500000000001
+        - 2.3693980000000003
+        type: line
+      - color: 247D80
+        from:
+        - 9.130325000000001
+        - 2.3693980000000003
+        stroke_pt: 2.985
+        to:
+        - 9.458675000000001
+        - 2.3693980000000003
+        type: line
+      type: group
+    - allow_overlap: true
+      fill: EED8CC
+      h: 0.4975
+      roundness: 0.19
+      shape: round
+      stroke_pt: 1.393
+      type: shape
+      w: 2.189
+      x: 8.199999999999998
+      y: 2.468500000000001
+    - align: center
+      allow_overlap: true
+      bold: true
+      color: 293A46
+      font: Liberation Sans
+      h: 0.4378
+      size: 21.491999999999997
+      text: IT-team
+      type: text
+      valign: middle
+      w: 2.189
+      x: 8.199999999999998
+      y: 2.5083
+    - arrow: both
+      color: 293A46
+      from:
+      - 1.5932000000000013
+      - 2.9660000000000006
+      stroke_pt: 2.985
+      to:
+      - 1.5932000000000013
+      - 3.4435999999999996
+      type: line
+    - allow_overlap: true
+      fill: F6E9E1
+      h: 1.4327999999999999
+      roundness: 0.19
+      shape: round
+      stroke: A45F43
+      stroke_pt: 1.393
+      type: shape
+      w: 1.7313
+      x: 0.7375
+      y: 3.4635000000000007
+    - allow_overlap: true
+      color: A45F43
+      h: 0.6368
+      icon: phosphor/bold/robot
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.7761
+      x: 1.2150999999999987
+      y: 3.6028
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.5572
+      size: 18.6264
+      text: AI-assistenter
+      type: text
+      valign: middle
+      w: 1.7313
+      x: 0.7375
+      y: 4.339099999999999
+    - arrow: both
+      color: 293A46
+      from:
+      - 1.5932000000000013
+      - 4.9162
+      stroke_pt: 2.985
+      to:
+      - 1.5932000000000013
+      - 5.6127
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 3.4638
+      - 2.9660000000000006
+      stroke_pt: 2.985
+      to:
+      - 3.4638
+      - 3.4435999999999996
+      type: line
+    - allow_overlap: true
+      fill: F6E9E1
+      h: 1.4327999999999999
+      roundness: 0.19
+      shape: round
+      stroke: A45F43
+      stroke_pt: 1.393
+      type: shape
+      w: 1.7313
+      x: 2.608100000000001
+      y: 3.4635000000000007
+    - allow_overlap: true
+      color: A45F43
+      h: 0.6368
+      icon: phosphor/bold/sparkle
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.7761
+      x: 3.085700000000001
+      y: 3.6028
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.5572
+      size: 18.6264
+      text: AI-agenter
+      type: text
+      valign: middle
+      w: 1.7313
+      x: 2.608100000000001
+      y: 4.339099999999999
+    - arrow: both
+      color: 293A46
+      from:
+      - 3.4638
+      - 4.9162
+      stroke_pt: 2.985
+      to:
+      - 3.4638
+      - 5.6127
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 5.3344
+      - 2.9660000000000006
+      stroke_pt: 2.985
+      to:
+      - 5.3344
+      - 3.4435999999999996
+      type: line
+    - allow_overlap: true
+      fill: F6E9E1
+      h: 1.4327999999999999
+      roundness: 0.19
+      shape: round
+      stroke: A45F43
+      stroke_pt: 1.393
+      type: shape
+      w: 1.7313
+      x: 4.4787
+      y: 3.4635000000000007
+    - allow_overlap: true
+      color: A45F43
+      h: 0.6368
+      icon: phosphor/bold/cube
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.7761
+      x: 4.956300000000001
+      y: 3.6028
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.5572
+      size: 18.6264
+      text: Applikationer
+      type: text
+      valign: middle
+      w: 1.7313
+      x: 4.4787
+      y: 4.339099999999999
+    - arrow: both
+      color: 293A46
+      from:
+      - 5.3344
+      - 4.9162
+      stroke_pt: 2.985
+      to:
+      - 5.3344
+      - 5.6127
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 7.204999999999998
+      - 2.9660000000000006
+      stroke_pt: 2.985
+      to:
+      - 7.204999999999998
+      - 3.4435999999999996
+      type: line
+    - allow_overlap: true
+      fill: F6E9E1
+      h: 1.4327999999999999
+      roundness: 0.19
+      shape: round
+      stroke: A45F43
+      stroke_pt: 1.393
+      type: shape
+      w: 1.7313
+      x: 6.349299999999999
+      y: 3.4635000000000007
+    - allow_overlap: true
+      color: A45F43
+      h: 0.6368
+      icon: phosphor/bold/gear
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.7761
+      x: 6.826899999999999
+      y: 3.6028
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.5572
+      size: 18.6264
+      text: Automationer
+      type: text
+      valign: middle
+      w: 1.7313
+      x: 6.349299999999999
+      y: 4.339099999999999
+    - arrow: both
+      color: 293A46
+      from:
+      - 7.204999999999998
+      - 4.9162
+      stroke_pt: 2.985
+      to:
+      - 7.204999999999998
+      - 5.6127
+      type: line
+    - arrow: both
+      color: 293A46
+      from:
+      - 9.055699999999998
+      - 2.9660000000000006
+      stroke_pt: 2.985
+      to:
+      - 9.055699999999998
+      - 3.4435999999999996
+      type: line
+    - allow_overlap: true
+      fill: F6E9E1
+      h: 1.4327999999999999
+      roundness: 0.19
+      shape: round
+      stroke: A45F43
+      stroke_pt: 1.393
+      type: shape
+      w: 2.189
+      x: 8.199999999999998
+      y: 3.4635000000000007
+    - allow_overlap: true
+      color: A45F43
+      h: 0.6368
+      icon: phosphor/bold/stack
+      stroke_scale: 1.15
+      type: professional-icon
+      w: 0.7761
+      x: 8.677600000000002
+      y: 3.6028
+    - align: center
+      allow_overlap: true
+      bold: false
+      color: 293A46
+      font: Liberation Sans
+      h: 0.5572
+      size: 18.6264
+      text: Enterprise IT
+      type: text
+      valign: middle
+      w: 2.189
+      x: 8.199999999999998
+      y: 4.339099999999999
+    - arrow: both
+      color: 293A46
+      from:
+      - 9.055699999999998
+      - 4.9162
+      stroke_pt: 2.985
+      to:
+      - 9.055699999999998
+      - 5.6127
+      type: line
+    - children:
+      - allow_overlap: true
+        fill: E4EBD7
+        h: 2.2089000000000003
+        roundness: 0.18018018018018017
+        shape: round
+        stroke: 8B9F6E
+        stroke_pt: 1.393
+        type: shape
+        w: 9.6714
+        x: 0.7573999999999995
+        y: 5.6326
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.5373
+        size: 31.5216
+        text: Utvecklingsplattform
+        type: text
+        valign: middle
+        w: 9.6714
+        x: 0.7573999999999995
+        y: 5.712199999999998
+      - allow_overlap: true
+        fill: F8FAF4
+        h: 1.2736
+        roundness: 0.19
+        shape: round
+        stroke_pt: 1.393
+        type: shape
+        w: 1.7193600000000002
+        x: 0.9961999999999998
+        y: 6.348999999999999
+      - allow_overlap: true
+        color: 526D38
+        h: 0.6368
+        icon: phosphor/bold/stack
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.6766000000000001
+        x: 1.5175800000000006
+        y: 6.4485
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.3781
+        size: 18.6264
+        text: Körmiljö
+        type: text
+        valign: middle
+        w: 1.7193600000000002
+        x: 0.9961999999999998
+        y: 7.164899999999999
+      - allow_overlap: true
+        fill: F8FAF4
+        h: 1.2736
+        roundness: 0.19
+        shape: round
+        stroke_pt: 1.393
+        type: shape
+        w: 1.7193600000000002
+        x: 2.834959999999999
+        y: 6.348999999999999
+      - allow_overlap: true
+        color: 526D38
+        h: 0.7761
+        icon: phosphor/bold/database
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.9154
+        x: 3.2369399999999997
+        y: 6.37885
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.3781
+        size: 18.6264
+        text: Data
+        type: text
+        valign: middle
+        w: 1.7193600000000002
+        x: 2.834959999999999
+        y: 7.164899999999999
+      - allow_overlap: true
+        fill: F8FAF4
+        h: 1.2736
+        roundness: 0.19
+        shape: round
+        stroke_pt: 1.393
+        type: shape
+        w: 1.7193600000000002
+        x: 4.673720000000001
+        y: 6.348999999999999
+      - allow_overlap: true
+        color: 526D38
+        h: 0.6368
+        icon: phosphor/bold/network
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.6766000000000001
+        x: 5.195100000000003
+        y: 6.4485
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.3781
+        size: 18.6264
+        text: Integration
+        type: text
+        valign: middle
+        w: 1.7193600000000002
+        x: 4.673720000000001
+        y: 7.164899999999999
+      - allow_overlap: true
+        fill: F8FAF4
+        h: 1.2736
+        roundness: 0.19
+        shape: round
+        stroke_pt: 1.393
+        type: shape
+        w: 1.7193600000000002
+        x: 6.51248
+        y: 6.348999999999999
+      - allow_overlap: true
+        color: 526D38
+        h: 0.6368
+        icon: phosphor/bold/shield-check
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.6766000000000001
+        x: 7.0338600000000016
+        y: 6.4485
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.3781
+        size: 18.6264
+        text: Säkerhet
+        type: text
+        valign: middle
+        w: 1.7193600000000002
+        x: 6.51248
+        y: 7.164899999999999
+      - allow_overlap: true
+        fill: F8FAF4
+        h: 1.2736
+        roundness: 0.19
+        shape: round
+        stroke_pt: 1.393
+        type: shape
+        w: 1.7193600000000002
+        x: 8.351239999999999
+        y: 6.348999999999999
+      - allow_overlap: true
+        color: 526D38
+        h: 0.6368
+        icon: phosphor/bold/chart-bar
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 0.6766000000000001
+        x: 8.87262
+        y: 6.4485
+      - align: center
+        allow_overlap: true
+        bold: true
+        color: 293A46
+        font: Liberation Sans
+        h: 0.3781
+        size: 18.6264
+        text: Övervakning
+        type: text
+        valign: middle
+        w: 1.7193600000000002
+        x: 8.351239999999999
+        y: 7.164899999999999
+      type: group
+    - arrow: both
+      color: 293A46
+      from:
+      - 5.593100000000001
+      - 7.861399999999999
+      stroke_pt: 2.985
+      to:
+      - 5.593100000000001
+      - 8.4584
+      type: line
+    - children:
+      - allow_overlap: true
+        fill: DFE7E9
+        h: 1.0746
+        roundness: 0.19
+        shape: round
+        stroke: '718994'
+        stroke_pt: 1.393
+        type: shape
+        w: 9.492299999999998
+        x: 0.8767999999999988
+        y: 8.4584
+      - allow_overlap: true
+        color: 293A46
+        h: 0.8955
+        icon: phosphor/bold/hard-drives
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 1.194
+        x: 2.368105999999999
+        y: 8.54795
+      - allow_overlap: true
+        color: 293A46
+        h: 0.8955
+        icon: phosphor/bold/database
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 1.194
+        x: 5.120873
+        y: 8.54795
+      - allow_overlap: true
+        color: 293A46
+        h: 0.8955
+        icon: phosphor/bold/cloud
+        stroke_scale: 1.15
+        type: professional-icon
+        w: 1.194
+        x: 7.778717000000002
+        y: 8.54795
+      type: group
+    type: group

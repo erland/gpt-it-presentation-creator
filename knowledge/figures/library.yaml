@@ -1,0 +1,1026 @@
+version: 1
+coordinate_system: 100x100
+license: Original project artwork; reusable in generated presentations
+figures:
+  server:
+    label: Server
+    category: IT och teknik
+    parts:
+    - - rect
+      - 20
+      - 12
+      - 60
+      - 22
+      - primary
+    - - rect
+      - 20
+      - 39
+      - 60
+      - 22
+      - primary
+    - - rect
+      - 20
+      - 66
+      - 60
+      - 22
+      - primary
+    - - oval
+      - 27
+      - 19
+      - 7
+      - 7
+      - secondary
+    - - oval
+      - 27
+      - 46
+      - 7
+      - 7
+      - secondary
+    - - oval
+      - 27
+      - 73
+      - 7
+      - 7
+      - secondary
+    - - rect
+      - 42
+      - 21
+      - 29
+      - 4
+      - on_primary
+    - - rect
+      - 42
+      - 48
+      - 29
+      - 4
+      - on_primary
+    - - rect
+      - 42
+      - 75
+      - 29
+      - 4
+      - on_primary
+  database:
+    label: Databas
+    category: IT och teknik
+    parts:
+    - - can
+      - 23
+      - 15
+      - 54
+      - 70
+      - primary
+    - - rect
+      - 32
+      - 44
+      - 36
+      - 3
+      - on_primary
+    - - rect
+      - 32
+      - 62
+      - 36
+      - 3
+      - on_primary
+  application:
+    label: Applikation
+    category: IT och teknik
+    parts:
+    - - rect
+      - 12
+      - 17
+      - 76
+      - 65
+      - primary
+    - - rect
+      - 18
+      - 32
+      - 64
+      - 44
+      - surface
+    - - oval
+      - 19
+      - 22
+      - 5
+      - 5
+      - secondary
+    - - oval
+      - 28
+      - 22
+      - 5
+      - 5
+      - secondary
+    - - rect
+      - 25
+      - 40
+      - 22
+      - 28
+      - accent
+    - - rect
+      - 53
+      - 40
+      - 22
+      - 5
+      - primary
+    - - rect
+      - 53
+      - 52
+      - 22
+      - 5
+      - primary
+  cloud:
+    label: Moln
+    category: IT och teknik
+    parts:
+    - - cloud
+      - 12
+      - 24
+      - 76
+      - 57
+      - accent
+  api:
+    label: API
+    category: IT och teknik
+    parts:
+    - - hex
+      - 15
+      - 26
+      - 70
+      - 48
+      - primary
+    - - line
+      - 0
+      - 50
+      - 15
+      - 0
+      - accent
+    - - line
+      - 85
+      - 50
+      - 15
+      - 0
+      - accent
+    - - rect
+      - 33
+      - 44
+      - 34
+      - 12
+      - on_primary
+  network:
+    label: Nätverk
+    category: IT och teknik
+    parts:
+    - - line
+      - 50
+      - 25
+      - -30
+      - 45
+      - accent
+    - - line
+      - 50
+      - 25
+      - 30
+      - 45
+      - accent
+    - - line
+      - 20
+      - 70
+      - 60
+      - 0
+      - accent
+    - - oval
+      - 40
+      - 15
+      - 20
+      - 20
+      - primary
+    - - oval
+      - 10
+      - 60
+      - 20
+      - 20
+      - primary
+    - - oval
+      - 70
+      - 60
+      - 20
+      - 20
+      - primary
+  security:
+    label: Säkerhet
+    category: IT och teknik
+    parts:
+    - - pentagon
+      - 25
+      - 15
+      - 50
+      - 70
+      - primary
+    - - line
+      - 37
+      - 49
+      - 10
+      - 10
+      - on_primary
+    - - line
+      - 47
+      - 59
+      - 20
+      - -23
+      - on_primary
+  queue:
+    label: Meddelandekö
+    category: IT och teknik
+    parts:
+    - - round
+      - 8
+      - 35
+      - 84
+      - 30
+      - primary
+    - - rect
+      - 15
+      - 42
+      - 14
+      - 16
+      - on_primary
+    - - rect
+      - 34
+      - 42
+      - 14
+      - 16
+      - on_primary
+    - - rect
+      - 53
+      - 42
+      - 14
+      - 16
+      - on_primary
+    - - rect
+      - 72
+      - 42
+      - 14
+      - 16
+      - on_primary
+  storage:
+    label: Lagring
+    category: IT och teknik
+    parts:
+    - - round
+      - 12
+      - 25
+      - 76
+      - 55
+      - primary
+    - - rect
+      - 20
+      - 35
+      - 60
+      - 5
+      - on_primary
+    - - oval
+      - 68
+      - 59
+      - 9
+      - 9
+      - secondary
+  monitor:
+    label: Övervakning
+    category: IT och teknik
+    parts:
+    - - rect
+      - 10
+      - 15
+      - 80
+      - 58
+      - primary
+    - - rect
+      - 16
+      - 21
+      - 68
+      - 46
+      - surface
+    - - line
+      - 23
+      - 55
+      - 15
+      - -16
+      - accent
+    - - line
+      - 38
+      - 39
+      - 14
+      - 12
+      - accent
+    - - line
+      - 52
+      - 51
+      - 24
+      - -23
+      - accent
+    - - rect
+      - 45
+      - 73
+      - 10
+      - 12
+      - primary
+    - - rect
+      - 30
+      - 85
+      - 40
+      - 5
+      - primary
+  agent:
+    label: AI-agent
+    category: AI och digitalisering
+    parts:
+    - - round
+      - 19
+      - 30
+      - 62
+      - 48
+      - primary
+    - - line
+      - 50
+      - 12
+      - 0
+      - 18
+      - accent
+    - - oval
+      - 44
+      - 6
+      - 12
+      - 12
+      - accent
+    - - oval
+      - 30
+      - 43
+      - 12
+      - 12
+      - on_primary
+    - - oval
+      - 58
+      - 43
+      - 12
+      - 12
+      - on_primary
+    - - rect
+      - 38
+      - 65
+      - 24
+      - 4
+      - secondary
+  assistant:
+    label: AI-assistent
+    category: AI och digitalisering
+    parts:
+    - - callout
+      - 12
+      - 18
+      - 76
+      - 60
+      - primary
+    - - oval
+      - 25
+      - 40
+      - 10
+      - 10
+      - on_primary
+    - - oval
+      - 45
+      - 40
+      - 10
+      - 10
+      - on_primary
+    - - oval
+      - 65
+      - 40
+      - 10
+      - 10
+      - on_primary
+  model:
+    label: AI-modell
+    category: AI och digitalisering
+    parts:
+    - - line
+      - 20
+      - 25
+      - 60
+      - 50
+      - accent
+    - - line
+      - 20
+      - 75
+      - 60
+      - -50
+      - accent
+    - - line
+      - 20
+      - 25
+      - 60
+      - 0
+      - accent
+    - - line
+      - 20
+      - 75
+      - 60
+      - 0
+      - accent
+    - - oval
+      - 12
+      - 17
+      - 15
+      - 15
+      - primary
+    - - oval
+      - 12
+      - 67
+      - 15
+      - 15
+      - primary
+    - - oval
+      - 72
+      - 17
+      - 15
+      - 15
+      - primary
+    - - oval
+      - 72
+      - 67
+      - 15
+      - 15
+      - primary
+    - - oval
+      - 42
+      - 42
+      - 16
+      - 16
+      - secondary
+  automation:
+    label: Automation
+    category: AI och digitalisering
+    parts:
+    - - gear
+      - 20
+      - 20
+      - 60
+      - 60
+      - primary
+    - - oval
+      - 39
+      - 39
+      - 22
+      - 22
+      - surface
+  analytics:
+    label: Analys
+    category: AI och digitalisering
+    parts:
+    - - rect
+      - 15
+      - 65
+      - 18
+      - 20
+      - primary
+    - - rect
+      - 41
+      - 42
+      - 18
+      - 43
+      - accent
+    - - rect
+      - 67
+      - 15
+      - 18
+      - 70
+      - secondary
+    - - line
+      - 10
+      - 87
+      - 80
+      - 0
+      - primary
+  document:
+    label: Dokument
+    category: AI och digitalisering
+    parts:
+    - - fold
+      - 23
+      - 10
+      - 54
+      - 80
+      - primary
+    - - rect
+      - 32
+      - 40
+      - 35
+      - 4
+      - on_primary
+    - - rect
+      - 32
+      - 53
+      - 35
+      - 4
+      - on_primary
+    - - rect
+      - 32
+      - 66
+      - 35
+      - 4
+      - on_primary
+  user:
+    label: Användare
+    category: Människor och organisation
+    parts:
+    - - oval
+      - 35
+      - 9
+      - 30
+      - 30
+      - primary
+    - - round
+      - 22
+      - 45
+      - 56
+      - 43
+      - primary
+  team:
+    label: Team
+    category: Människor och organisation
+    parts:
+    - - oval
+      - 10
+      - 20
+      - 22
+      - 22
+      - accent
+    - - oval
+      - 39
+      - 10
+      - 22
+      - 22
+      - accent
+    - - oval
+      - 68
+      - 20
+      - 22
+      - 22
+      - accent
+    - - round
+      - 5
+      - 47
+      - 30
+      - 38
+      - secondary
+    - - round
+      - 65
+      - 47
+      - 30
+      - 38
+      - secondary
+    - - round
+      - 30
+      - 37
+      - 40
+      - 51
+      - primary
+  organization:
+    label: Organisation
+    category: Människor och organisation
+    parts:
+    - - rect
+      - 15
+      - 25
+      - 70
+      - 62
+      - primary
+    - - rect
+      - 25
+      - 12
+      - 50
+      - 13
+      - primary
+    - - rect
+      - 25
+      - 35
+      - 10
+      - 10
+      - on_primary
+    - - rect
+      - 25
+      - 52
+      - 10
+      - 10
+      - on_primary
+    - - rect
+      - 25
+      - 69
+      - 10
+      - 10
+      - on_primary
+    - - rect
+      - 45
+      - 35
+      - 10
+      - 10
+      - on_primary
+    - - rect
+      - 45
+      - 52
+      - 10
+      - 10
+      - on_primary
+    - - rect
+      - 45
+      - 69
+      - 10
+      - 10
+      - on_primary
+    - - rect
+      - 65
+      - 35
+      - 10
+      - 10
+      - on_primary
+    - - rect
+      - 65
+      - 52
+      - 10
+      - 10
+      - on_primary
+    - - rect
+      - 65
+      - 69
+      - 10
+      - 10
+      - on_primary
+  workplace:
+    label: Arbetsplats
+    category: Människor och organisation
+    parts:
+    - - rect
+      - 15
+      - 12
+      - 70
+      - 53
+      - primary
+    - - rect
+      - 21
+      - 18
+      - 58
+      - 41
+      - surface
+    - - trapezoid
+      - 7
+      - 68
+      - 86
+      - 12
+      - accent
+  blocks:
+    label: Byggblock
+    category: Visuella metaforer
+    parts:
+    - - rect
+      - 8
+      - 55
+      - 40
+      - 32
+      - primary
+    - - rect
+      - 52
+      - 55
+      - 40
+      - 32
+      - accent
+    - - rect
+      - 30
+      - 19
+      - 40
+      - 32
+      - secondary
+  journey:
+    label: Utvecklingsresa
+    category: Visuella metaforer
+    parts:
+    - - line
+      - 12
+      - 75
+      - 75
+      - -50
+      - accent
+    - - oval
+      - 8
+      - 69
+      - 12
+      - 12
+      - primary
+    - - oval
+      - 44
+      - 44
+      - 12
+      - 12
+      - primary
+    - - oval
+      - 80
+      - 19
+      - 12
+      - 12
+      - accent
+  target:
+    label: Mål
+    category: Visuella metaforer
+    parts:
+    - - oval
+      - 10
+      - 10
+      - 80
+      - 80
+      - primary
+    - - oval
+      - 24
+      - 24
+      - 52
+      - 52
+      - surface
+    - - oval
+      - 36
+      - 36
+      - 28
+      - 28
+      - accent
+    - - oval
+      - 45
+      - 45
+      - 10
+      - 10
+      - primary
+  bridge:
+    label: Bro
+    category: Visuella metaforer
+    parts:
+    - - rect
+      - 8
+      - 45
+      - 84
+      - 10
+      - primary
+    - - rect
+      - 20
+      - 20
+      - 8
+      - 67
+      - primary
+    - - rect
+      - 72
+      - 20
+      - 8
+      - 67
+      - primary
+    - - line
+      - 24
+      - 20
+      - 26
+      - 25
+      - accent
+    - - line
+      - 76
+      - 20
+      - -26
+      - 25
+      - accent
+    - - rect
+      - 0
+      - 87
+      - 100
+      - 5
+      - secondary
+  transition:
+    label: Förflyttning
+    category: Visuella metaforer
+    parts:
+    - - rect
+      - 5
+      - 35
+      - 30
+      - 30
+      - primary
+    - - arrow
+      - 39
+      - 40
+      - 22
+      - 20
+      - accent
+    - - round
+      - 65
+      - 25
+      - 30
+      - 50
+      - secondary
+  platform:
+    label: Självserviceplattform
+    category: Sammansatta illustrationer
+    parts:
+    - - round
+      - 5
+      - 42
+      - 90
+      - 12
+      - accent
+    components:
+    - - application
+      - 8
+      - 5
+      - 25
+      - 32
+    - - application
+      - 38
+      - 5
+      - 25
+      - 32
+    - - application
+      - 68
+      - 5
+      - 25
+      - 32
+    - - database
+      - 18
+      - 60
+      - 22
+      - 33
+    - - api
+      - 40
+      - 60
+      - 22
+      - 33
+    - - cloud
+      - 64
+      - 60
+      - 25
+      - 33
+  legacy:
+    label: Traditionell driftmiljö
+    category: Sammansatta illustrationer
+    parts:
+    - - line
+      - 50
+      - 33
+      - 0
+      - 10
+      - accent
+    - - line
+      - 20
+      - 43
+      - 60
+      - 0
+      - accent
+    components:
+    - - server
+      - 5
+      - 45
+      - 30
+      - 48
+    - - database
+      - 36
+      - 45
+      - 28
+      - 48
+    - - network
+      - 66
+      - 45
+      - 29
+      - 48
+    - - user
+      - 38
+      - 0
+      - 24
+      - 33
+  ai-team:
+    label: Utvecklingsteam med AI-stöd
+    category: Sammansatta illustrationer
+    parts:
+    - - line
+      - 48
+      - 40
+      - 11
+      - 0
+      - accent
+    - - line
+      - 50
+      - 55
+      - 0
+      - 13
+      - accent
+    components:
+    - - team
+      - 5
+      - 10
+      - 43
+      - 55
+    - - agent
+      - 59
+      - 10
+      - 36
+      - 55
+    - - workplace
+      - 34
+      - 68
+      - 32
+      - 30
+  ai-environment:
+    label: AI-miljö
+    category: Sammansatta illustrationer
+    parts:
+    - - line
+      - 27
+      - 25
+      - 10
+      - 0
+      - accent
+    - - line
+      - 63
+      - 25
+      - 9
+      - 0
+      - accent
+    - - line
+      - 50
+      - 43
+      - 0
+      - 12
+      - accent
+    - - line
+      - 24
+      - 55
+      - 52
+      - 0
+      - accent
+    - - line
+      - 24
+      - 55
+      - 0
+      - 10
+      - accent
+    - - line
+      - 76
+      - 55
+      - 0
+      - 10
+      - accent
+    components:
+    - - user
+      - 2
+      - 8
+      - 25
+      - 35
+    - - assistant
+      - 37
+      - 8
+      - 26
+      - 35
+    - - model
+      - 72
+      - 8
+      - 26
+      - 35
+    - - database
+      - 12
+      - 65
+      - 25
+      - 32
+    - - application
+      - 63
+      - 65
+      - 25
+      - 32
+  microservices:
+    label: Samverkande komponenter
+    category: Sammansatta illustrationer
+    parts:
+    - - line
+      - 25
+      - 30
+      - 50
+      - 0
+      - accent
+    - - line
+      - 50
+      - 30
+      - 0
+      - 40
+      - accent
+    components:
+    - - application
+      - 3
+      - 7
+      - 44
+      - 44
+    - - application
+      - 53
+      - 7
+      - 44
+      - 44
+    - - application
+      - 28
+      - 51
+      - 44
+      - 44

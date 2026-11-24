@@ -1,0 +1,12 @@
+version: 1
+patterns:
+  comparison: {family: change, composition: 'Två illustrerade scener', figures: [legacy, platform], use: 'Jämför två arbetssätt'}
+  destination: {family: change, composition: 'Liten utgångspunkt och stor målbild', figures: [legacy, platform], use: 'Betona nyttan av förändring'}
+  journey: {family: evolution, composition: 'Horisontell resa', figures: [legacy, application, platform, ai-team], use: 'Jämför generationer'}
+  staircase: {family: evolution, composition: 'Stigande steg', figures: [legacy, application, platform, ai-team], use: 'Visa successiv utveckling utan kvantitativ skala'}
+  layers: {family: architecture, composition: 'Tre horisontella lager', figures: [application, platform, server], use: 'Visa tekniska nivåer'}
+  foundation: {family: architecture, composition: 'Gemensamt fundament', figures: [application, assistant, analytics, platform], use: 'Visa möjliggörande plattform'}
+  capability-map: {family: capabilities, composition: 'Grupperad karta', figures: [api, database, security, automation, analytics, model], use: 'Visa bredd i erbjudandet'}
+  capability-hub: {family: capabilities, composition: 'Centralt erbjudande med satelliter', figures: [platform, api, database, security, automation], use: 'Visa samhörighet'}
+  pipeline: {family: information, composition: 'Linjärt flöde', figures: [application, queue, database, analytics], use: 'Visa informationsförädling'}
+  branching: {family: information, composition: 'Förgrening från gemensam data', figures: [application, database, analytics, assistant, api], use: 'Visa återanvändning'}

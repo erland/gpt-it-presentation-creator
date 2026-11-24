@@ -1,0 +1,8 @@
+# Visuell kvalitetsprocess
+1. Kör quality.py MODEL OUTPUT och läs report.json. Modellkontroller är heuristiska, inte bevis på korrekt textpassning. Kontrast antar slidebakgrund eller egen formfyllning; överlagrade objekt kräver manuell bedömning. allow_overlap: true markerar avsiktlig överlappning på objektet. Gruppbarn kontrolleras inom gruppen, inte mot externa objekt; linjer och interna figurdelar undantas från överlappskontroll.
+2. Använd --correct för en separat modellkopia med kontrastkorrigering. Ändra inte originalet. Övriga problem kräver riktad modelländring; undvik automatisk krympning av text.
+3. Inspektera varje PNG i full storlek: klippning, kontrast, hierarki, läsordning, proportioner, luft, figurernas begriplighet, målgrupp och budskap. Bedöm om illustrationerna tillför något. Undvik repetitiva kort och dekorativa effekter.
+4. Dokumentera konkreta brister per sida, ändra modellen, kör om i ny katalog och jämför. Högst tre iterationer som standard; redovisa kvarstående brister. Godkänn inte visuellt utan faktisk bildinspektion.
+5. LibreOffice och Poppler krävs för lokal rendering; om de saknas, använd värdens verifierade renderingsfunktion eller rapportera att visuell kontroll inte utförts. Rendering kan avvika från PowerPoint.
+
+Följ visual-acceptance.md för obligatorisk visuell acceptans och kompositionsregler.
