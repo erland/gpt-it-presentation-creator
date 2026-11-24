@@ -1,5 +1,5 @@
 # IT Presentation Creator
-Version 1.0.0-rc.2 – releasekandidat; värdacceptans återstår. ZIP-baserad utveckling. Läs PROJECT.md, STATUS.md och docs/development-plan.md. Fem runtimepaket byggs från canonical/. Egen PPTX-motor ingår som separat Engine-paket. Använd värdens filgenerering där den finns.
+Version 1.0.0-rc.2 – releasekandidat; värdacceptans återstår. GitHub-baserad utveckling. Läs PROJECT.md, STATUS.md och docs/development-plan.md. Fem runtimepaket byggs från canonical/. Egen PPTX-motor ingår som separat Engine-paket. Använd värdens filgenerering där den finns.
 
 ## Designsystem 0.2.0
 Se knowledge/design/ och examples/design-styles.pptx. Exempelgeneratorn är utvecklingsverktyg, inte runtimeverktyg. Kör python tests/test_design.py med python-pptx och PyYAML.
@@ -18,4 +18,4 @@ DEV-008E: 73 originalikoner, native SVG-kurvor, lokal rendering; värdtester åt
 
 DEV-008F: obligatorisk visuell acceptansgrind och reproducerbar komposition i examples/compose_generations.py.
 
-GitHub-förberett projekt: se [CI och release](docs/github-release.md).
+GitHub-projekt: se [CI och release](docs/github-release.md).
