@@ -1,13 +1,14 @@
 # GitHub CI och release
 
-Planerat repository: erland/gpt-it-presentation-creator. ZIP är fortsatt leveransform.
+Repository: erland/gpt-it-presentation-creator. GitHub är leveransform.
 
-1. Packa upp projekt-ZIP och checka in hela projektet inklusive `.github`.
-2. Kontrollera CI i Actions (push, PR eller manuell start).
-3. Skapa och pusha en tagg, exempelvis `v1.0.0-rc.2`, på verifierad commit.
-4. Actions → Build release distributions → Run workflow → ange taggen.
-5. Granska draft-release med sju ZIP, SHA256SUMS.txt och DELIVERY-MANIFEST.json. Publicera manuellt när godkänd. Befintlig publicerad release skrivs inte över.
+1. Kontrollera CI på main.
+2. Skapa och publicera en GitHub Release med en tagg (exempelvis v1.0.0-rc.3) på verifierad commit.
+3. Publicering startar Build release distributions automatiskt, även för prerelease.
+4. Kontrollera Actions och releasens sju ZIP, SHA256SUMS.txt och DELIVERY-MANIFEST.json.
 
-CI och release använder GPT Byggaren 1.6.33:s kanoniska mallar, anpassade till fem runtime-mål, separat Engine, projektets beroenden och manuell taggtrigger. Byggaren är oförändrad. Källvalidatorn körs före bygge; efter bygge körs kanonisk distributionsvalidator samt check_release_assets.py, eftersom den generella leveransvalidatorn räknar Engine som ett extra runtimepaket.
+Manuell start: Actions → Build release distributions → Run workflow → ange befintlig tagg. Om release saknas skapas ett utkast. Befintliga publicerade releaser kan kompletteras; om något av de avsedda filnamnen redan finns avbryts uppladdningen utan överskrivning. Vid delvis uppladdning måste operatören granska befintliga filer före nytt försök.
 
-GitHub Actions har inte exekverats på GitHub ännu. Lokala kommandon har verifierats. Visuell acceptans kräver fortfarande mänsklig/AI-granskning och de fyra värdtesterna.
+CI och release använder GPT Byggaren 1.6.33:s kanoniska mallar, anpassade till fem runtime-mål och separat Engine. Byggaren är oförändrad. Källvalidatorn körs före bygge; efter bygge körs kanonisk distributionsvalidator samt check_release_assets.py.
+
+Första GitHub CI är godkänd (45340557157). Det uppdaterade releaseflödet och fyra praktiska värdtester återstår att verifiera.
