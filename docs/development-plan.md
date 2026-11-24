@@ -9,6 +9,7 @@
 7. **Befintliga presentationer** – Bevara original; granska och skapa reviderad PPTX.
 8. **Acceptanstester** – Testa fyra IT-generationer, AI-förflyttning och plattformsarkitektur; bedöm visuell kvalitet och redigerbarhet.
 9. **Release** – Lint, tester, runtimekontroller, hygiene och kompletta ZIP-paket.
+10. **DEV-010** – Obligatorisk Engine-preflight, versionslänk, invänta uppladdning och uttryckligt godkänd fallback. Verifiera alla fem distributioner och värdbeteende.
 
 **DEV-008B (komplettering till steg 8):** avancerad grafisk rekonstruktion, genomförd lokalt i 0.8.1.
 

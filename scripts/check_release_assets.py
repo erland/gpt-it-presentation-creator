@@ -22,3 +22,25 @@ with tempfile.TemporaryDirectory() as d:
   assert hashlib.sha256((p/name).read_bytes()).hexdigest()==digest
  subprocess.run([sys.executable,str(p/cfg['engine']['selftest'])],check=True,env={**os.environ,'PYTHONDONTWRITEBYTECODE':'1'})
 print('PASS: seven canonical archives, manifest, SHA256, project workflows and extracted engine self-test')
+
+# DEV-010: every generated instruction projection must retain the core gate.
+for target in ('chat','claude-project','claude-skills','opencode','plugin'):
+ with zipfile.ZipFile(dist/f'{pid}-{target}-{version}.zip') as z:
+  names=[n for n in z.namelist() if n.endswith(('/SKILL.md','/instructions.md')) or n=='AGENTS.md']
+  assert names, target
+  if target=='opencode':
+   assert 'AGENTS.md' in names
+   skills=[n for n in names if n.endswith('/SKILL.md')]
+   assert len(skills)==len(cfg['skills']['definitions'])
+   for name in skills:
+    assert 'Följ obligatorisk Engine-preflight' in z.read(name).decode('utf-8'), (target,name)
+   names=['AGENTS.md']
+  for name in names:
+   instruction=z.read(name).decode('utf-8')
+   assert 'Ingen automatisk fallback' in instruction, (target,name)
+   assert 'invänta uppladdning' in instruction, (target,name)
+   assert 'uttryckligt användargodkännande' in instruction, (target,name)
+   assert 'releases/download/vVERSION/' in instruction, (target,name)
+   if target=='plugin' and not (version.endswith('-ci') or version.startswith('0.0.0-')):
+    assert f"https://github.com/{cfg['engine']['release_repository']}/releases/download/v{version}/{pid}-engine-{version}.zip" in instruction
+print('PASS: DEV-010 canonical preflight across five runtime distributions')

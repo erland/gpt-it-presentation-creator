@@ -10,10 +10,10 @@ delivery:
   planned_repository: erland/gpt-it-presentation-creator
 plan:
   path: docs/development-plan.md
-  total_steps: 9
+  total_steps: 10
 progress:
-  current_step: 9
-  last_completed_step: 8
+  current_step: 10
+  last_completed_step: 9
   completed_steps:
   - 1
   - 2
@@ -23,6 +23,7 @@ progress:
   - 6
   - 7
   - 8
+  - 9
 state:
   overall: warning
   blocking_issues: []
@@ -30,11 +31,11 @@ state:
   - Funktionella värdtester återstår
   - 'Guided-profil: Builderns stateful-validator är inte tillämplig (kräver explicit
     projekt-state-machine).'
-  - GitHub CI godkänd (45340557157); uppdaterat releaseflöde återstår att verifiera.
+  - 0.5.1 distribuerad och test 1A/1B genomförda; DEV-010 CI och värdtest återstår.
 next_step:
-  recommended: 9
-  title: Release
-  reason: DEV-009B verifierad i GitHub CI; releasepublicering och fyra praktiska värdtester återstår.
+  recommended: 10
+  title: Obligatorisk Engine-preflight
+  reason: Verifiera DEV-010 i CI och värdmiljö före release 0.5.2.
 resume:
   supported: true
   required_files:

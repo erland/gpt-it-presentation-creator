@@ -50,3 +50,5 @@ Skilldefinitioner, referenser, assets och scripts är härledda från samma cano
 
 ## IT Presentation Creator
 För den egna motorn: bifoga matchande separat Engine ZIP i chatten, packa upp och kör självtest enligt engine-guide.md. Värdens kodexekvering och rendering måste vara tillgängliga. Ingen automatisk Engine-installation utlovas.
+
+Vid exekvering utan åtkomlig originalmotor: efterfråga Engine {{VERSION}}, ge den versionsspecifika länken enligt Skill och invänta uppladdning. Alternativ exekvering kräver uttryckligt godkännande.
