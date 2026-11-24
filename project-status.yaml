@@ -6,7 +6,7 @@ project:
   description: Professionell visuell kommunikation om IT och förändring med redigerbar
     PowerPoint.
 delivery:
-  mode: zip
+  mode: github
   planned_repository: erland/gpt-it-presentation-creator
 plan:
   path: docs/development-plan.md
@@ -30,12 +30,11 @@ state:
   - Funktionella värdtester återstår
   - 'Guided-profil: Builderns stateful-validator är inte tillämplig (kräver explicit
     projekt-state-machine).'
-  - GitHub Actions har inte körts på GitHub; lokala byggkommandon verifierade.
+  - GitHub CI godkänd (45340557157); uppdaterat releaseflöde återstår att verifiera.
 next_step:
   recommended: 9
   title: Release
-  reason: DEV-009B lokalt verifierad; första GitHub CI och fyra praktiska värdtester
-    återstår.
+  reason: DEV-009B verifierad i GitHub CI; releasepublicering och fyra praktiska värdtester återstår.
 resume:
   supported: true
   required_files:
