@@ -1,7 +1,7 @@
 """Render a freely composed YAML deck into editable PowerPoint objects."""
 import argparse, math, copy
 from pathlib import Path
-from figures import LIB, THEMES, draw, rgb, KINDS
+from figures import THEMES, rgb, KINDS
 import yaml
 from vector import gradient, path
 from svg_native import draw_svg
@@ -57,11 +57,6 @@ def render(model, output, assets=Path('.')):
             elif k=='professional-icon':
                 spec=yaml.safe_load((ROOT/'knowledge/figures/professional-icons.yaml').read_text())['icons'][o['icon']]
                 s=draw_svg(shapes,spec['svg'],x,y,w,h,color(o.get('color','text'),t))
-            elif k=='figure':
-                s=shapes.add_group_shape()
-                if o.get('fit')=='contain':
-                    side=min(w,h); x+=(w-side)/2; y+=(h-side)/2; w=h=side
-                draw(s.shapes,o['figure'],x,y,w,h,{**t,**o.get('roles',{})})
             elif k=='image':
                 p=(assets/o['path']).resolve()
                 if not p.is_relative_to(assets.resolve()): raise ValueError('Asset escapes root')
