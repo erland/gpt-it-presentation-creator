@@ -255,6 +255,7 @@ engine:
   - scripts/itpc/existing.py
   - knowledge/figures/outline-icons.yaml
   - knowledge/figures/professional-icons.yaml
+  - knowledge/figures/technical-icon-register.yaml
   selftest: scripts/itpc/selftest.py
   required_files:
   - scripts/itpc/render.py
@@ -300,6 +301,7 @@ skills:
     - knowledge/reconstruction-guide.md
     - knowledge/figures/professional-icons.yaml
     - knowledge/professional-icons-guide.md
+    - knowledge/figures/technical-icon-register.yaml
     - knowledge/visual-acceptance.md
     - knowledge/engine-guide.md
     - knowledge/workflows/presentation-design.md
