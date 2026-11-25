@@ -56,6 +56,8 @@ for target in ('chat','claude-project','claude-skills','opencode','plugin'):
   instructions=[n for n in names if n.endswith('/instructions.md') or n=='AGENTS.md' or n in skills]
   merged='\n'.join(z.read(n).decode('utf-8') for n in instructions)
   assert 'Val av arbetsflöde (DEV-011)' in merged, target
+  for marker in ('Obligatorisk visuell acceptansgrind','minst två dokumenterade granskningsomgångar','leverera endast som utkast'):
+   assert marker in merged, (target,marker)
   for workflow in workflow_names:
    assert workflow in merged, (target,workflow)
    matches=[n for n in names if n.endswith('/'+workflow)]
