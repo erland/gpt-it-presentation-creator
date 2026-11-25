@@ -20,7 +20,7 @@ En sammanhållen Skill med progressiv inläsning. Läs namngivna arbetsflödesre
 - Förbättra befintlig presentation: alla tre arbetsflöden plus existing-guide.md; bevara original och fakta, jämför före/efter. Läs quality-guide.md och visual-acceptance.md vid skapande, revision och renderingsgranskning.
 Obligatoriska kärnregler gäller oavsett referenstillgång. Vid saknad obligatorisk referens redovisa begränsningen, anta inte att den lästs.
 Vid tekniska lösningsarkitekturer, läs technical-icon-register.yaml och professional-icons-guide.md för val av leverantörsneutrala symboler med textetiketter.
-Vid figurval, läs visual-selection-guide.md. Föredra professionella ikoner i nya tekniska bilder; använd inte egna ikoner markerade replace eller improve utan motiverad omarbetning. Behåll äldre ID för kompatibilitet. Egna figurer markerade improve kräver omarbetning och visuell granskning före ny användning.
+Vid figurval, läs visual-selection-guide.md. Använd professionella ikoner i tekniska bilder. Det egna konturikonbiblioteket är avvecklat. Egna figurer markerade improve kräver omarbetning och visuell granskning före ny användning.
 ## Arbetsform
 Enstaka bilder kräver inget persistent state. För längre projekt spara presentationsspecifikation, källor, designval och revisioner i ett portabelt arbetsunderlag. Bevara original vid revision. Använd inte konfidentiellt innehåll i externa tjänster utan tillstånd. Använd licensierade eller egna grafiska resurser. Hitta inte på fakta, siffror eller källor. Egen motor finns som separat Engine-paket; alternativ exekvering kräver uttryckligt användargodkännande.
 
