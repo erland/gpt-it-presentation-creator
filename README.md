@@ -5,7 +5,7 @@ Version 0.5.3 (planerad) – releasekandidat; värdacceptans återstår. GitHub-
 Se knowledge/design/ och examples/design-styles.pptx. Exempelgeneratorn är utvecklingsverktyg, inte runtimeverktyg. Kör python tests/test_design.py med python-pptx och PyYAML.
 
 ## Figurbibliotek 0.3.0
-Se knowledge/figures/ och examples/figure-catalog.pptx. Generera katalogen med python examples/generate_catalog.py. Kör pytest tests för samtliga tester.
+Se knowledge/figures/ för 127 professionella ikoner. Katalogen genereras vid behov. Generera katalogen med python examples/generate_catalog.py. Kör pytest tests för samtliga tester.
 
 ## Visualiseringsbibliotek 0.5.0
 Tio kompositioner i fem familjer, tre teman. Se knowledge/visualizations/ och examples/visualization-catalog.pptx. Generera med python examples/generate_visualizations.py.
