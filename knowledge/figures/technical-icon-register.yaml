@@ -1,0 +1,254 @@
+version: 1
+concepts:
+  application-browser:
+    label: "Webbapplikation"
+    category: application
+    preferred_icon: phosphor/regular/browser
+  application-device-mobile:
+    label: "Mobilapp"
+    category: application
+    preferred_icon: phosphor/regular/device-mobile
+  application-package:
+    label: "Mikrotjänst"
+    category: application
+    preferred_icon: phosphor/regular/package
+  application-flow-arrow:
+    label: "Processmotor"
+    category: application
+    preferred_icon: phosphor/regular/flow-arrow
+  application-list-checks:
+    label: "Regelmotor"
+    category: application
+    preferred_icon: phosphor/regular/list-checks
+  application-desktop:
+    label: "Desktopapplikation"
+    category: application
+    preferred_icon: phosphor/regular/desktop
+  compute-cpu:
+    label: "Beräkningskraft"
+    category: compute
+    preferred_icon: phosphor/regular/cpu
+  compute-graphics-card:
+    label: "GPU"
+    category: compute
+    preferred_icon: phosphor/regular/graphics-card
+  compute-terminal:
+    label: "Körmiljö"
+    category: compute
+    preferred_icon: phosphor/regular/terminal
+  compute-hard-drives:
+    label: "Server"
+    category: compute
+    preferred_icon: phosphor/regular/hard-drives
+  compute-stack:
+    label: "Virtuell maskin"
+    category: compute
+    preferred_icon: phosphor/regular/stack
+  compute-cube:
+    label: "Container"
+    category: compute
+    preferred_icon: phosphor/regular/cube
+  compute-circles-three:
+    label: "Kluster"
+    category: compute
+    preferred_icon: phosphor/regular/circles-three
+  compute-function:
+    label: "Serverless-funktion"
+    category: compute
+    preferred_icon: phosphor/regular/function
+  integration-door:
+    label: "API Gateway"
+    category: integration
+    preferred_icon: phosphor/regular/door
+  integration-plugs-connected:
+    label: "API-anslutning"
+    category: integration
+    preferred_icon: phosphor/regular/plugs-connected
+  integration-broadcast:
+    label: "Händelseplattform"
+    category: integration
+    preferred_icon: phosphor/regular/broadcast
+  integration-queue:
+    label: "Meddelandekö"
+    category: integration
+    preferred_icon: phosphor/regular/queue
+  integration-wave-sine:
+    label: "Dataström"
+    category: integration
+    preferred_icon: phosphor/regular/wave-sine
+  integration-file-arrow-up:
+    label: "Filöverföring"
+    category: integration
+    preferred_icon: phosphor/regular/file-arrow-up
+  integration-arrows-left-right:
+    label: "Datatransformering"
+    category: integration
+    preferred_icon: phosphor/regular/arrows-left-right
+  data-database:
+    label: "Relationsdatabas"
+    category: data
+    preferred_icon: phosphor/regular/database
+  data-file-code:
+    label: "Dokumentdatabas"
+    category: data
+    preferred_icon: phosphor/regular/file-code
+  data-graph:
+    label: "Grafdatabas"
+    category: data
+    preferred_icon: phosphor/regular/graph
+  data-lightning:
+    label: "Cache"
+    category: data
+    preferred_icon: phosphor/regular/lightning
+  data-folder:
+    label: "Fillagring"
+    category: data
+    preferred_icon: phosphor/regular/folder
+  data-archive:
+    label: "Objektlagring"
+    category: data
+    preferred_icon: phosphor/regular/archive
+  data-warehouse:
+    label: "Data Warehouse"
+    category: data
+    preferred_icon: phosphor/regular/warehouse
+  data-magnifying-glass:
+    label: "Sökindex"
+    category: data
+    preferred_icon: phosphor/regular/magnifying-glass
+  data-grid-four:
+    label: "Vektordatabas"
+    category: data
+    preferred_icon: phosphor/regular/grid-four
+  data-books:
+    label: "Datakatalog"
+    category: data
+    preferred_icon: phosphor/regular/books
+  network-globe:
+    label: "Internet"
+    category: network
+    preferred_icon: phosphor/regular/globe
+  network-network:
+    label: "Switch"
+    category: network
+    preferred_icon: phosphor/regular/network
+  network-scales:
+    label: "Lastbalanserare"
+    category: network
+    preferred_icon: phosphor/regular/scales
+  network-wall:
+    label: "Brandvägg"
+    category: network
+    preferred_icon: phosphor/regular/wall
+  network-lock-key:
+    label: "VPN"
+    category: network
+    preferred_icon: phosphor/regular/lock-key
+  network-signpost:
+    label: "DNS"
+    category: network
+    preferred_icon: phosphor/regular/signpost
+  security-fingerprint:
+    label: "Autentisering"
+    category: security
+    preferred_icon: phosphor/regular/fingerprint
+  security-identification-card:
+    label: "Identitetstjänst"
+    category: security
+    preferred_icon: phosphor/regular/identification-card
+  security-key:
+    label: "Behörighet"
+    category: security
+    preferred_icon: phosphor/regular/key
+  security-lock:
+    label: "Kryptering"
+    category: security
+    preferred_icon: phosphor/regular/lock
+  security-certificate:
+    label: "Certifikat"
+    category: security
+    preferred_icon: phosphor/regular/certificate
+  security-vault:
+    label: "Hemlighetshantering"
+    category: security
+    preferred_icon: phosphor/regular/vault
+  security-shield-warning:
+    label: "Hotdetektering"
+    category: security
+    preferred_icon: phosphor/regular/shield-warning
+  operations-pulse:
+    label: "Övervakning"
+    category: operations
+    preferred_icon: phosphor/regular/pulse
+  operations-file-text:
+    label: "Loggning"
+    category: operations
+    preferred_icon: phosphor/regular/file-text
+  operations-chart-line:
+    label: "Mätvärden"
+    category: operations
+    preferred_icon: phosphor/regular/chart-line
+  operations-bell:
+    label: "Larm"
+    category: operations
+    preferred_icon: phosphor/regular/bell
+  operations-gauge:
+    label: "Driftöversikt"
+    category: operations
+    preferred_icon: phosphor/regular/gauge
+  delivery-code-block:
+    label: "Källkod"
+    category: delivery
+    preferred_icon: phosphor/regular/code-block
+  delivery-git-branch:
+    label: "Versionshantering"
+    category: delivery
+    preferred_icon: phosphor/regular/git-branch
+  delivery-git-merge:
+    label: "CI/CD-pipeline"
+    category: delivery
+    preferred_icon: phosphor/regular/git-merge
+  delivery-hammer:
+    label: "Byggtjänst"
+    category: delivery
+    preferred_icon: phosphor/regular/hammer
+  delivery-rocket:
+    label: "Driftsättning"
+    category: delivery
+    preferred_icon: phosphor/regular/rocket
+  ai-brain:
+    label: "Språkmodell"
+    category: ai
+    preferred_icon: phosphor/regular/brain
+  ai-robot:
+    label: "AI-agent"
+    category: ai
+    preferred_icon: phosphor/regular/robot
+  ai-chat-circle:
+    label: "AI-assistent"
+    category: ai
+    preferred_icon: phosphor/regular/chat-circle
+  ai-tree-structure:
+    label: "Agentorkestrering"
+    category: ai
+    preferred_icon: phosphor/regular/tree-structure
+  ai-waveform:
+    label: "Specialiserad AI"
+    category: ai
+    preferred_icon: phosphor/regular/waveform
+  ai-shield-check:
+    label: "AI-skyddsräcken"
+    category: ai
+    preferred_icon: phosphor/regular/shield-check
+  hosting-buildings:
+    label: "Datacenter"
+    category: hosting
+    preferred_icon: phosphor/regular/buildings
+  hosting-cloud:
+    label: "Moln"
+    category: hosting
+    preferred_icon: phosphor/regular/cloud
+  hosting-map-pin:
+    label: "Region"
+    category: hosting
+    preferred_icon: phosphor/regular/map-pin
