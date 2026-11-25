@@ -250,7 +250,6 @@ engine:
   enabled: true
   resources:
   - scripts/itpc
-  - knowledge/figures/library.yaml
   - knowledge/design/themes.yaml
   - scripts/itpc/existing.py
   - knowledge/figures/professional-icons.yaml
@@ -260,7 +259,6 @@ engine:
   - scripts/itpc/render.py
   - scripts/itpc/figures.py
   - scripts/itpc/demo.yaml
-  - knowledge/figures/library.yaml
   - knowledge/design/themes.yaml
   - scripts/itpc/quality.py
   - scripts/itpc/quality-demo.yaml
@@ -290,7 +288,6 @@ skills:
     - knowledge/design/design-system.md
     - knowledge/design/themes.yaml
     - knowledge/figures/README.md
-    - knowledge/figures/library.yaml
     - knowledge/visualizations/visualization-guide.md
     - knowledge/visualizations/patterns.yaml
     - knowledge/quality-guide.md
