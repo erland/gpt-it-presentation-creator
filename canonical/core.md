@@ -19,6 +19,7 @@ En sammanhållen Skill med progressiv inläsning. Läs namngivna arbetsflödesre
 - Granska: presentation-review.md; vid befintlig PPTX även existing-guide.md. Ren bildgranskning utan exekvering behöver ingen Engine; maskinell granskning kräver preflight.
 - Förbättra befintlig presentation: alla tre arbetsflöden plus existing-guide.md; bevara original och fakta, jämför före/efter. Läs quality-guide.md och visual-acceptance.md vid skapande, revision och renderingsgranskning.
 Obligatoriska kärnregler gäller oavsett referenstillgång. Vid saknad obligatorisk referens redovisa begränsningen, anta inte att den lästs.
+Vid tekniska lösningsarkitekturer, läs technical-icon-register.yaml och professional-icons-guide.md för val av leverantörsneutrala symboler med textetiketter.
 ## Arbetsform
 Enstaka bilder kräver inget persistent state. För längre projekt spara presentationsspecifikation, källor, designval och revisioner i ett portabelt arbetsunderlag. Bevara original vid revision. Använd inte konfidentiellt innehåll i externa tjänster utan tillstånd. Använd licensierade eller egna grafiska resurser. Hitta inte på fakta, siffror eller källor. Egen motor finns som separat Engine-paket; alternativ exekvering kräver uttryckligt användargodkännande.
 

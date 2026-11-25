@@ -23,3 +23,5 @@ DEV-008F: grafisk komposition och obligatorisk visuell acceptansgrind; värdtest
 DEV-008E: professionella originalikoner och native SVG. DEV-009: releasekandidat; stabil release först efter värdacceptans.
 
 DEV-009B: GitHub CI och manuell taggbaserad release, lokalt verifierade.
+
+12. **DEV-012A** – Tekniskt ikonbibliotek och semantiskt register; verifiera native-konvertering och distributionsparitet. DEV-012B–D följer med sammansatta figurer, byggblock och visuell acceptans.
