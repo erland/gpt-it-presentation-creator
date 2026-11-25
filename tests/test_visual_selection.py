@@ -7,7 +7,6 @@ def test_visual_selection():
     folder = ROOT / 'knowledge/figures'
     libraries = {
         'figure': yaml.safe_load((folder/'library.yaml').read_text())['figures'],
-        'icon': yaml.safe_load((folder/'outline-icons.yaml').read_text()),
         'professional-icon': yaml.safe_load((folder/'professional-icons.yaml').read_text())['icons'],
     }
     guide = (folder/'visual-selection-guide.md').read_text()
