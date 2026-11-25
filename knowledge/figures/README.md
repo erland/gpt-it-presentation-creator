@@ -7,4 +7,4 @@ Katalogen i projektets examples/ visar alla figurer i alla tre stilar. Generera 
 
 Konturikonerna inkluderar cloud native (cube, container, api, events, infinity, scale, wrench, cloud), team-workstation, person-solid, check-status och warning-status. Se examples/generations.py i projektet för återanvändbara plattforms- och infrastrukturkompositioner.
 
-DEV-008D: välj `team-filled`, `person-filled`, `check-filled`, `warning-filled` eller `cube-faceted` för fyllda och fasetterade symboler. Tidigare konturer finns kvar. `stroke_scale` styr ikonens linjebredd och följer transform_objects. Använd små hörnradier på stora paneler, starka rubriker och konsekventa färgroller. Jämför renderingen med referensen; teknisk likhet räcker inte.
+Använd professionella Phosphor- och Tabler-ikoner enligt visual-selection-guide.md. Egna sammansatta figurer används som illustrationsbyggstenar.
