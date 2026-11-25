@@ -11,7 +11,9 @@ def sh(x,y,w,h,f,stroke=None,kind='round',grad=None):
  if grad:o['gradient']=grad
  O.append(o)
 def tx(x,y,w,h,t,s=20,bold=False,c=navy,center=False):O.append(dict(type='text',**b(x,y,w,h),text=t,size=s*.72,bold=bold,color=c,align='center' if center else 'left',font='Arial',allow_overlap=True))
-def ic(n,x,y,w,h,c=navy):O.append(dict(type='icon',icon=n,**b(x,y,w,h),color=c,allow_overlap=True))
+def ic(n,x,y,w,h,c=navy):
+ ids={'team-workstation':'fill/users','server':'regular/hard-drives','database':'regular/database','cloud':'regular/cloud','layers':'regular/stack','network':'regular/network','shield':'regular/shield-check','chart':'regular/chart-bar','team':'regular/users','check-status':'fill/check-circle','warning-status':'fill/warning','person-solid':'fill/user','robot':'regular/robot','sparkles':'regular/sparkle','cube':'regular/cube','settings':'regular/gear'}
+ O.append(dict(type='professional-icon',icon='phosphor/'+ids[n],**b(x,y,w,h),color=c,allow_overlap=True))
 def ln(x,y,X,Y,c=navy,arrow=False):O.append(dict(type='line',**{'from':[x/S,y/S],'to':[X/S,Y/S]},color=c,stroke_pt=1.5,arrow=arrow))
 def group(fn):
  global O
