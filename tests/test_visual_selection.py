@@ -22,3 +22,16 @@ def test_visual_selection():
     assert actual == {(kind,key) for kind, lib in libraries.items() for key in lib}
     cfg = yaml.safe_load((ROOT/'gpt-project.yaml').read_text())
     assert 'knowledge/figures/visual-selection-guide.md' in cfg['skills']['definitions'][0]['references']
+
+
+def test_retired_icons_and_examples(tmp_path):
+    import sys
+    from pptx import Presentation
+    sys.path.insert(0, str(ROOT/'scripts/itpc'))
+    from render import render
+    assert not (ROOT/'knowledge/figures/outline-icons.yaml').exists()
+    for name in ('cloud-native','reconstruction','professional-generations','composed-generations'):
+        model = yaml.safe_load((ROOT/'examples'/f'{name}.yaml').read_text())
+        output = tmp_path/f'{name}.pptx'
+        render(model, output)
+        assert len(Presentation(output).slides) == len(model['slides'])
