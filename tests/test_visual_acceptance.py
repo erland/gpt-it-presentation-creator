@@ -18,6 +18,11 @@ def test_composition(tmp_path):
 
 def test_gate_in_all_skills():
     config=yaml.safe_load((ROOT/'gpt-project.yaml').read_text())
+    core = (ROOT/config['instructions']['core']).read_text()
+    assert 'Obligatorisk visuell acceptansgrind' in core
+    assert 'minst två dokumenterade granskningsomgångar' in core
+    assert 'leverera endast som utkast' in core
+    assert 'Granskning är obligatorisk' in core
     for skill in config['skills']['definitions']:
         assert 'knowledge/visual-acceptance.md' in skill['references']
-        assert 'Obligatorisk visuell acceptansgrind' in (ROOT/skill['source']).read_text()
+        assert 'hoppa inte över kvalitetsgrindar' in (ROOT/skill['source']).read_text()
