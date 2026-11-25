@@ -10,9 +10,9 @@ delivery:
   planned_repository: erland/gpt-it-presentation-creator
 plan:
   path: docs/development-plan.md
-  total_steps: 11
+  total_steps: 12
 progress:
-  current_step: 11
+  current_step: 12
   last_completed_step: 9
   completed_steps:
   - 1
@@ -33,9 +33,9 @@ state:
     projekt-state-machine).'
   - 0.5.2 distribuerad enligt bifogat paket; DEV-010 värdtest och DEV-011 verifiering återstår.
 next_step:
-  recommended: 11
-  title: Konsolidering av Skill-arkitekturen
-  reason: Verifiera DEV-011 i CI och praktisk värdmiljö före release 0.5.3.
+  recommended: 12
+  title: Tekniskt ikonbibliotek
+  reason: Verifiera DEV-012A i CI före nästa delsteg.
 resume:
   supported: true
   required_files:
