@@ -1,6 +1,5 @@
 from pptx.util import Inches, Pt
 from pptx.oxml.xmlchemy import OxmlElement
-from pptx.enum.shapes import MSO_SHAPE
 from figures import rgb
 
 def no_style(s):
@@ -23,22 +22,3 @@ def path(shapes, points, x,y,w,h, stroke, fill=None, width=1.4, closed=False):
     else:s.line.fill.background()
     no_style(s)
     return s
-
-def icon(shapes, spec, x,y,w,h,c, stroke_scale=1):
-    g=shapes.add_group_shape()
-    def tint(f):
-        return "".join(f"{round(v+(255-v)*f) if f>=0 else round(v*(1+f)):02X}" for v in rgb(c))
-    for kind, data in spec:
-        width=1.4*stroke_scale
-        if kind.endswith('path'):
-            fills={'solid-path':rgb(c),'light-path':tint(.65),'dark-path':tint(-.22)}
-            fill=fills.get(kind)
-            path(g.shapes,data,x,y,w,h, 'FFFFFF' if kind=='white-path' else c if fill is None else None,fill, width*(2 if kind=='white-path' else 1),closed=fill is not None)
-        else:
-            a,b,d,e=data;s=g.shapes.add_shape(MSO_SHAPE.OVAL if kind.endswith('oval') else MSO_SHAPE.ROUNDED_RECTANGLE,*map(Inches,[x+w*a/100,y+h*b/100,w*d/100,h*e/100]))
-            if kind in ('solid-oval','white-oval'):
-                s.fill.solid();s.fill.fore_color.rgb=rgb('FFFFFF' if kind=='white-oval' else c);s.line.fill.background()
-            else:
-                s.fill.background();s.line.color.rgb=rgb(c);s.line.width=Pt(width)
-            no_style(s)
-    return g

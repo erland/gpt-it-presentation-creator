@@ -74,3 +74,12 @@ for target in ('chat','claude-project','claude-skills','opencode','plugin','engi
    assert matches, (target,filename)
    assert all(z.read(n)==(root/'knowledge/figures'/filename).read_bytes() for n in matches), (target,filename)
 print('PASS: technical icon resources across runtimes and Engine')
+
+# DEV-012A2: no retired outline catalog in any archive; selection guide in every runtime.
+for name in expected:
+ with zipfile.ZipFile(dist/name) as z:
+  assert not any(n.endswith('/outline-icons.yaml') for n in z.namelist()), name
+  if '-engine-' not in name and '-project-' not in name:
+   matches=[n for n in z.namelist() if n.endswith('/visual-selection-guide.md')]
+   assert matches, name
+   assert all(z.read(n)==(root/'knowledge/figures/visual-selection-guide.md').read_bytes() for n in matches), name

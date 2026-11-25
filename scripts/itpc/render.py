@@ -3,10 +3,9 @@ import argparse, math, copy
 from pathlib import Path
 from figures import LIB, THEMES, draw, rgb, KINDS
 import yaml
-from vector import gradient, path, icon
+from vector import gradient, path
 from svg_native import draw_svg
 from figures import ROOT
-ICONS=yaml.safe_load((ROOT/"knowledge/figures/outline-icons.yaml").read_text())
 from pptx import Presentation
 from pptx.util import Inches, Pt
 from pptx.enum.shapes import MSO_CONNECTOR
@@ -25,7 +24,6 @@ def transform_objects(objects, scale, dx=0, dy=0):
         else:
             o['x']=o['x']*scale+dx;o['y']=o['y']*scale+dy
             for key in ('w','h'): o[key]*=scale
-        if o['type']=='icon': o['stroke_scale']=o.get('stroke_scale',1)*scale
         for key in ('size','stroke_pt','padding'):
             if key in o:o[key]*=scale
     return result
@@ -59,8 +57,6 @@ def render(model, output, assets=Path('.')):
             elif k=='professional-icon':
                 spec=yaml.safe_load((ROOT/'knowledge/figures/professional-icons.yaml').read_text())['icons'][o['icon']]
                 s=draw_svg(shapes,spec['svg'],x,y,w,h,color(o.get('color','text'),t))
-            elif k=='icon':
-                s=icon(shapes,ICONS[o['icon']],x,y,w,h,color(o.get('color','text'),t),o.get('stroke_scale',1))
             elif k=='figure':
                 s=shapes.add_group_shape()
                 if o.get('fit')=='contain':

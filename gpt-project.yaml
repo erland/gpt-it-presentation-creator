@@ -253,7 +253,6 @@ engine:
   - knowledge/figures/library.yaml
   - knowledge/design/themes.yaml
   - scripts/itpc/existing.py
-  - knowledge/figures/outline-icons.yaml
   - knowledge/figures/professional-icons.yaml
   - knowledge/figures/technical-icon-register.yaml
   selftest: scripts/itpc/selftest.py
@@ -266,7 +265,6 @@ engine:
   - scripts/itpc/quality.py
   - scripts/itpc/quality-demo.yaml
   - scripts/itpc/vector.py
-  - knowledge/figures/outline-icons.yaml
   - knowledge/figures/professional-icons.yaml
   - scripts/itpc/svg_native.py
   python_dependencies:
@@ -297,11 +295,11 @@ skills:
     - knowledge/visualizations/patterns.yaml
     - knowledge/quality-guide.md
     - knowledge/existing-guide.md
-    - knowledge/figures/outline-icons.yaml
     - knowledge/reconstruction-guide.md
     - knowledge/figures/professional-icons.yaml
     - knowledge/professional-icons-guide.md
     - knowledge/figures/technical-icon-register.yaml
+    - knowledge/figures/visual-selection-guide.md
     - knowledge/visual-acceptance.md
     - knowledge/engine-guide.md
     - knowledge/workflows/presentation-design.md

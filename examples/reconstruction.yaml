@@ -116,8 +116,8 @@ slides:
     gradient:
     - C4EBF3
     - E5F7FA
-  - type: icon
-    icon: document
+  - type: professional-icon
+    icon: phosphor/regular/file-text
     x: 0.7638888888888888
     y: 1.9965277777777777
     w: 0.4340277777777778
@@ -163,8 +163,8 @@ slides:
     gradient:
     - C4EBF3
     - E5F7FA
-  - type: icon
-    icon: robot
+  - type: professional-icon
+    icon: phosphor/regular/robot
     x: 2.404513888888889
     y: 1.9965277777777777
     w: 0.4340277777777778
@@ -246,8 +246,8 @@ slides:
     fill: D4EBF5
     allow_overlap: true
     roundness: 0.13
-  - type: icon
-    icon: database
+  - type: professional-icon
+    icon: phosphor/regular/database
     x: 0.7118055555555556
     y: 3.75
     w: 0.46875
@@ -287,16 +287,16 @@ slides:
     fill: D4EBF5
     allow_overlap: true
     roundness: 0.13
-  - type: icon
-    icon: monitor
+  - type: professional-icon
+    icon: phosphor/regular/desktop
     x: 0.4340277777777778
     y: 4.644097222222222
     w: 0.390625
     h: 0.390625
     color: '102746'
     allow_overlap: true
-  - type: icon
-    icon: server
+  - type: professional-icon
+    icon: phosphor/regular/hard-drives
     x: 1.0069444444444444
     y: 4.644097222222222
     w: 0.390625
@@ -327,8 +327,8 @@ slides:
     color: 91B7D0
     stroke_pt: 1.4
     arrow: false
-  - type: icon
-    icon: settings
+  - type: professional-icon
+    icon: phosphor/regular/gear
     x: 3.59375
     y: 1.8402777777777777
     w: 0.3645833333333333
@@ -353,8 +353,8 @@ slides:
     align: left
     font: Arial
     allow_overlap: true
-  - type: icon
-    icon: target
+  - type: professional-icon
+    icon: phosphor/regular/check-circle
     x: 3.59375
     y: 2.647569444444444
     w: 0.3645833333333333
@@ -377,8 +377,8 @@ slides:
     align: left
     font: Arial
     allow_overlap: true
-  - type: icon
-    icon: upload
+  - type: professional-icon
+    icon: phosphor/regular/file-arrow-up
     x: 3.59375
     y: 3.28125
     w: 0.3645833333333333
@@ -401,8 +401,8 @@ slides:
     align: left
     font: Arial
     allow_overlap: true
-  - type: icon
-    icon: team
+  - type: professional-icon
+    icon: phosphor/regular/users
     x: 3.59375
     y: 3.923611111111111
     w: 0.3645833333333333
@@ -425,8 +425,8 @@ slides:
     align: left
     font: Arial
     allow_overlap: true
-  - type: icon
-    icon: sliders
+  - type: professional-icon
+    icon: phosphor/regular/gear
     x: 3.59375
     y: 4.557291666666667
     w: 0.3645833333333333
@@ -509,8 +509,8 @@ slides:
     gradient:
     - C4EBF3
     - E5F7FA
-  - type: icon
-    icon: person
+  - type: professional-icon
+    icon: phosphor/regular/user
     x: 7.174479166666666
     y: 1.8489583333333333
     w: 0.4340277777777778
@@ -554,8 +554,8 @@ slides:
     gradient:
     - C4EBF3
     - E5F7FA
-  - type: icon
-    icon: robot
+  - type: professional-icon
+    icon: phosphor/regular/robot
     x: 8.7109375
     y: 1.8489583333333333
     w: 0.4340277777777778
@@ -599,8 +599,8 @@ slides:
     gradient:
     - C4EBF3
     - E5F7FA
-  - type: icon
-    icon: spark
+  - type: professional-icon
+    icon: phosphor/regular/sparkle
     x: 10.230034722222221
     y: 1.8489583333333333
     w: 0.4340277777777778
@@ -695,8 +695,8 @@ slides:
     gradient:
     - C9F3F2
     - A8E2E3
-  - type: icon
-    icon: network
+  - type: professional-icon
+    icon: phosphor/regular/network
     x: 7.699652777777778
     y: 3.2465277777777777
     w: 0.4427083333333333
@@ -830,8 +830,8 @@ slides:
     allow_overlap: true
     roundness: 0.13
     stroke: 63B9C9
-  - type: icon
-    icon: database
+  - type: professional-icon
+    icon: phosphor/regular/database
     x: 7.300347222222222
     y: 4.583333333333333
     w: 0.3472222222222222
@@ -872,8 +872,8 @@ slides:
     allow_overlap: true
     roundness: 0.13
     stroke: 63B9C9
-  - type: icon
-    icon: server
+  - type: professional-icon
+    icon: phosphor/regular/hard-drives
     x: 8.793402777777777
     y: 4.583333333333333
     w: 0.3472222222222222
@@ -914,8 +914,8 @@ slides:
     allow_overlap: true
     roundness: 0.13
     stroke: 63B9C9
-  - type: icon
-    icon: settings
+  - type: professional-icon
+    icon: phosphor/regular/gear
     x: 10.286458333333334
     y: 4.583333333333333
     w: 0.3472222222222222
@@ -958,8 +958,8 @@ slides:
     color: 80C5BA
     stroke_pt: 1.4
     arrow: false
-  - type: icon
-    icon: shield
+  - type: professional-icon
+    icon: phosphor/regular/shield-check
     x: 11.432291666666666
     y: 1.7795138888888888
     w: 0.41666666666666663
@@ -996,8 +996,8 @@ slides:
     align: left
     font: Arial
     allow_overlap: true
-  - type: icon
-    icon: clipboard
+  - type: professional-icon
+    icon: phosphor/regular/list-checks
     x: 11.432291666666666
     y: 2.6822916666666665
     w: 0.41666666666666663
@@ -1032,8 +1032,8 @@ slides:
     align: left
     font: Arial
     allow_overlap: true
-  - type: icon
-    icon: layers
+  - type: professional-icon
+    icon: phosphor/regular/stack
     x: 11.432291666666666
     y: 3.454861111111111
     w: 0.41666666666666663
@@ -1068,8 +1068,8 @@ slides:
     align: left
     font: Arial
     allow_overlap: true
-  - type: icon
-    icon: refresh
+  - type: professional-icon
+    icon: phosphor/regular/arrows-left-right
     x: 11.432291666666666
     y: 4.288194444444445
     w: 0.41666666666666663
@@ -1142,8 +1142,8 @@ slides:
     color: 62B6B1
     stroke_pt: 1.4
     arrow: false
-  - type: icon
-    icon: rocket
+  - type: professional-icon
+    icon: phosphor/regular/rocket
     x: 2.2222222222222223
     y: 5.920138888888888
     w: 0.46875
@@ -1176,8 +1176,8 @@ slides:
     color: 62B6B1
     stroke_pt: 1.4
     arrow: false
-  - type: icon
-    icon: workflow
+  - type: professional-icon
+    icon: phosphor/regular/tree-structure
     x: 4.088541666666667
     y: 5.920138888888888
     w: 0.46875
@@ -1208,8 +1208,8 @@ slides:
     color: 62B6B1
     stroke_pt: 1.4
     arrow: false
-  - type: icon
-    icon: layers
+  - type: professional-icon
+    icon: phosphor/regular/stack
     x: 5.954861111111111
     y: 5.920138888888888
     w: 0.46875
@@ -1242,8 +1242,8 @@ slides:
     color: 62B6B1
     stroke_pt: 1.4
     arrow: false
-  - type: icon
-    icon: team
+  - type: professional-icon
+    icon: phosphor/regular/users
     x: 7.821180555555555
     y: 5.920138888888888
     w: 0.46875
@@ -1274,8 +1274,8 @@ slides:
     color: 62B6B1
     stroke_pt: 1.4
     arrow: false
-  - type: icon
-    icon: shield
+  - type: professional-icon
+    icon: phosphor/regular/shield-check
     x: 9.6875
     y: 5.920138888888888
     w: 0.46875
@@ -1308,8 +1308,8 @@ slides:
     color: 62B6B1
     stroke_pt: 1.4
     arrow: false
-  - type: icon
-    icon: chart
+  - type: professional-icon
+    icon: phosphor/regular/chart-bar
     x: 11.553819444444445
     y: 5.920138888888888
     w: 0.46875

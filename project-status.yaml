@@ -35,7 +35,7 @@ state:
 next_step:
   recommended: 12
   title: Tekniskt ikonbibliotek
-  reason: Verifiera DEV-012A i CI före nästa delsteg.
+  reason: Verifiera DEV-012A2 och avvecklingen av konturikonbiblioteket i CI före DEV-012B.
 resume:
   supported: true
   required_files:
