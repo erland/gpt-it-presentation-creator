@@ -16,7 +16,7 @@ def build():
    if j==3:o.update(size=20 if i<3 else 18.6,y=.10,h=.42,valign='middle')
    if j in (7,11):o.update(size=17.5)
    if j in (8,12):o.update(size=14 if i<2 else 13.5,h=.70 if j==8 else 1.25)
-   if i==3 and o.get('icon')=='team-filled':o.update(y=.62,h=.49,w=.55,x=4.275)
+   if i==3 and o.get('icon')=='phosphor/fill/users':o.update(y=.62,h=.49,w=.55,x=4.275)
   def clean(os):
    for o in os:
     if o['type']=='group':clean(o['children']);continue
@@ -35,7 +35,7 @@ def build():
   for j in (9,10,11,12):p[j]['y']+=shift
   # Compose a smooth professional people icon with a separate workstation.
   for o in p[:]:
-   if o.get('icon')=='team-filled':
+   if o.get('icon')=='phosphor/fill/users':
     x,y,w,h=(o[k] for k in ('x','y','w','h')); c=o.get('color','text')
     p[p.index(o)]={'type':'group','children':[
       dict(type='professional-icon',icon='phosphor/fill/users',x=x,y=y,w=w,h=h*.59,color=c),
