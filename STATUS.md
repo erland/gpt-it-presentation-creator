@@ -4,3 +4,5 @@ DEV-011 inför 0.5.3: en Skill, tre interna arbetsflöden och oförändrad Engin
 DEV-012A: 54 nya Phosphor Regular-ikoner och 63 registrerade tekniska begrepp. CI och visuell acceptans återstår.
 
 DEV-012A2: katalog renderad och urvalspolicy införd; CI återstår. 38 äldre konturikoner borttagna; 157 aktiva definitioner.
+
+DEV-012B: egna figurer avvecklade i utvecklingsgren; 127 professionella ikoner kvar. CI och distributionsverifiering återstår.
