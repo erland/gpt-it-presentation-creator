@@ -24,6 +24,8 @@ DEV-008E: professionella originalikoner och native SVG. DEV-009: releasekandidat
 
 DEV-009B: GitHub CI och manuell taggbaserad release, lokalt verifierade.
 
-12. **DEV-012A** – Tekniskt ikonbibliotek och semantiskt register; verifiera native-konvertering och distributionsparitet. DEV-012B–D följer med sammansatta figurer, byggblock och visuell acceptans.
+12. **DEV-012A** – Tekniskt ikonbibliotek och semantiskt register; verifiera native-konvertering och distributionsparitet. DEV-012B–D följer med avveckling av egna figurer, grafiska byggblock och visuell acceptans.
 
 **DEV-012A2** – Visuell konsolidering av 195 definitioner; dokumentera urval och ersättningar före DEV-012B.
+
+**DEV-012B** – Avveckla de 30 egna figurerna och migrera exempel och tester till fria kompositioner. Behåll 127 professionella ikoner.
