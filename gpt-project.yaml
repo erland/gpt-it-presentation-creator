@@ -283,10 +283,10 @@ skills:
   mode: explicit
   resource_policy: explicit
   definitions:
-  - id: presentation-design
-    name: presentation-design
-    description: Utforma budskap, storytelling, disposition och visuella koncept.
-    source: canonical/skills/presentation-design/behavior.md
+  - id: it-presentation-creator
+    name: it-presentation-creator
+    description: Utforma, skapa, återskapa, granska och förbättra professionella IT-presentationer.
+    source: canonical/skills/it-presentation-creator/behavior.md
     references:
     - knowledge/design/design-system.md
     - knowledge/design/themes.yaml
@@ -301,47 +301,10 @@ skills:
     - knowledge/figures/professional-icons.yaml
     - knowledge/professional-icons-guide.md
     - knowledge/visual-acceptance.md
-    assets: []
-    scripts: []
-  - id: powerpoint-creation
-    name: powerpoint-creation
-    description: Skapa professionella och redigerbara PowerPoint-bilder.
-    source: canonical/skills/powerpoint-creation/behavior.md
-    references:
-    - knowledge/design/design-system.md
-    - knowledge/design/themes.yaml
-    - knowledge/figures/README.md
-    - knowledge/figures/library.yaml
-    - knowledge/visualizations/visualization-guide.md
-    - knowledge/visualizations/patterns.yaml
     - knowledge/engine-guide.md
-    - knowledge/quality-guide.md
-    - knowledge/existing-guide.md
-    - knowledge/figures/outline-icons.yaml
-    - knowledge/reconstruction-guide.md
-    - knowledge/figures/professional-icons.yaml
-    - knowledge/professional-icons-guide.md
-    - knowledge/visual-acceptance.md
-    assets: []
-    scripts: []
-  - id: presentation-review
-    name: presentation-review
-    description: Granska och förbättra visuella presentationer.
-    source: canonical/skills/presentation-review/behavior.md
-    references:
-    - knowledge/design/design-system.md
-    - knowledge/design/themes.yaml
-    - knowledge/figures/README.md
-    - knowledge/figures/library.yaml
-    - knowledge/visualizations/visualization-guide.md
-    - knowledge/visualizations/patterns.yaml
-    - knowledge/quality-guide.md
-    - knowledge/existing-guide.md
-    - knowledge/figures/outline-icons.yaml
-    - knowledge/reconstruction-guide.md
-    - knowledge/figures/professional-icons.yaml
-    - knowledge/professional-icons-guide.md
-    - knowledge/visual-acceptance.md
+    - knowledge/workflows/presentation-design.md
+    - knowledge/workflows/powerpoint-creation.md
+    - knowledge/workflows/presentation-review.md
     assets: []
     scripts: []
 capabilities:
