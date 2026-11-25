@@ -1,6 +1,6 @@
 # Visuell konsolidering DEV-012A2
 
-195 definitioner, granskade i 14 renderade katalogbilder med befintlig native-motor. Bedömning gäller isolerade symboler i normal katalogstorlek, inte alla framtida kompositioner. Phosphor Regular är standard; Bold för små symboler, Fill för silhuetter; Tabler kompletterar. Egna färgfigurer används som illustrationsbyggstenar. Äldre ID behålls för befintliga YAML-modeller. Ersättningsförslag är semantiska rekommendationer, inte automatisk omskrivning. Särskilt person-solid är en äldre kontur trots namnet. API, nätverk och workflow kräver etiketter; välj efter faktisk betydelse.
+157 aktiva definitioner: 127 professionella ikoner och 30 egna figurer. Det äldre konturikonbiblioteket är borttaget. Phosphor Regular är standard; Bold för små symboler, Fill för silhuetter; Tabler kompletterar. Åtta egna figurer kräver omarbetning före ny användning.
 
 | Typ | ID | Beslut | Motivering / alternativ |
 |---|---|---|---|
@@ -34,44 +34,6 @@
 | figure | ai-team | improve | Förenklad eller detaljtät illustration; använd inte som färdig huvudillustration utan omarbetning. |
 | figure | ai-environment | improve | Förenklad eller detaljtät illustration; använd inte som färdig huvudillustration utan omarbetning. |
 | figure | microservices | improve | Förenklad eller detaljtät illustration; använd inte som färdig huvudillustration utan omarbetning. |
-| icon | document | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/file-text |
-| icon | robot | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/robot |
-| icon | person | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/user |
-| icon | spark | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/sparkle |
-| icon | database | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/database |
-| icon | server | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/hard-drives |
-| icon | shield | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/shield-check |
-| icon | network | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/network |
-| icon | layers | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/stack |
-| icon | clipboard | improve | Tunn eller kantig egen geometri; välj professionell motsvarighet eller omarbeta före ny användning. |
-| icon | target | improve | Tunn eller kantig egen geometri; välj professionell motsvarighet eller omarbeta före ny användning. |
-| icon | upload | improve | Tunn eller kantig egen geometri; välj professionell motsvarighet eller omarbeta före ny användning. |
-| icon | team | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/users |
-| icon | settings | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/gear |
-| icon | sliders | improve | Tunn eller kantig egen geometri; välj professionell motsvarighet eller omarbeta före ny användning. |
-| icon | refresh | improve | Tunn eller kantig egen geometri; välj professionell motsvarighet eller omarbeta före ny användning. |
-| icon | rocket | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/rocket |
-| icon | workflow | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/tree-structure |
-| icon | chart | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/chart-bar |
-| icon | monitor | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/desktop |
-| icon | cube | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/cube |
-| icon | container | improve | Tunn eller kantig egen geometri; välj professionell motsvarighet eller omarbeta före ny användning. |
-| icon | api | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/code-block |
-| icon | events | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/broadcast |
-| icon | infinity | improve | Tunn eller kantig egen geometri; välj professionell motsvarighet eller omarbeta före ny användning. |
-| icon | scale | improve | Tunn eller kantig egen geometri; välj professionell motsvarighet eller omarbeta före ny användning. |
-| icon | wrench | improve | Tunn eller kantig egen geometri; välj professionell motsvarighet eller omarbeta före ny användning. |
-| icon | cloud | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/cloud |
-| icon | team-workstation | improve | Tunn eller kantig egen geometri; välj professionell motsvarighet eller omarbeta före ny användning. |
-| icon | person-solid | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/user |
-| icon | check-status | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/check-circle |
-| icon | warning-status | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/warning |
-| icon | sparkles | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/regular/sparkle |
-| icon | person-filled | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/fill/user |
-| icon | team-filled | improve | Tunn eller kantig egen geometri; välj professionell motsvarighet eller omarbeta före ny användning. |
-| icon | check-filled | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/fill/check-circle |
-| icon | warning-filled | replace | Professionell motsvarighet föredras; äldre ID kvar för kompatibilitet. phosphor/fill/warning |
-| icon | cube-faceted | improve | Tunn eller kantig egen geometri; välj professionell motsvarighet eller omarbeta före ny användning. |
 | professional-icon | phosphor/bold/chart-bar | retain | Professionell originalikon; välj konsekvent stil och tydlig etikett. |
 | professional-icon | phosphor/bold/check-circle | retain | Professionell originalikon; välj konsekvent stil och tydlig etikett. |
 | professional-icon | phosphor/bold/cloud | retain | Professionell originalikon; välj konsekvent stil och tydlig etikett. |
