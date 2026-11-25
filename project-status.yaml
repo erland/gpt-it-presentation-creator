@@ -10,9 +10,9 @@ delivery:
   planned_repository: erland/gpt-it-presentation-creator
 plan:
   path: docs/development-plan.md
-  total_steps: 10
+  total_steps: 11
 progress:
-  current_step: 10
+  current_step: 11
   last_completed_step: 9
   completed_steps:
   - 1
@@ -31,11 +31,11 @@ state:
   - Funktionella värdtester återstår
   - 'Guided-profil: Builderns stateful-validator är inte tillämplig (kräver explicit
     projekt-state-machine).'
-  - 0.5.1 distribuerad och test 1A/1B genomförda; DEV-010 CI och värdtest återstår.
+  - 0.5.2 distribuerad enligt bifogat paket; DEV-010 värdtest och DEV-011 verifiering återstår.
 next_step:
-  recommended: 10
-  title: Obligatorisk Engine-preflight
-  reason: Verifiera DEV-010 i CI och värdmiljö före release 0.5.2.
+  recommended: 11
+  title: Konsolidering av Skill-arkitekturen
+  reason: Verifiera DEV-011 i CI och praktisk värdmiljö före release 0.5.3.
 resume:
   supported: true
   required_files:

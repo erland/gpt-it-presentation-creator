@@ -44,3 +44,24 @@ for target in ('chat','claude-project','claude-skills','opencode','plugin'):
    if target=='plugin' and not (version.endswith('-ci') or version.startswith('0.0.0-')):
     assert f"https://github.com/{cfg['engine']['release_repository']}/releases/download/v{version}/{pid}-engine-{version}.zip" in instruction
 print('PASS: DEV-010 canonical preflight across five runtime distributions')
+
+# DEV-011: one activation point, explicit routing and byte-identical workflow references.
+workflow_names=('presentation-design.md','powerpoint-creation.md','presentation-review.md')
+for target in ('chat','claude-project','claude-skills','opencode','plugin'):
+ with zipfile.ZipFile(dist/f'{pid}-{target}-{version}.zip') as z:
+  names=z.namelist()
+  skills=[n for n in names if n.endswith('/SKILL.md')]
+  if target in ('claude-skills','opencode','plugin'):
+   assert len(skills)==1 and skills[0].endswith('/it-presentation-creator/SKILL.md'), (target,skills)
+  instructions=[n for n in names if n.endswith('/instructions.md') or n=='AGENTS.md' or n in skills]
+  merged='\n'.join(z.read(n).decode('utf-8') for n in instructions)
+  assert 'Val av arbetsflöde (DEV-011)' in merged, target
+  for marker in ('Obligatorisk visuell acceptansgrind','minst två dokumenterade granskningsomgångar','leverera endast som utkast'):
+   assert marker in merged, (target,marker)
+  for workflow in workflow_names:
+   assert workflow in merged, (target,workflow)
+   matches=[n for n in names if n.endswith('/'+workflow)]
+   assert matches, (target,workflow)
+   expected_bytes=(root/'knowledge'/'workflows'/workflow).read_bytes()
+   assert all(z.read(n)==expected_bytes for n in matches), (target,workflow)
+print('PASS: one Skill and workflow parity across five runtime distributions')

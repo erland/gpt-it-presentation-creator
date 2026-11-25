@@ -10,6 +10,7 @@
 8. **Acceptanstester** – Testa fyra IT-generationer, AI-förflyttning och plattformsarkitektur; bedöm visuell kvalitet och redigerbarhet.
 9. **Release** – Lint, tester, runtimekontroller, hygiene och kompletta ZIP-paket.
 10. **DEV-010** – Obligatorisk Engine-preflight, versionslänk, invänta uppladdning och uttryckligt godkänd fallback. Verifiera alla fem distributioner och värdbeteende.
+11. **DEV-011** – Konsolidera till en Skill med progressiv inläsning, bevara beteende och verifiera fem runtimepaket.
 
 **DEV-008B (komplettering till steg 8):** avancerad grafisk rekonstruktion, genomförd lokalt i 0.8.1.
 
