@@ -65,3 +65,12 @@ for target in ('chat','claude-project','claude-skills','opencode','plugin'):
    expected_bytes=(root/'knowledge'/'workflows'/workflow).read_bytes()
    assert all(z.read(n)==expected_bytes for n in matches), (target,workflow)
 print('PASS: one Skill and workflow parity across five runtime distributions')
+
+# DEV-012A: both icon resources must survive every runtime and Engine projection.
+for target in ('chat','claude-project','claude-skills','opencode','plugin','engine'):
+ with zipfile.ZipFile(dist/f'{pid}-{target}-{version}.zip') as z:
+  for filename in ('technical-icon-register.yaml','professional-icons.yaml'):
+   matches=[n for n in z.namelist() if n.endswith('/'+filename)]
+   assert matches, (target,filename)
+   assert all(z.read(n)==(root/'knowledge/figures'/filename).read_bytes() for n in matches), (target,filename)
+print('PASS: technical icon resources across runtimes and Engine')
