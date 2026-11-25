@@ -112,8 +112,8 @@ slides:
     roundness: 0.13
     allow_overlap: true
     stroke: 55B8D4
-  - type: icon
-    icon: settings
+  - type: professional-icon
+    icon: phosphor/regular/gear
     x: 0.5145667801740447
     y: 2.2398789254634885
     w: 0.33295497540673474
@@ -151,8 +151,8 @@ slides:
     roundness: 0.13
     allow_overlap: true
     stroke: 55B8D4
-  - type: icon
-    icon: settings
+  - type: professional-icon
+    icon: phosphor/regular/gear
     x: 1.4074914869466515
     y: 2.2398789254634885
     w: 0.33295497540673474
@@ -190,8 +190,8 @@ slides:
     roundness: 0.13
     allow_overlap: true
     stroke: 55B8D4
-  - type: icon
-    icon: settings
+  - type: professional-icon
+    icon: phosphor/regular/gear
     x: 2.285281876655316
     y: 2.2398789254634885
     w: 0.33295497540673474
@@ -517,8 +517,8 @@ slides:
     - 5.2213393870601585
     color: 9AB8C9
     stroke_pt: 1.3
-  - type: icon
-    icon: settings
+  - type: professional-icon
+    icon: phosphor/regular/gear
     x: 3.147937949300038
     y: 1.9674612183125235
     w: 0.4388951948543322
@@ -539,8 +539,8 @@ slides:
     align: left
     font: Arial
     allow_overlap: true
-  - type: icon
-    icon: server
+  - type: professional-icon
+    icon: phosphor/regular/hard-drives
     x: 3.147937949300038
     y: 2.572833900870223
     w: 0.4388951948543322
@@ -561,8 +561,8 @@ slides:
     align: left
     font: Arial
     allow_overlap: true
-  - type: icon
-    icon: wrench
+  - type: professional-icon
+    icon: phosphor/regular/hammer
     x: 3.147937949300038
     y: 3.193340900491865
     w: 0.4388951948543322
@@ -585,8 +585,8 @@ slides:
     align: left
     font: Arial
     allow_overlap: true
-  - type: icon
-    icon: layers
+  - type: professional-icon
+    icon: phosphor/regular/stack
     x: 3.147937949300038
     y: 3.9651910707529323
     w: 0.4388951948543322
@@ -609,8 +609,8 @@ slides:
     align: left
     font: Arial
     allow_overlap: true
-  - type: icon
-    icon: team
+  - type: professional-icon
+    icon: phosphor/regular/users
     x: 3.147937949300038
     y: 4.7370412410139995
     w: 0.4388951948543322
@@ -696,8 +696,8 @@ slides:
     roundness: 0.13
     allow_overlap: true
     stroke: 55B8D4
-  - type: icon
-    icon: cube
+  - type: professional-icon
+    icon: phosphor/regular/cube
     x: 7.612561483163072
     y: 2.073401437760121
     w: 0.24214907302307984
@@ -716,8 +716,8 @@ slides:
     align: center
     font: Arial
     allow_overlap: true
-  - type: icon
-    icon: container
+  - type: professional-icon
+    icon: phosphor/regular/cube
     x: 7.506621263715474
     y: 2.633371169125993
     w: 0.4388951948543322
@@ -743,8 +743,8 @@ slides:
     roundness: 0.13
     allow_overlap: true
     stroke: 55B8D4
-  - type: icon
-    icon: cube
+  - type: professional-icon
+    icon: phosphor/regular/cube
     x: 8.838441165342413
     y: 2.073401437760121
     w: 0.24214907302307984
@@ -763,8 +763,8 @@ slides:
     align: center
     font: Arial
     allow_overlap: true
-  - type: icon
-    icon: container
+  - type: professional-icon
+    icon: phosphor/regular/cube
     x: 8.732500945894817
     y: 2.633371169125993
     w: 0.4388951948543322
@@ -790,8 +790,8 @@ slides:
     roundness: 0.13
     allow_overlap: true
     stroke: 55B8D4
-  - type: icon
-    icon: cube
+  - type: professional-icon
+    icon: phosphor/regular/cube
     x: 10.064320847521754
     y: 2.073401437760121
     w: 0.24214907302307984
@@ -810,8 +810,8 @@ slides:
     align: center
     font: Arial
     allow_overlap: true
-  - type: icon
-    icon: container
+  - type: professional-icon
+    icon: phosphor/regular/cube
     x: 9.958380628074158
     y: 2.633371169125993
     w: 0.4388951948543322
@@ -864,8 +864,8 @@ slides:
     roundness: 0.13
     allow_overlap: true
     stroke: 477E92
-  - type: icon
-    icon: api
+  - type: professional-icon
+    icon: phosphor/regular/plugs-connected
     x: 7.688233068482784
     y: 3.5111615588346576
     w: 0.33295497540673474
@@ -894,8 +894,8 @@ slides:
     roundness: 0.13
     allow_overlap: true
     stroke: 477E92
-  - type: icon
-    icon: events
+  - type: professional-icon
+    icon: phosphor/regular/broadcast
     x: 9.247067726068861
     y: 3.5111615588346576
     w: 0.33295497540673474
@@ -961,8 +961,8 @@ slides:
     fill: B6E4EB
     roundness: 0.13
     allow_overlap: true
-  - type: icon
-    icon: cloud
+  - type: professional-icon
+    icon: phosphor/regular/cloud
     x: 7.536889897843359
     y: 4.146802875520242
     w: 0.48429814604615967
@@ -992,72 +992,72 @@ slides:
     fill: B6E4EB
     roundness: 0.13
     allow_overlap: true
-  - type: icon
-    icon: cube
+  - type: professional-icon
+    icon: phosphor/regular/cube
     x: 7.673098751418842
     y: 4.691638289822172
     w: 0.22701475595913734
     h: 0.24214907302307984
     color: 007568
     allow_overlap: true
-  - type: icon
-    icon: cube
+  - type: professional-icon
+    icon: phosphor/regular/cube
     x: 7.552024214907302
     y: 4.888384411653424
     w: 0.22701475595913734
     h: 0.24214907302307984
     color: 007568
     allow_overlap: true
-  - type: icon
-    icon: cube
+  - type: professional-icon
+    icon: phosphor/regular/cube
     x: 7.7941732879303816
     y: 4.888384411653424
     w: 0.22701475595913734
     h: 0.24214907302307984
     color: 007568
     allow_overlap: true
-  - type: icon
-    icon: cube
+  - type: professional-icon
+    icon: phosphor/regular/cube
     x: 8.581157775255392
     y: 4.691638289822172
     w: 0.22701475595913734
     h: 0.24214907302307984
     color: 007568
     allow_overlap: true
-  - type: icon
-    icon: cube
+  - type: professional-icon
+    icon: phosphor/regular/cube
     x: 8.46008323874385
     y: 4.888384411653424
     w: 0.22701475595913734
     h: 0.24214907302307984
     color: 007568
     allow_overlap: true
-  - type: icon
-    icon: cube
+  - type: professional-icon
+    icon: phosphor/regular/cube
     x: 8.702232311766931
     y: 4.888384411653424
     w: 0.22701475595913734
     h: 0.24214907302307984
     color: 007568
     allow_overlap: true
-  - type: icon
-    icon: cube
+  - type: professional-icon
+    icon: phosphor/regular/cube
     x: 9.48921679909194
     y: 4.691638289822172
     w: 0.22701475595913734
     h: 0.24214907302307984
     color: 007568
     allow_overlap: true
-  - type: icon
-    icon: cube
+  - type: professional-icon
+    icon: phosphor/regular/cube
     x: 9.3681422625804
     y: 4.888384411653424
     w: 0.22701475595913734
     h: 0.24214907302307984
     color: 007568
     allow_overlap: true
-  - type: icon
-    icon: cube
+  - type: professional-icon
+    icon: phosphor/regular/cube
     x: 9.610291335603481
     y: 4.888384411653424
     w: 0.22701475595913734
@@ -1085,8 +1085,8 @@ slides:
     - 5.2213393870601585
     color: 8BC9C0
     stroke_pt: 1.3
-  - type: icon
-    icon: cube
+  - type: professional-icon
+    icon: phosphor/regular/cube
     x: 11.12372304199773
     y: 1.8917896329928112
     w: 0.4086265607264472
@@ -1107,8 +1107,8 @@ slides:
     align: left
     font: Arial
     allow_overlap: true
-  - type: icon
-    icon: infinity
+  - type: professional-icon
+    icon: phosphor/regular/git-merge
     x: 11.12372304199773
     y: 2.4063564131668556
     w: 0.4086265607264472
@@ -1129,8 +1129,8 @@ slides:
     align: left
     font: Arial
     allow_overlap: true
-  - type: icon
-    icon: layers
+  - type: professional-icon
+    icon: phosphor/regular/stack
     x: 11.12372304199773
     y: 2.951191827468785
     w: 0.4086265607264472
@@ -1153,8 +1153,8 @@ slides:
     align: left
     font: Arial
     allow_overlap: true
-  - type: icon
-    icon: scale
+  - type: professional-icon
+    icon: phosphor/regular/scales
     x: 11.12372304199773
     y: 3.5868331441543697
     w: 0.4086265607264472
@@ -1175,8 +1175,8 @@ slides:
     align: left
     font: Arial
     allow_overlap: true
-  - type: icon
-    icon: settings
+  - type: professional-icon
+    icon: phosphor/regular/gear
     x: 11.12372304199773
     y: 4.146802875520242
     w: 0.4086265607264472
@@ -1197,8 +1197,8 @@ slides:
     align: left
     font: Arial
     allow_overlap: true
-  - type: icon
-    icon: shield
+  - type: professional-icon
+    icon: phosphor/regular/shield-check
     x: 11.12372304199773
     y: 4.706772606886114
     w: 0.4086265607264472
@@ -1256,8 +1256,8 @@ slides:
     - 6.5228906545592125
     color: 64B9B4
     stroke_pt: 1.3
-  - type: icon
-    icon: rocket
+  - type: professional-icon
+    icon: phosphor/regular/rocket
     x: 2.3155505107832006
     y: 5.962920923193341
     w: 0.4540295119182747
@@ -1287,8 +1287,8 @@ slides:
     - 6.5228906545592125
     color: 64B9B4
     stroke_pt: 1.3
-  - type: icon
-    icon: database
+  - type: professional-icon
+    icon: phosphor/regular/database
     x: 3.995459704880817
     y: 5.962920923193341
     w: 0.4540295119182747
@@ -1318,8 +1318,8 @@ slides:
     - 6.5228906545592125
     color: 64B9B4
     stroke_pt: 1.3
-  - type: icon
-    icon: shield
+  - type: professional-icon
+    icon: phosphor/regular/shield-check
     x: 6.068861142640938
     y: 5.962920923193341
     w: 0.4540295119182747
@@ -1349,8 +1349,8 @@ slides:
     - 6.5228906545592125
     color: 64B9B4
     stroke_pt: 1.3
-  - type: icon
-    icon: chart
+  - type: professional-icon
+    icon: phosphor/regular/chart-bar
     x: 7.657964434354899
     y: 5.962920923193341
     w: 0.4540295119182747
@@ -1378,8 +1378,8 @@ slides:
     - 6.5228906545592125
     color: 64B9B4
     stroke_pt: 1.3
-  - type: icon
-    icon: layers
+  - type: professional-icon
+    icon: phosphor/regular/stack
     x: 9.337873628452515
     y: 5.962920923193341
     w: 0.4540295119182747
@@ -1409,8 +1409,8 @@ slides:
     - 6.5228906545592125
     color: 64B9B4
     stroke_pt: 1.3
-  - type: icon
-    icon: refresh
+  - type: professional-icon
+    icon: phosphor/regular/arrows-left-right
     x: 11.42640938327658
     y: 5.962920923193341
     w: 0.4540295119182747
