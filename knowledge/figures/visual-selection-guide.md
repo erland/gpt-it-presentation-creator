@@ -1,39 +1,9 @@
 # Visuell konsolidering DEV-012A2
 
-157 aktiva definitioner: 127 professionella ikoner och 30 egna figurer. Det äldre konturikonbiblioteket är borttaget. Phosphor Regular är standard; Bold för små symboler, Fill för silhuetter; Tabler kompletterar. Åtta egna figurer kräver omarbetning före ny användning.
+127 professionella ikoner. Phosphor Regular är standard; Bold för små symboler, Fill för silhuetter; Tabler kompletterar. Komponera arkitekturbilder vid behov.
 
 | Typ | ID | Beslut | Motivering / alternativ |
 |---|---|---|---|
-| figure | server | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | database | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | application | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | cloud | improve | Förenklad eller detaljtät illustration; använd inte som färdig huvudillustration utan omarbetning. |
-| figure | api | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | network | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | security | improve | Förenklad eller detaljtät illustration; använd inte som färdig huvudillustration utan omarbetning. |
-| figure | queue | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | storage | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | monitor | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | agent | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | assistant | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | model | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | automation | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | analytics | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | document | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | user | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | team | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | organization | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | workplace | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | blocks | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | journey | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | target | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | bridge | improve | Förenklad eller detaljtät illustration; använd inte som färdig huvudillustration utan omarbetning. |
-| figure | transition | retain | Behåll som färgad illustrationsbyggsten, inte standardikon. |
-| figure | platform | improve | Förenklad eller detaljtät illustration; använd inte som färdig huvudillustration utan omarbetning. |
-| figure | legacy | improve | Förenklad eller detaljtät illustration; använd inte som färdig huvudillustration utan omarbetning. |
-| figure | ai-team | improve | Förenklad eller detaljtät illustration; använd inte som färdig huvudillustration utan omarbetning. |
-| figure | ai-environment | improve | Förenklad eller detaljtät illustration; använd inte som färdig huvudillustration utan omarbetning. |
-| figure | microservices | improve | Förenklad eller detaljtät illustration; använd inte som färdig huvudillustration utan omarbetning. |
 | professional-icon | phosphor/bold/chart-bar | retain | Professionell originalikon; välj konsekvent stil och tydlig etikett. |
 | professional-icon | phosphor/bold/check-circle | retain | Professionell originalikon; välj konsekvent stil och tydlig etikett. |
 | professional-icon | phosphor/bold/cloud | retain | Professionell originalikon; välj konsekvent stil och tydlig etikett. |
