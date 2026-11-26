@@ -8,7 +8,7 @@ from pptx.util import Inches
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts/itpc'))
-from quality import audit,correct,contrast,estimate_text_lines
+from quality import audit,correct,contrast,estimate_text_lines,suggest_text_size
 from render import render,resolve_anchored_lines,transform_objects
 
 def model(objects):
@@ -98,3 +98,31 @@ def test_duplicate_anchor_id_is_rejected():
         resolve_anchored_lines([
             {'type':'shape','id':'same','x':1,'y':1,'w':1,'h':1},
             {'type':'shape','id':'same','x':3,'y':1,'w':1,'h':1}])
+
+def test_suggest_text_size_never_drops_below_legibility_floor():
+    assert suggest_text_size('Short title',4,1,preferred_pt=26)>=14
+    assert suggest_text_size('Short title',4,1,preferred_pt=26)<=26
+    with pytest.raises(ValueError,match='No legible text size'):
+        suggest_text_size('Too many technical words to fit in a tiny box',.3,.12)
+    with pytest.raises(ValueError,match='Invalid text-fit'):
+        suggest_text_size('Bad floor',2,1,min_pt=11)
+
+def test_anchored_architecture_example_renders_in_source_order(tmp_path):
+    import yaml
+    from pptx.oxml.ns import qn
+    source=yaml.safe_load((ROOT/'examples/anchored-connections.yaml').read_text())
+    # Connections intentionally occur before component declarations.
+    assert source['slides'][0]['objects'][2]['from_id']=='service'
+    resolved=resolve_anchored_lines(source['slides'][0]['objects'])
+    assert resolved[2]['from']==[3.6,3.4]
+    assert resolved[2]['to']==[5.45,3.4]
+    assert resolved[3]['from']==[6.825,4.2]
+    assert resolved[3]['to']==[6.825,5.05]
+    assert not [x for x in audit(source) if x['code'] in {'contrast','contrast_unknown','small_text'}]
+    pptx=tmp_path/'anchored.pptx'
+    render(source,pptx)
+    prs=Presentation(pptx)
+    assert len(prs.slides)==1
+    assert not list(prs.slides[0]._element.iter(qn('p:pic')))
+    connectors=[x for x in prs.slides[0].shapes if x.shape_type==9]
+    assert len(connectors)==2
