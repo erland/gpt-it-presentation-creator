@@ -216,6 +216,54 @@ def classify_contrast_overlays(model,issues):
         else: remaining.append(item)
     return accepted,remaining
 
+
+def verify_pdf_text_placement(pptx, output):
+    """Catch font-substitution wrapping that the model-level audit cannot see."""
+    import subprocess
+    import tempfile
+    import xml.etree.ElementTree as ET
+    with tempfile.TemporaryDirectory() as temp:
+        d=Path(temp)
+        profile=(d/'profile').as_uri()
+        subprocess.run(['libreoffice','-env:UserInstallation='+profile,'--headless',
+                        '--convert-to','pdf','--outdir',str(d),str(pptx.resolve())],
+                       capture_output=True,check=True,timeout=90)
+        pdf=d/(pptx.stem+'.pdf')
+        assert pdf.exists(), 'LibreOffice did not produce PDF'
+        bbox=d/'text-bbox.html'
+        subprocess.run(['pdftotext','-bbox',str(pdf),str(bbox)],
+                       capture_output=True,check=True,timeout=30)
+        root=ET.parse(bbox).getroot()
+        pages=root.findall('.//{*}page')
+        assert len(pages)==3
+        checks=[]
+        for idx,(page,start,end) in enumerate(zip(pages,
+                   ('Från','Från','En'),('utveckling','arbetsflöden','analysmöjligheterna')),1):
+            words=[w for w in page.findall('{*}word') if w.text]
+            def first(label):
+                hits=[w for w in words if w.text.strip('.,:')==label]
+                if not hits: raise AssertionError(f'Slide {idx}: word {label!r} missing from actual rendered PDF')
+                return min(hits,key=lambda w:float(w.get('yMin')))
+            start_word=first(start)
+            end_word=first(end)
+            delta=abs(float(end_word.get('yMin'))-float(start_word.get('yMin')))
+            assert delta<=6, f'Slide {idx}: heading wraps unexpectedly in PDF (line delta={delta:.1f} pt)'
+            checks.append({'slide':idx,'heading_line_delta_pt':round(delta,2)})
+        data=pages[2]
+        words=[w for w in data.findall('{*}word') if w.text]
+        def word(label):
+            hits=[x for x in words if x.text.strip('.,:')==label]
+            if not hits: raise AssertionError(f'Data slide: missing {label}')
+            return min(hits,key=lambda x:float(x.get('yMin')))
+        title_start=word('Lagring')
+        title_end=word('tabellformat')
+        metadata=word('Metadata')
+        assert abs(float(title_start.get('yMin'))-float(title_end.get('yMin')))<=5, \
+            'Lakehouse panel heading wraps unexpectedly'
+        assert float(metadata.get('yMin')) > float(title_end.get('yMax'))+1, \
+            'Lakehouse metadata overlaps heading in actual PDF'
+    return checks
+
 def produce(output,preview=False):
     output.mkdir(parents=True,exist_ok=True)
     model=build_model()
@@ -243,6 +291,7 @@ def produce(output,preview=False):
                 im=im.convert('RGB');im.thumbnail((2200,660));sheet.paste(im,(0,i*660))
         sheet.save(output/'contact-sheet.png')
         result['previews']=[str(f.relative_to(output)) for f in files]
+        result['rendered_text_placement']=verify_pdf_text_placement(pptx,output)
     (output/'technical-review.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     print('Slides:',len(prs.slides),'Warnings:',len(issues),
           'Approved text-on-dark overlays:',len(accepted),'Unresolved:',len(unresolved))
