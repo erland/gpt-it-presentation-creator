@@ -44,8 +44,8 @@ Därtill `SHA256SUMS.txt`, `DELIVERY-MANIFEST.json` och separat `verification.js
 ## Föreslaget genomförande efter godkänd PR
 
 1. Kontrollera att CI på exakt kandidatcommit är grön och hämta `release-candidate-0.5.3-rc.1` från Actions. Verifiera ZIP, manifest och Engine-hashar.
-2. Skapa en tagg `v0.5.3-rc.1` **på samma verifierade commit**, inte godtyckligt på en senare `main`.
-3. Använd manuella `Build release distributions` med den existerande taggen så att ett **releaseutkast** kan skapas. Detta är separerat från publicering. Kontrollera att alla filer hamnar på utkastet.
+2. Skapa en tagg `v0.5.3-rc.1` **på den verifierade merge-committen på `main`**, inte godtyckligt på en senare commit.
+3. Använd manuella `Build release distributions` med den existerande taggen så att ett **releaseutkast** kan skapas. Detta är separerat från publicering. Kontrollera att alla filer hamnar på utkastet. Vid en senare publicering körs releaseflödet igen: befintliga assets återanvänds endast om de är byteidentiska med de nybyggda paketen, annars avbryts körningen utan överskrivning.
 4. Utför praktiska värdtester mot exakt samma kandidatpaket, se `docs/release-tests.md`.
 5. Dokumentera eventuella fel. Vid fel skapa **en ny** kandidat (t.ex. `0.5.3-rc.2`) utan att tyst byta ut en kandidat som redan testats.
 6. Publicera bara en **prerelease** efter beslut. Den stabila versionen är blockerad tills separat faktisk användaracceptans är godkänd.
