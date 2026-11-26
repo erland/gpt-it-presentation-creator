@@ -14,6 +14,10 @@ def contrast(a,b):
 def _rect(o):
     return o['x'],o['y'],o['w'],o['h']
 
+def _intersects(first,second):
+    x,y,w,h=_rect(first);a,b,c,d=_rect(second)
+    return max(x,a)<min(x+w,a+c) and max(y,b)<min(y+h,b+d)
+
 def _covers(background,foreground):
     """True only when a later text box is geometrically inside an earlier fill."""
     if not all(k in background for k in ('x','y','w','h')):return False
@@ -34,15 +38,42 @@ def _fill_over(background,base,col):
     return _blend(value,base,opacity)
 
 def _background_for_text(o,preceding,slide_bg,col):
-    if o['type']=='shape':
+    if o['type']=='shape' and o.get('fill','surface')!='none':
         return _fill_over(o,slide_bg,col)
     # A later opaque or translucent shape might cover the earlier background.
     # A containing series is composited in the same order as rendered.
     backdrop=slide_bg
     for item in preceding:
-        if item['type']!='shape' or not _covers(item,o):continue
+        if item['type']!='shape' or not _intersects(item,o):continue
+        if not _covers(item,o):return None
         backdrop=_fill_over(item,backdrop,col) if backdrop is not None else None
     return backdrop
+
+def estimate_text_lines(value,width_pt,size_pt):
+    """Word-aware, pure-Python estimate; renderer-specific proof still needs PDF."""
+    if width_pt<=0:return float('inf')
+    def extent(s):
+        narrow="ilI1.,:;!|'` "
+        wide="MW@%&Q"
+        return sum(size_pt*(.26 if c in narrow else .86 if c in wide else
+                           .64 if c.isupper() else .52) for c in s)
+    count=0
+    for paragraph in value.split('\\n'):
+        words=paragraph.split()
+        if not words:count+=1;continue
+        used=0
+        for word in words:
+            need=extent(word)
+            sep=extent(' ') if used else 0
+            if used and used+sep+need>width_pt:
+                count+=1;used=need
+            else:used+=sep+need
+            if need>width_pt:
+                excess=math.ceil(need/width_pt)
+                count+=excess-1
+                used=need-(excess-1)*width_pt
+        count+=1
+    return count
 
 def audit(model):
     issues=[];W,H=model.get('size',[13.333,7.5])
@@ -70,8 +101,8 @@ def audit(model):
                         flag('contrast_unknown','Text is over an unsupported/complex fill; inspect render')
                     elif contrast(col(o.get('color','text')),background)<limit:
                         flag('contrast','Low contrast against actual modeled background')
-                    # Approximation, deliberately conservative: final layout needs real rendering.
-                    lines=sum(max(1,math.ceil(len(l)*size*.48/max(1,(w-2*pad)*72))) for l in o['text'].split('\n'))
+                    # Word-aware estimate, not a substitute for actual PDF line geometry.
+                    lines=estimate_text_lines(o['text'],max(0,(w-2*pad)*72),size)
                     if lines*size*1.2>(h-2*pad)*72:flag('text_fit','Estimated text overflow; inspect render')
                 if not o.get('allow_overlap'):
                     for j,a,b,c,d in boxes:
