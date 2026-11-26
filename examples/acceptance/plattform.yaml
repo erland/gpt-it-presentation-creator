@@ -17,12 +17,15 @@ slides:
     w: 12
     x: 0.65
     y: 0.85
-  - figure: application
-    h: 1.65
-    type: figure
-    w: 1.65
-    x: 1.8
-    y: 1.95
+  - type: group
+    children:
+    - type: professional-icon
+      icon: phosphor/regular/browser
+      x: 1.8
+      y: 1.95
+      w: 1.65
+      h: 1.65
+      color: primary
   - align: center
     bold: true
     h: 0.4
@@ -32,12 +35,15 @@ slides:
     w: 3.1
     x: 1.1
     y: 3.65
-  - figure: analytics
-    h: 1.65
-    type: figure
-    w: 1.65
-    x: 5.8999999999999995
-    y: 1.95
+  - type: group
+    children:
+    - type: professional-icon
+      icon: phosphor/regular/chart-bar
+      x: 5.9
+      y: 1.95
+      w: 1.65
+      h: 1.65
+      color: primary
   - align: center
     bold: true
     h: 0.4
@@ -47,12 +53,15 @@ slides:
     w: 3.1
     x: 5.199999999999999
     y: 3.65
-  - figure: agent
-    h: 1.65
-    type: figure
-    w: 1.65
-    x: 9.999999999999998
-    y: 1.95
+  - type: group
+    children:
+    - type: professional-icon
+      icon: phosphor/regular/robot
+      x: 10
+      y: 1.95
+      w: 1.65
+      h: 1.65
+      color: primary
   - align: center
     bold: true
     h: 0.4
@@ -73,12 +82,15 @@ slides:
     w: 12
     x: 0.65
     y: 4.25
-  - figure: cloud
-    h: 1.0
-    type: figure
-    w: 1.0
-    x: 1.45
-    y: 5.15
+  - type: group
+    children:
+    - type: professional-icon
+      icon: phosphor/regular/cloud
+      x: 1.45
+      y: 5.15
+      w: 1
+      h: 1
+      color: primary
   - align: center
     h: 0.4
     size: 16
@@ -87,12 +99,15 @@ slides:
     w: 2.2
     x: 0.85
     y: 6.2
-  - figure: database
-    h: 1.0
-    type: figure
-    w: 1.0
-    x: 3.9000000000000004
-    y: 5.15
+  - type: group
+    children:
+    - type: professional-icon
+      icon: phosphor/regular/database
+      x: 3.9
+      y: 5.15
+      w: 1
+      h: 1
+      color: primary
   - align: center
     h: 0.4
     size: 16
@@ -101,12 +116,15 @@ slides:
     w: 2.2
     x: 3.3000000000000003
     y: 6.2
-  - figure: api
-    h: 1.0
-    type: figure
-    w: 1.0
-    x: 6.35
-    y: 5.15
+  - type: group
+    children:
+    - type: professional-icon
+      icon: phosphor/regular/plugs-connected
+      x: 6.35
+      y: 5.15
+      w: 1
+      h: 1
+      color: primary
   - align: center
     h: 0.4
     size: 16
@@ -115,12 +133,15 @@ slides:
     w: 2.2
     x: 5.75
     y: 6.2
-  - figure: security
-    h: 1.0
-    type: figure
-    w: 1.0
-    x: 8.8
-    y: 5.15
+  - type: group
+    children:
+    - type: professional-icon
+      icon: phosphor/regular/shield-check
+      x: 8.8
+      y: 5.15
+      w: 1
+      h: 1
+      color: primary
   - align: center
     h: 0.4
     size: 16
@@ -129,12 +150,15 @@ slides:
     w: 2.2
     x: 8.200000000000001
     y: 6.2
-  - figure: monitor
-    h: 1.0
-    type: figure
-    w: 1.0
-    x: 11.25
-    y: 5.15
+  - type: group
+    children:
+    - type: professional-icon
+      icon: phosphor/regular/pulse
+      x: 11.25
+      y: 5.15
+      w: 1
+      h: 1
+      color: primary
   - align: center
     h: 0.4
     size: 16
@@ -161,12 +185,15 @@ slides:
     w: 12
     x: 0.65
     y: 0.85
-  - figure: team
-    h: 3.4
-    type: figure
-    w: 3.4
-    x: 1
-    y: 2.2
+  - type: group
+    children:
+    - type: professional-icon
+      icon: phosphor/regular/users
+      x: 1
+      y: 2.2
+      w: 3.4
+      h: 3.4
+      color: primary
   - arrow: true
     from:
     - 4.6
@@ -176,13 +203,15 @@ slides:
     - 6.1
     - 3.8
     type: line
-  - figure: platform
-    fit: contain
-    h: 3.8
-    type: figure
-    w: 5.3
-    x: 6.4
-    y: 2.0
+  - type: group
+    children:
+    - type: professional-icon
+      icon: phosphor/regular/stack
+      x: 7.15
+      y: 2
+      w: 3.8
+      h: 3.8
+      color: primary
   - align: center
     bold: true
     h: 0.6
