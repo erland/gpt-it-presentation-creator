@@ -188,35 +188,6 @@ def build_model():
     return {'theme':'executive-clean','size':[W,H],
             'slides':[generations(),ai_transition(),data_architecture()]}
 
-def classify_contrast_overlays(model,issues):
-    """Recognize the false positive from conservative text-on-page contrast audit.
-
-    Only intentional white text on an opaque, preceding colored shape is accepted.
-    All other warnings remain blocking for the model; pixel inspection is separate.
-    """
-    from quality import contrast
-    accepted=[]
-    remaining=[]
-    for item in issues:
-        if item['code']!='contrast':
-            remaining.append(item)
-            continue
-        objects=model['slides'][item['slide']]['objects']
-        o=objects[item['path'][0]]
-        def covers(bg,fg):
-            return (bg['type']=='shape' and bg.get('fill') not in (None,'none')
-                and bg.get('fill_opacity',1)==1 and
-                bg['x'] <= fg['x'] and bg['y'] <= fg['y'] and
-                bg['x']+bg['w'] >= fg['x']+fg['w'] and
-                bg['y']+bg['h'] >= fg['y']+fg['h'])
-        backgrounds=[x for x in objects[:item['path'][0]] if covers(x,o)]
-        if o.get('color')=='FFFFFF' and backgrounds and contrast('FFFFFF',backgrounds[-1]['fill'])>=4.5:
-            accepted.append({'slide':item['slide']+1,'label':o['text'],
-                             'actual_contrast':round(contrast('FFFFFF',backgrounds[-1]['fill']),2)})
-        else: remaining.append(item)
-    return accepted,remaining
-
-
 def verify_pdf_text_placement(pptx, output):
     """Catch font-substitution wrapping that the model-level audit cannot see."""
     import subprocess
@@ -268,7 +239,7 @@ def produce(output,preview=False):
     output.mkdir(parents=True,exist_ok=True)
     model=build_model()
     issues=audit(model)
-    accepted,unresolved=classify_contrast_overlays(model,issues)
+    unresolved=issues
     (output/'advanced-compositions.json').write_text(json.dumps(model,ensure_ascii=False,indent=2)+'\n')
     pptx=output/'advanced-compositions.pptx'
     render(model,pptx)
@@ -279,7 +250,7 @@ def produce(output,preview=False):
                        'editable_vector_shapes':len(list(slide._element.iter(qn('a:custGeom')))),
                        'raster_pictures':len(list(slide._element.iter(qn('p:pic')))),
                        'text_shapes':sum(bool(sh.has_text_frame and sh.text.strip()) for sh in slide.shapes)})
-    result={'automated_warnings':issues,'contrast_overlays_checked':accepted,
+    result={'automated_warnings':issues,'contrast_overlays_checked':[],
             'unresolved_audit_warnings':unresolved,'slides':checks,
             'visual_review':'not_determined_by_automated_tests'}
     if preview:
@@ -294,7 +265,7 @@ def produce(output,preview=False):
         result['rendered_text_placement']=verify_pdf_text_placement(pptx,output)
     (output/'technical-review.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     print('Slides:',len(prs.slides),'Warnings:',len(issues),
-          'Approved text-on-dark overlays:',len(accepted),'Unresolved:',len(unresolved))
+          'Background-aware audit; unresolved:',len(unresolved))
     return result
 
 if __name__=='__main__':
