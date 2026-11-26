@@ -118,7 +118,7 @@ def test_anchored_architecture_example_renders_in_source_order(tmp_path):
     assert resolved[2]['to']==pytest.approx([5.45,3.4])
     assert resolved[3]['from']==pytest.approx([6.825,4.2])
     assert resolved[3]['to']==pytest.approx([6.825,5.05])
-    assert not [x for x in audit(source) if x['code'] in {'contrast','contrast_unknown','small_text'}]
+    assert not audit(source), 'The example must have zero quality model warnings'
     pptx=tmp_path/'anchored.pptx'
     render(source,pptx)
     prs=Presentation(pptx)
