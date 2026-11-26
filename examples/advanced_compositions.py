@@ -47,7 +47,7 @@ def line(x,y,x2,y2,color=BLUE,arrow=True,dashed=False,width=1.7):
 def header(num,kicker,title,sub,accent=BLUE):
     return [shape(.47,.33,.07,.49,accent),
             text(.72,.32,11.8,.29,f'{num:02d}   /   {kicker.upper()}',14,MUTED,True),
-            text(.69,.77,12,.56,title,29,INK,True),
+            text(.69,.77,12,.56,title,23,INK,True),
             text(.70,1.47,11.9,.39,sub,15,MUTED)]
 
 def footer(label):
@@ -69,7 +69,7 @@ def generations():
     labels=[('GEN 1','Monolit','Beställ teknik'),('GEN 2','Microservices','Samordna många delar'),
             ('GEN 3','Plattform','Team får självservice'),('GEN 4','Verksamhetsnära','Skapa med AI-stöd')]
     cards=[('Monolit','En leverans','browser'),('Tjänster & API','Många delar','plugs-connected'),
-           ('Produktteam','På plattform','users'),('Verksamhet + AI','Nära behoven','robot')]
+           ('Produktteam','På plattform','users'),('Verksamhet','Nära behoven','robot')]
     xs=[.66,3.89,7.12,10.35]
     for i,(x,c) in enumerate(zip(xs,accents)):
         w=2.98
@@ -89,7 +89,7 @@ def generations():
             for k,ix in enumerate(['cube','database','queue']):
                 xx=x+.32+k*.82
                 o += [shape(xx,5.35,.69,.55,'E8F1F9',LINE),icon(ix,xx+.15,5.42,.36,c)]
-            o.append(text(x+.25,5.97,w-.5,.46,'Flera leveransberoenden',14,INK,True,'center'))
+            o.append(text(x+.25,5.97,w-.5,.46,'Många beroenden',14,INK,True,'center'))
         elif i==2:
             o += [shape(x+.34,5.42,2.30,.47,'E1F2EE'),icon('stack',x+.49,5.46,.35,c),
                   text(x+1.02,5.52,1.38,.29,'Plattform',14,INK,True),
@@ -162,7 +162,7 @@ def data_architecture():
           line(3.52,5.82,3.52,6.09,BLUE),
           icon('chart-bar',2.16,6.14,.35,BLUE),
           text(2.64,6.15,2.45,.30,'Rapportering och BI',14,INK,True)]
-    for x,ico,label in [(7.23,'database','IT-stöd'),(8.92,'broadcast','Händelser'),
+    for x,ico,label in [(7.23,'database','IT-stöd'),(8.92,'broadcast','Köer'),
                          (10.61,'file-text','Loggar')]:
         o += [shape(x,2.98,1.63,.67,WHITE,'CDE8E1'),
               icon(ico,x+.11,3.10,.38,TURQUOISE),
@@ -170,7 +170,7 @@ def data_architecture():
     o += [line(9.80,3.68,9.80,4.02,TURQUOISE),
           shape(7.28,4.08,5.00,.83,'D2EEE7','A8DAD0'),
           icon('archive',7.52,4.28,.42,TURQUOISE),
-          text(8.08,4.21,3.80,.32,'Gemensam lagring + tabellformat',14.5,INK,True),
+          text(8.08,4.21,3.80,.32,'Lagring & tabellformat',14.5,INK,True),
           text(8.08,4.58,3.91,.29,'Metadata · kvalitet · behörigheter',14,MUTED),
           line(8.41,4.93,8.41,5.30,TURQUOISE),
           line(11.17,4.93,11.17,5.30,TURQUOISE),
