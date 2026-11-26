@@ -75,7 +75,7 @@ def test_candidate_gate_accepts_one_consistent_engine_and_five_runtimes(tmp_path
     assert all(len(x['sha256'])==64 for x in result['artifacts'])
 
 @pytest.mark.parametrize('version',[
-    '0.5.3+build.1','v0.5.3-rc.1','../../dist','0.5.3-rc.1--oops','0.5.3-rc.1/evil'
+    '0.5.3+build.1','v0.5.3-rc.1','../../dist','0.5.3-rc..1','0.5.3-rc.1/evil'
 ])
 def test_candidate_gate_rejects_malformed_version(tmp_path,version):
     root=fixture_candidate(tmp_path)
