@@ -13,7 +13,7 @@ import yaml
 
 TARGETS=('project','chat','claude-project','claude-skills','opencode','plugin','engine')
 RUNTIMES=TARGETS[1:-1]
-VERSION=re.compile(r'^[0-9]+\.[0-9]+\.[0-9]+(?:-[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?
+VERSION=re.compile(r'^[0-9]+\.[0-9]+\.[0-9]+(?:-[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?$')
 SHA256=re.compile(r'^[0-9a-f]{64}$')
 
 
