@@ -49,8 +49,15 @@ jobs:
         run: |
           python scripts/validate_distributions.py --project-root .
           python scripts/check_release_assets.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: distributions
+          path: dist/
+          if-no-files-found: error
       - name: Build DEV-013 candidate 0.5.3-rc.1
-        run: python scripts/build_distributions.py --project-root . --version 0.5.3-rc.1 --targets project,chat,claude_project,claude_skills,opencode,plugin
+        run: |
+          rm -rf dist
+          python scripts/build_distributions.py --project-root . --version 0.5.3-rc.1 --targets project,chat,claude_project,claude_skills,opencode,plugin
       - name: Verify DEV-013 candidate archive integrity and version
         run: |
           python scripts/validate_distributions.py --project-root .
@@ -64,11 +71,6 @@ jobs:
             dist/SHA256SUMS.txt
             dist/DELIVERY-MANIFEST.json
             build/release-candidate/verification.json
-          if-no-files-found: error
-      - uses: actions/upload-artifact@v4
-        with:
-          name: distributions
-          path: dist/
           if-no-files-found: error
       - uses: actions/upload-artifact@v4
         with:
