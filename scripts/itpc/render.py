@@ -22,12 +22,56 @@ def transform_objects(objects, scale, dx=0, dy=0):
     for o in result:
         if o['type']=='group': o['children']=transform_objects(o['children'],scale,dx,dy)
         elif o['type']=='line':
-            for key in ('from','to'): o[key]=[o[key][0]*scale+dx,o[key][1]*scale+dy]
+            for key in ('from','to'):
+                if key in o:o[key]=[o[key][0]*scale+dx,o[key][1]*scale+dy]
         else:
             o['x']=o['x']*scale+dx;o['y']=o['y']*scale+dy
             for key in ('w','h'): o[key]*=scale
         for key in ('size','stroke_pt','padding'):
             if key in o:o[key]*=scale
+    return result
+
+def resolve_anchored_lines(objects):
+    """Return a copy where semantic connections target actual component edges.
+
+    This is evaluated on every render; IDs must be unique within the slide.
+    Existing coordinate lines and source models remain unchanged.
+    """
+    index={}
+    def collect(nodes):
+        for o in nodes:
+            if o['type']=='group':
+                collect(o['children'])
+            elif o.get('id') and o['type']!='line':
+                key=o['id']
+                if key in index:raise ValueError(f'Duplicate anchor id: {key}')
+                try: x,y,w,h=(float(o[k]) for k in ('x','y','w','h'))
+                except (KeyError,TypeError):raise ValueError(f'Anchor lacks bounds: {key}')
+                if not all(map(math.isfinite,(x,y,w,h))) or w<=0 or h<=0:
+                    raise ValueError(f'Invalid anchor bounds: {key}')
+                index[key]=(x,y,w,h)
+    collect(objects)
+    def point(name,side):
+        if name not in index:raise ValueError(f'Unknown connection anchor: {name}')
+        x,y,w,h=index[name]
+        offsets={'left':(0,.5),'right':(1,.5),'top':(.5,0),
+                 'bottom':(.5,1),'center':(.5,.5)}
+        if side not in offsets:raise ValueError(f'Unknown anchor side: {side}')
+        a,b=offsets[side]
+        return [x+a*w,y+b*h]
+    result=copy.deepcopy(objects)
+    def bind(nodes):
+        for o in nodes:
+            if o['type']=='group':
+                bind(o['children'])
+            elif o['type']=='line' and ('from_id' in o or 'to_id' in o):
+                if not o.get('from_id') or not o.get('to_id'):
+                    raise ValueError('Anchored line requires both from_id and to_id')
+                if 'from' in o or 'to' in o:
+                    raise ValueError('Anchored line cannot also specify raw coordinates')
+                o['from']=point(o['from_id'],o.get('from_side','right'))
+                o['to']=point(o['to_id'],o.get('to_side','left'))
+    bind(result)
     return result
 
 def render(model, output, assets=Path('.')):
@@ -110,7 +154,7 @@ def render(model, output, assets=Path('.')):
                 shape._element.recalculate_extents()
     for slide in model['slides']:
         t=THEMES[slide.get('theme',model.get('theme','executive-clean'))];s=r.slides.add_slide(r.slide_layouts[6]);s.background.fill.solid();s.background.fill.fore_color.rgb=color(slide.get('background','background'),t)
-        for o in slide['objects']:add(s.shapes,o,t)
+        for o in resolve_anchored_lines(slide['objects']):add(s.shapes,o,t)
         recalc(s.shapes)
     r.save(output)
 

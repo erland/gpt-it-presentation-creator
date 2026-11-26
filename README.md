@@ -31,3 +31,7 @@ Denna komposition innehåller inte något nytt fast figur-ID. GitHub CI laddar u
 ### DEV-012E: avancerade kompositioner
 
 `python examples/advanced_compositions.py --output-dir build/advanced-review --with-previews` skapar tre innehållsrika och redigerbara PowerPoint-bilder (IT-generationer, verksamhetsintegrerad AI och Data Warehouse → Lakehouse), PNG och teknisk granskningsrapport. Se `docs/visual-review-012e.md` för dokumenterade visuella omgångar, kända begränsningar och rekommenderade DEV-012F-åtgärder. CI publicerar artefakten `advanced-composition-previews`.
+
+### DEV-012F: relationer som följer komponenter
+
+Använd `from_id` och `to_id` på linjer för att koppla dem till unika objekt-ID:n, eller behåll explicita `from/to`-koordinater. Se `examples/anchored-connections.yaml` och `docs/dev-012f-quality-notes.md`. `quality.audit` tar hänsyn till solida bakomliggande färger och transparens, och `suggest_text_size` föreslår läsbar textstorlek (minst 14 pt). GitHub CI laddar upp en faktisk PPTX/PNG som `anchored-connections-preview`.
