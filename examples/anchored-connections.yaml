@@ -1,0 +1,19 @@
+# Semantic connectors bind to component IDs, not manually maintained coordinates.
+theme: executive-clean
+slides:
+- objects:
+  - {type: text, x: 0.7, y: 0.48, w: 11.9, h: 0.55, text: "Förankrade samband i en lösningsarkitektur", size: 29, bold: true}
+  - {type: text, x: 0.7, y: 1.18, w: 11.7, h: 0.4, text: "Flytta komponenterna utan att manuellt flytta linjernas ändpunkter.", size: 18, color: muted}
+  - {type: line, from_id: service, to_id: integration, from_side: right, to_side: left, color: accent, arrow: true, stroke_pt: 3, id: connection-api}
+  - {type: line, from_id: integration, to_id: database, from_side: bottom, to_side: top, color: accent, arrow: true, stroke_pt: 3, stroke_dash: dash, id: connection-event}
+  - {type: shape, id: service, shape: round, x: 1.0, y: 2.6, w: 2.6, h: 1.6, fill: surface, stroke: primary, allow_overlap: true}
+  - {type: professional-icon, icon: phosphor/regular/browser, x: 1.4, y: 2.88, w: 0.68, h: 0.68, color: primary, allow_overlap: true}
+  - {type: text, x: 2.17, y: 3.0, w: 1.1, h: 0.42, text: "IT-stöd", size: 19, bold: true}
+  - {type: shape, id: integration, shape: round, x: 5.45, y: 2.6, w: 2.75, h: 1.6, fill: surface, stroke: accent, allow_overlap: true}
+  - {type: professional-icon, icon: phosphor/regular/plugs-connected, x: 5.8, y: 2.86, w: 0.7, h: 0.7, color: primary, allow_overlap: true}
+  - {type: text, x: 6.55, y: 3.0, w: 1.5, h: 0.42, text: "Integration", size: 18, bold: true}
+  - {type: shape, id: database, shape: round, x: 5.45, y: 5.05, w: 2.75, h: 1.6, fill: surface, stroke: primary, allow_overlap: true}
+  - {type: professional-icon, icon: phosphor/regular/database, x: 5.85, y: 5.34, w: 0.7, h: 0.7, color: primary, allow_overlap: true}
+  - {type: text, x: 6.66, y: 5.48, w: 1.3, h: 0.42, text: "Data", size: 19, bold: true}
+  - {type: text, x: 4.05, y: 3.1, w: 1.2, h: 0.32, text: "API", size: 15, color: muted, align: center}
+  - {type: text, x: 8.55, y: 4.9, w: 3.2, h: 0.76, text: "Streckad = asynkron förmedling.\nHeldragen = synkront anrop.", size: 16, color: muted}
