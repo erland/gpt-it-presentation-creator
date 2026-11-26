@@ -41,9 +41,14 @@ def verify(root: Path, version: str) -> dict:
             raise ValueError('Malformed or duplicate SHA256 entry')
         checksums[name]=digest
     if set(checksums)!=expected: raise ValueError('Incomplete checksum list')
+    check_file=dist/'SHA256SUMS.txt'
+    if (hashlib.sha256(check_file.read_bytes()).hexdigest()!=listed['SHA256SUMS.txt']['sha256']
+            or check_file.stat().st_size!=listed['SHA256SUMS.txt']['size']):
+        raise ValueError('Checksum-list integrity mismatch')
     result={'schema_version':1,'version':version,'technical_status':'pass',
             'host_acceptance':'not_run','visual_acceptance':'not_verified_in_powerpoint',
             'artifacts':[],'engine':{},'runtime_parity':{}}
+    engine_icon_hash=None
     for filename in sorted(expected):
         path=dist/filename
         actual_hash=hashlib.sha256(path.read_bytes()).hexdigest()
@@ -68,6 +73,9 @@ def verify(root: Path, version: str) -> dict:
                 for item,digest in data['files'].items():
                     if hashlib.sha256(z.read(item)).hexdigest()!=digest:
                         raise ValueError(f'Engine source hash mismatch: {item}')
+                icon_files=[item for item in data['files'] if item.endswith('/professional-icons.yaml')]
+                if len(icon_files)!=1:raise ValueError('Engine professional icon registry missing')
+                engine_icon_hash=data['files'][icon_files[0]]
                 result['engine']={'version':data['version'],'entrypoint':data['entrypoint'],
                                   'file_count':len(data['files'])}
             else:
@@ -92,6 +100,8 @@ def verify(root: Path, version: str) -> dict:
             result['runtime_parity'][runtime]=next(iter(hashes))
     if len(set(result['runtime_parity'].values()))!=1:
         raise ValueError('Professional icons differ across runtime distributions')
+    if next(iter(result['runtime_parity'].values())) != engine_icon_hash:
+        raise ValueError('Professional icons differ between Engine and runtime distributions')
     engine_file=next(x for x in result['artifacts'] if '-engine-' in x['file'])
     result['engine']['archive_sha256']=engine_file['sha256']
     return result
