@@ -29,3 +29,5 @@ DEV-009B: GitHub CI och manuell taggbaserad release, lokalt verifierade.
 **DEV-012A2** – Visuell konsolidering av 195 definitioner; dokumentera urval och ersättningar före DEV-012B.
 
 **DEV-012B** – Avveckla de 30 egna figurerna och migrera exempel och tester till fria kompositioner. Behåll 127 professionella ikoner.
+
+**DEV-012C** – Ingen ny katalog med sammansatta figurer: komplettera Engine med redigerbara zoner, transparenta paneler och heldragna/streckade flöden. Verifiera ny exempelarkitektur och regressionstester. **DEV-012D** – Visuell renderingsgranskning av typiska arkitekturillustrationer samt oberoende värdacceptans.
