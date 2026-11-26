@@ -11,6 +11,8 @@ Skapa ingen separat katalog över färdiga arkitekturfigurer. Komponera varje pr
 - **Återanvändbar delkomposition:** `group` med `children` i absoluta slide-koordinater. `transform_objects(objects, scale, dx, dy)` skalar och flyttar hela delkompositionen. Skapa inte nya hårdkodade figur-ID:n.
 - **Fritt samband eller form:** `type: path` för egna redigerbara polygoner och kurvfria konturer; använd inte raster om redigerbarhet är krav.
 
+**DEV-012F:** Se `examples/anchored-connections.yaml` för flyttbara komponenter med redigerbara linjer som refererar till unika objekt-ID:n. Använd `from_id`, `to_id` och valfria `from_side` och `to_side` i stället för manuella koordinater. Ogiltiga ID:n eller kantnamn stoppar rendering. Anslutningarna omberäknas vid varje rendering.
+
 ## Design och kontroll
 
 Välj zoner bara när de har faktisk arkitekturell betydelse; markera inte slumpmässiga boxar som ”plattform”. Relationer skall ansluta till komponenternas kanter, inte löpa över etiketter. Undvik flera visuella linjestilar för samma betydelse. Använd temaroller för kontrast och låt färgsemantiken vara stabil mellan vyer.
