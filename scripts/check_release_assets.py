@@ -7,6 +7,14 @@ cfg=yaml.safe_load((root/'gpt-project.yaml').read_text()); m=json.loads((dist/'D
 expected={f'{pid}-{name}-{version}.zip' for name in ('project','chat','claude-project','claude-skills','opencode','plugin','engine')}
 assert {p.name for p in dist.glob('*.zip')}==expected
 assert {a['file'] for a in m['artifacts']}==expected|{'SHA256SUMS.txt'}
+# DEV-013: prevent releasing mismatched, empty, or unreproducibly versioned packages.
+assert m['version']==version
+assert len(m['artifacts'])==8 and len({a['file'] for a in m['artifacts']})==8
+assert all(a['size']>100 for a in m['artifacts'])
+for target in ('chat','claude-project','claude-skills','opencode','plugin'):
+ with zipfile.ZipFile(dist/f'{pid}-{target}-{version}.zip') as z:
+  assert z.read('VERSION').decode('utf-8').strip()==version, target
+
 for a in m['artifacts']:
  p=dist/a['file']; assert p.stat().st_size==a['size']; assert hashlib.sha256(p.read_bytes()).hexdigest()==a['sha256']
 checks=dict(line.split()[::-1] for line in (dist/'SHA256SUMS.txt').read_text().splitlines()); assert set(checks)==expected
