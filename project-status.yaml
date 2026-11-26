@@ -34,8 +34,8 @@ state:
   - 0.5.2 distribuerad enligt bifogat paket; DEV-010 värdtest och DEV-011 verifiering återstår.
 next_step:
   recommended: 12
-  title: DEV-012D – Verifiera CI-artefakter och värdacceptans
-  reason: Fyra lokalt renderade och visuellt granskade arkitekturreferenser med tre dokumenterade kontrollomgångar finns i DEV-012D. Verifiera nya GitHub-CI-körningen och förhandsvisningsartefakterna; oberoende värdacceptans återstår.
+  title: DEV-012E – Avancerad kompositionsacceptans
+  reason: Tre avancerade kompositioner genomförda och renderade lokalt under DEV-012E, med tre dokumenterade granskningsomgångar. Verifiera GitHub-CI och användaranpassad PowerPoint-acceptans, sedan riktade förbättringar i DEV-012F.
 resume:
   supported: true
   required_files:

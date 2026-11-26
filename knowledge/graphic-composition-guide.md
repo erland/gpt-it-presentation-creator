@@ -22,3 +22,7 @@ Både `fill_opacity` och `stroke_dash` är valfria; befintliga figurer behåller
 ## DEV-012D: testade referenskompositioner
 
 `examples/reference-architectures.json` demonstrerar fyra fria kompositioner: hybridmiljöer, händelsedriven integration, en gemensam datagrund och en AI-assistent med separat kunskapsindex. De är **exempel** för vidare anpassning, inte beställbara figurer i ikonbiblioteket. Generera med `python examples/render_reference_architectures.py --output-dir build/reference-review --with-previews`. Läs `docs/visual-review-012d.md` i projektpaketet för faktisk granskningshistorik och begränsningar.
+
+## DEV-012E: mer komplexa referensbilder
+
+Tre prövade, **ej fördefinierade** kompositioner genereras av `examples/advanced_compositions.py`. De demonstrerar fyra generationer, AI integrerad i verksamhetsflöden och Data Warehouse → Lakehouse. Koden är ett reproducerbart utvecklings- och acceptansprov, inte ett register över beställbara figurer. Se `docs/visual-review-012e.md` för granskning och öppna begränsningar.

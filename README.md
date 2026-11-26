@@ -27,3 +27,7 @@ DEV-011: en sammanhållen Skill med tre progressivt inlästa arbetsflöden under
 Fyra granskningsbilder definieras i `examples/reference-architectures.json` och genereras med
 `python examples/render_reference_architectures.py --output-dir build/reference-review --with-previews`.
 Denna komposition innehåller inte något nytt fast figur-ID. GitHub CI laddar upp både redigerbar PPTX och fyra renderade PNG samt teknisk rapport som artefakten `reference-architecture-previews`. Se `docs/visual-review-012d.md` för tre visuella granskningsomgångar och öppna begränsningar.
+
+### DEV-012E: avancerade kompositioner
+
+`python examples/advanced_compositions.py --output-dir build/advanced-review --with-previews` skapar tre innehållsrika och redigerbara PowerPoint-bilder (IT-generationer, verksamhetsintegrerad AI och Data Warehouse → Lakehouse), PNG och teknisk granskningsrapport. Se `docs/visual-review-012e.md` för dokumenterade visuella omgångar, kända begränsningar och rekommenderade DEV-012F-åtgärder. CI publicerar artefakten `advanced-composition-previews`.
