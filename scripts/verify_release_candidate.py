@@ -36,7 +36,10 @@ def verify(root: Path, version: str) -> dict:
     checksum_lines=(dist/'SHA256SUMS.txt').read_text().splitlines()
     checksums={}
     for line in checksum_lines:
-        digest,name=line.split()
+        parts=line.split()
+        if len(parts)!=2:
+            raise ValueError('Malformed SHA256 entry')
+        digest,name=parts
         if not SHA256.fullmatch(digest) or name in checksums:
             raise ValueError('Malformed or duplicate SHA256 entry')
         checksums[name]=digest
