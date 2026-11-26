@@ -9,7 +9,7 @@ from pptx.oxml.ns import qn
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'examples'))
-from advanced_compositions import build_model, produce, classify_contrast_overlays
+from advanced_compositions import build_model, produce
 from quality import audit
 
 HEADLINES=(
@@ -38,13 +38,9 @@ def test_complex_cases_have_distinct_layouts_and_valid_assets(tmp_path):
     assert len(set(counts))>1
     assert all(i.startswith('phosphor/regular/') for i in icons)
 
-def test_existing_conservative_contrast_warning_is_diagnosed_not_hidden():
+def test_background_aware_quality_accepts_verified_dark_header_bands():
     model=build_model()
-    issues=audit(model)
-    accepted,unresolved=classify_contrast_overlays(model,issues)
-    assert len(accepted)==8
-    assert unresolved==[]
-    assert {issue['code'] for issue in issues}=={'contrast'}
+    assert not audit(model), 'Real invalid contrast or text-fit errors must remain visible'
     assert all(item['actual_contrast']>=4.5 for item in accepted)
 
 def test_editable_powerpoint_has_no_rasters(tmp_path):
