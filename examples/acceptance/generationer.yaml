@@ -26,12 +26,15 @@ slides:
     w: 2.8
     x: 0.65
     y: 2.0
-  - figure: legacy
-    h: 2.15
-    type: figure
-    w: 2.15
-    x: 1.0
-    y: 2.8
+  - type: group
+    children:
+    - type: professional-icon
+      icon: phosphor/regular/hard-drives
+      x: 1
+      y: 2.8
+      w: 2.15
+      h: 2.15
+      color: primary
   - bold: true
     h: 0.5
     size: 19
@@ -65,12 +68,15 @@ slides:
     w: 2.8
     x: 3.73
     y: 2.0
-  - figure: microservices
-    h: 2.15
-    type: figure
-    w: 2.15
-    x: 4.08
-    y: 2.8
+  - type: group
+    children:
+    - type: professional-icon
+      icon: phosphor/regular/circles-three
+      x: 4.08
+      y: 2.8
+      w: 2.15
+      h: 2.15
+      color: primary
   - bold: true
     h: 0.5
     size: 19
@@ -104,12 +110,15 @@ slides:
     w: 2.8
     x: 6.8100000000000005
     y: 2.0
-  - figure: platform
-    h: 2.15
-    type: figure
-    w: 2.15
-    x: 7.16
-    y: 2.8
+  - type: group
+    children:
+    - type: professional-icon
+      icon: phosphor/regular/stack
+      x: 7.16
+      y: 2.8
+      w: 2.15
+      h: 2.15
+      color: primary
   - bold: true
     h: 0.5
     size: 19
@@ -143,12 +152,15 @@ slides:
     w: 2.8
     x: 9.89
     y: 2.0
-  - figure: ai-team
-    h: 2.15
-    type: figure
-    w: 2.15
-    x: 10.24
-    y: 2.8
+  - type: group
+    children:
+    - type: professional-icon
+      icon: phosphor/regular/users
+      x: 10.24
+      y: 2.8
+      w: 2.15
+      h: 2.15
+      color: primary
   - bold: true
     h: 0.5
     size: 19
@@ -199,24 +211,33 @@ slides:
     w: 12
     x: 0.65
     y: 0.85
-  - figure: legacy
-    h: 3.2
-    type: figure
-    w: 3.2
-    x: 0.8
-    y: 2.1
-  - figure: platform
-    h: 3.2
-    type: figure
-    w: 3.2
-    x: 5.0
-    y: 2.1
-  - figure: ai-team
-    h: 3.2
-    type: figure
-    w: 3.2
-    x: 9.2
-    y: 2.1
+  - type: group
+    children:
+    - type: professional-icon
+      icon: phosphor/regular/hard-drives
+      x: 0.8
+      y: 2.1
+      w: 3.2
+      h: 3.2
+      color: primary
+  - type: group
+    children:
+    - type: professional-icon
+      icon: phosphor/regular/stack
+      x: 5
+      y: 2.1
+      w: 3.2
+      h: 3.2
+      color: primary
+  - type: group
+    children:
+    - type: professional-icon
+      icon: phosphor/regular/users
+      x: 9.2
+      y: 2.1
+      w: 3.2
+      h: 3.2
+      color: primary
   - arrow: true
     from:
     - 4.1
