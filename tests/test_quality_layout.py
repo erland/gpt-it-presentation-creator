@@ -49,7 +49,7 @@ def test_unknown_partial_and_gradient_background_is_not_assumed_safe():
     assert any(i['code']=='contrast_unknown' for i in audit(model([g,label()])))
 
 def test_word_aware_text_estimate_handles_spaces_and_explicit_breaks():
-    assert estimate_text_lines('a\\nb',200,18)==2
+    assert estimate_text_lines('a\nb',200,18)==2
     assert estimate_text_lines('aaa bbb ccc',60,14)>=2
     assert estimate_text_lines('Supercalifragilisticexpialidocious',60,14)>=3
     assert estimate_text_lines('',160,18)==1
