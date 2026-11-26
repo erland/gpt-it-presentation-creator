@@ -1,5 +1,5 @@
 """Conservative model checks and actual slide previews; no claim of aesthetic scoring."""
-import argparse, copy, json, shutil, subprocess, tempfile
+import argparse, copy, json, math, shutil, subprocess, tempfile
 from pathlib import Path
 from figures import THEMES
 from render import render
@@ -11,26 +11,66 @@ def contrast(a,b):
         return sum(w*(v/12.92 if v<=.04045 else ((v+.055)/1.055)**2.4) for w,v in zip((.2126,.7152,.0722),c))
     x,y=sorted((lum(a),lum(b)));return (y+.05)/(x+.05)
 
+def _rect(o):
+    return o['x'],o['y'],o['w'],o['h']
+
+def _covers(background,foreground):
+    """True only when a later text box is geometrically inside an earlier fill."""
+    if not all(k in background for k in ('x','y','w','h')):return False
+    x,y,w,h=_rect(background);a,b,c,d=_rect(foreground)
+    return x<=a and y<=b and x+w>=a+c and y+h>=b+d
+
+def _blend(foreground,background,alpha):
+    values=[round(int(foreground[i:i+2],16)*alpha+int(background[i:i+2],16)*(1-alpha)) for i in (0,2,4)]
+    return ''.join(f'{v:02X}' for v in values)
+
+def _fill_over(background,base,col):
+    """Blend only known solid fills; unsupported gradients remain conservative."""
+    fill=background.get('fill','surface')
+    if fill=='none':return base
+    if 'gradient' in background:return None
+    value=col(fill);opacity=background.get('fill_opacity',1)
+    if not isinstance(opacity,(int,float)) or not math.isfinite(opacity) or not 0<=opacity<=1:return None
+    return _blend(value,base,opacity)
+
+def _background_for_text(o,preceding,slide_bg,col):
+    if o['type']=='shape':
+        return _fill_over(o,slide_bg,col)
+    # A later opaque or translucent shape might cover the earlier background.
+    # A containing series is composited in the same order as rendered.
+    backdrop=slide_bg
+    for item in preceding:
+        if item['type']!='shape' or not _covers(item,o):continue
+        backdrop=_fill_over(item,backdrop,col) if backdrop is not None else None
+    return backdrop
+
 def audit(model):
-    issues=[]; W,H=model.get('size',[13.333,7.5])
+    issues=[];W,H=model.get('size',[13.333,7.5])
     for n,s in enumerate(model['slides']):
-        t=THEMES[s.get('theme',model.get('theme','executive-clean'))]; bg=s.get('background','background')
+        t=THEMES[s.get('theme',model.get('theme','executive-clean'))];bg=s.get('background','background')
         def col(v):return t.get(v,v)
+        slide_bg=col(bg)
         def walk(objects,prefix=()):
-            boxes=[]
+            boxes=[];preceding=[]
             for i,o in enumerate(objects):
-                path=prefix+(i,); k=o['type']
+                path=prefix+(i,);k=o['type']
                 def flag(code,detail):issues.append(dict(slide=n,path=list(path),code=code,detail=detail))
-                if k=='group':walk(o['children'],path);continue
+                if k=='group':
+                    walk(o['children'],path)
+                    continue
                 if k=='line':continue
                 x,y,w,h=(o[a] for a in ('x','y','w','h'))
                 if min(x,y)<0 or min(w,h)<=0 or x+w>W+.001 or y+h>H+.001:flag('bounds','Object outside slide')
                 if 'text' in o:
-                    size=o.get('size',20); pad=o.get('padding',0)
+                    size=o.get('size',20);pad=o.get('padding',0)
                     if size<14:flag('small_text','Below 14 pt')
-                    if contrast(col(o.get('color','text')),col(o.get('fill','surface') if k=='shape' else bg)) < (3 if size>=24 or size>=18 and o.get('bold') else 4.5):flag('contrast','Low contrast against assumed background')
-                    # Approximate only: actual font metrics and wrapping vary by renderer.
-                    import math
+                    background=_background_for_text(o,preceding,slide_bg,col)
+                    limit=3 if size>=24 or (size>=18 and o.get('bold')) else 4.5
+                    if background is None:
+                        flag('contrast_unknown','Text is over an unsupported/complex fill; inspect render')
+                    elif contrast(col(o.get('color','text')),background)<limit:
+                        flag('contrast','Low contrast against actual modeled background')
+                    # Approximation, deliberately conservative: final layout needs real rendering.
                     lines=sum(max(1,math.ceil(len(l)*size*.48/max(1,(w-2*pad)*72))) for l in o['text'].split('\n'))
                     if lines*size*1.2>(h-2*pad)*72:flag('text_fit','Estimated text overflow; inspect render')
                 if not o.get('allow_overlap'):
@@ -38,17 +78,24 @@ def audit(model):
                         area=max(0,min(x+w,a+c)-max(x,a))*max(0,min(y+h,b+d)-max(y,b))
                         if area>.12*min(w*h,c*d):flag('overlap',f'Possible overlap with sibling {j}')
                     boxes.append((i,x,y,w,h))
+                preceding.append(o)
         walk(s['objects'])
     return issues
 
 def correct(model):
     result=copy.deepcopy(model)
     for issue in audit(result):
-        s=result['slides'][issue['slide']]; o=s['objects'][issue['path'][0]]
-        for i in issue['path'][1:]:o=o['children'][i]
-        if issue['code']=='contrast':
-            t=THEMES[s.get('theme',result.get('theme','executive-clean'))]; bg=o.get('fill','surface') if o['type']=='shape' else s.get('background','background'); bg=t.get(bg,bg)
-            o['color']=max(('000000','FFFFFF'),key=lambda c:contrast(c,bg))
+        if issue['code']!='contrast':continue
+        s=result['slides'][issue['slide']]
+        t=THEMES[s.get('theme',result.get('theme','executive-clean'))]
+        col=lambda v:t.get(v,v)
+        objects=s['objects'];o=objects[issue['path'][0]]
+        if len(issue['path'])>1:
+            # Keep nested editing conservative: the source group may have backgrounds
+            # outside it and requires a proper whole-slide visibility analysis.
+            continue
+        bg=_background_for_text(o,objects[:issue['path'][0]],col(s.get('background','background')),col)
+        if bg is not None:o['color']=max(('000000','FFFFFF'),key=lambda c:contrast(c,bg))
     return result
 
 def previews(pptx,out):
