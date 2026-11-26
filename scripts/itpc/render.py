@@ -9,6 +9,8 @@ from figures import ROOT
 from pptx import Presentation
 from pptx.util import Inches, Pt
 from pptx.enum.shapes import MSO_CONNECTOR
+from pptx.enum.dml import MSO_LINE_DASH_STYLE
+from pptx.oxml.ns import qn
 from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
 from pptx.oxml.xmlchemy import OxmlElement
 
@@ -36,6 +38,21 @@ def render(model, output, assets=Path('.')):
         x,y,w,h=a
         if not all(map(math.isfinite,a)) or min(x,y)<0 or min(w,h)<=0 or x+w>W+.001 or y+h>H+.001: raise ValueError(f'Invalid bounds: {o}')
         return a
+    dash_styles={'solid':MSO_LINE_DASH_STYLE.SOLID,'dash':MSO_LINE_DASH_STYLE.DASH,'dot':MSO_LINE_DASH_STYLE.ROUND_DOT}
+    def dash(line, o):
+        style=o.get('stroke_dash','solid')
+        if style not in dash_styles: raise ValueError(f'Unknown stroke_dash: {style}')
+        if style != 'solid': line.dash_style=dash_styles[style]
+    def opacity(shape, o):
+        if 'fill_opacity' not in o: return
+        value=o['fill_opacity']
+        if not isinstance(value,(float,int)) or not math.isfinite(value) or not 0<=value<=1:
+            raise ValueError('fill_opacity must be between 0 and 1')
+        if o.get('fill') == 'none' or 'gradient' in o:
+            raise ValueError('fill_opacity requires a solid fill')
+        solid=shape.fill._xPr.find(qn('a:solidFill'))
+        color_node=solid.find(qn('a:srgbClr'))
+        alpha=OxmlElement('a:alpha'); alpha.set('val',str(round(value*100000)));color_node.append(alpha)
     def add(shapes,o,t):
         k=o['type']
         if k=='group':
@@ -45,7 +62,7 @@ def render(model, output, assets=Path('.')):
         elif k=='line':
             a=o['from'];b=o['to']
             if any(not (0<=p[0]<=W and 0<=p[1]<=H) for p in (a,b)): raise ValueError('Line outside slide')
-            s=shapes.add_connector(MSO_CONNECTOR.STRAIGHT,*map(Inches,[*a,*b]));s.line.color.rgb=color(o.get('color','accent'),t);s.line.width=Pt(o.get('stroke_pt',2))
+            s=shapes.add_connector(MSO_CONNECTOR.STRAIGHT,*map(Inches,[*a,*b]));s.line.color.rgb=color(o.get('color','accent'),t);s.line.width=Pt(o.get('stroke_pt',2));dash(s.line,o)
             style=s._element.find('{http://schemas.openxmlformats.org/presentationml/2006/main}style')
             if style is not None:s._element.remove(style)
             for end in (['headEnd','tailEnd'] if o.get('arrow')=='both' else ['tailEnd'] if o.get('arrow') else []):
@@ -67,9 +84,16 @@ def render(model, output, assets=Path('.')):
             elif k in ('text','shape'):
                 s=shapes.add_textbox(*box) if k=='text' else shapes.add_shape(KINDS[o.get('shape','rect')],*box)
                 if k=='shape':
-                    s.fill.solid();s.fill.fore_color.rgb=color(o.get('fill','surface'),t);s.line.fill.background()
-                    if 'stroke' in o:s.line.color.rgb=color(o['stroke'],t);s.line.width=Pt(o.get('stroke_pt',.7))
-                    if 'gradient' in o:gradient(s,[color(c,t) for c in o['gradient']],o.get('gradient_angle',0))
+                    if o.get('fill') == 'none': s.fill.background()
+                    else: s.fill.solid();s.fill.fore_color.rgb=color(o.get('fill','surface'),t)
+                    s.line.fill.background()
+                    if 'stroke' in o:
+                        s.line.color.rgb=color(o['stroke'],t);s.line.width=Pt(o.get('stroke_pt',.7));dash(s.line,o)
+                    elif 'stroke_dash' in o:raise ValueError('stroke_dash requires stroke')
+                    if 'gradient' in o:
+                        if o.get('fill') == 'none':raise ValueError('gradient requires fill')
+                        gradient(s,[color(c,t) for c in o['gradient']],o.get('gradient_angle',0))
+                    opacity(s,o)
                     if o.get('shape')=='round':s.adjustments[0]=o.get('roundness',.12)
                     style=s._element.find('{http://schemas.openxmlformats.org/presentationml/2006/main}style')
                     if style is not None:s._element.remove(style)
