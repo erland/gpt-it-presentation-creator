@@ -100,9 +100,20 @@ jobs:
           files=(dist/*.zip dist/SHA256SUMS.txt dist/DELIVERY-MANIFEST.json)
           for file in "${files[@]}"; do
             test -f "$file"
-            if grep -Fxq -- "$(basename "$file")" <<< "$assets"; then
-              echo "Release asset already exists: $(basename "$file")"
-              exit 1
+            name=$(basename "$file")
+            if grep -Fxq -- "$name" <<< "$assets"; then
+              # A published draft triggers this workflow again. Never overwrite an asset.
+              # Verify identical content and safely reuse it.
+              existing=$(mktemp -d)
+              gh release download "$TAG" --pattern "$name" --dir "$existing"
+              if ! cmp -s "$file" "$existing/$name"; then
+                echo "::error::Existing release asset differs from candidate: $name"
+                exit 1
+              fi
+              echo "Verified unchanged release asset: $name"
+              rm -rf "$existing"
+            else
+              gh release upload "$TAG" "$file"
+              echo "Uploaded missing release asset: $name"
             fi
           done
-          gh release upload "$TAG" "${files[@]}"
