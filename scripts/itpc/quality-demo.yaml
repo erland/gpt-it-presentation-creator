@@ -1,92 +1,44 @@
+theme: executive-clean
 slides:
 - objects:
-  - bold: true
-    color: muted
-    h: 0.4
-    size: 14
-    text: IT-FÖRFLYTTNING  /  01
-    type: text
-    w: 12
-    x: 0.65
-    y: 0.45
-  - bold: true
-    color: FFFFFF
-    h: 0.8
-    size: 34
-    text: Från teknikbeställning till självservice
-    type: text
-    w: 12
-    x: 0.65
-    y: 1
-  - figure: legacy
-    h: 3.5
-    type: figure
-    w: 3.5
-    x: 1.1
-    y: 2
-  - arrow: true
-    from:
-    - 5.1
-    - 3.7
-    stroke_pt: 5
-    to:
-    - 7.1
-    - 3.7
-    type: line
-  - figure: platform
-    h: 3.7
-    type: figure
-    w: 4
-    x: 8
-    y: 1.9
-  - align: center
-    bold: true
-    h: 0.8
-    size: 24
-    text: Separata beställningar
-    type: text
-    w: 4.4
-    x: 0.8
-    y: 5.8
-  - align: center
-    bold: true
-    h: 0.8
-    size: 24
-    text: Gemensamma plattformstjänster
-    type: text
-    w: 5
-    x: 7.5
-    y: 5.8
-- objects:
-  - bold: true
-    h: 0.8
-    size: 36
-    text: AI nära verksamheten
-    type: text
-    w: 12
-    x: 0.65
-    y: 0.5
-  - figure: ai-environment
-    h: 5.2
-    type: figure
-    w: 6
-    x: 6.3
-    y: 1.6
-  - bold: true
-    h: 1.2
-    size: 29
-    text: Från enskilda verktyg till integrerat AI-stöd
-    type: text
-    w: 5.2
-    x: 0.65
-    y: 2.1
-  - color: muted
-    h: 1.4
-    size: 22
-    text: Assistenter och agenter samverkar med data och befintliga IT-stöd.
-    type: text
-    w: 5
-    x: 0.65
-    y: 3.8
-  theme: modern-technology
-theme: executive-clean
+  - {type: text, x: 0.65, y: 0.45, w: 12, h: 0.4, text: 'IT-FÖRFLYTTNING  /  01', size: 14, color: muted, bold: true}
+  - {type: text, x: 0.65, y: 1, w: 12, h: 0.8, text: Från teknikbeställning till självservice, size: 34, bold: true, color: FFFFFF}
+  - type: group
+    children:
+    - {type: professional-icon, icon: phosphor/regular/user, x: 2.3, y: 2.1, w: 1, h: 1, color: primary}
+    - {type: line, from: [2.8, 3.1], to: [2.8, 3.6]}
+    - {type: line, from: [1.6, 3.6], to: [4, 3.6]}
+    - {type: line, from: [1.6, 3.6], to: [1.6, 3.9]}
+    - {type: line, from: [2.8, 3.6], to: [2.8, 3.9]}
+    - {type: line, from: [4, 3.6], to: [4, 3.9]}
+    - {type: professional-icon, icon: phosphor/regular/hard-drives, x: 1.1, y: 3.9, w: 1, h: 1, color: primary}
+    - {type: professional-icon, icon: phosphor/regular/database, x: 2.3, y: 3.9, w: 1, h: 1, color: primary}
+    - {type: professional-icon, icon: phosphor/regular/network, x: 3.5, y: 3.9, w: 1, h: 1, color: primary}
+  - {type: line, from: [5.1, 3.7], to: [7.1, 3.7], arrow: true, stroke_pt: 5}
+  - type: group
+    children:
+    - {type: professional-icon, icon: phosphor/regular/browser, x: 8.2, y: 2.1, w: 1, h: 1, color: primary}
+    - {type: professional-icon, icon: phosphor/regular/browser, x: 9.5, y: 2.1, w: 1, h: 1, color: primary}
+    - {type: professional-icon, icon: phosphor/regular/browser, x: 10.8, y: 2.1, w: 1, h: 1, color: primary}
+    - {type: shape, shape: round, x: 8, y: 3.3, w: 4, h: 0.6, fill: primary, text: Självservice, color: on_primary, align: center, valign: middle, size: 18}
+    - {type: professional-icon, icon: phosphor/regular/database, x: 8.2, y: 4.1, w: 1, h: 1, color: primary}
+    - {type: professional-icon, icon: phosphor/regular/plugs-connected, x: 9.5, y: 4.1, w: 1, h: 1, color: primary}
+    - {type: professional-icon, icon: phosphor/regular/cloud, x: 10.8, y: 4.1, w: 1, h: 1, color: primary}
+  - {type: text, x: 0.8, y: 5.8, w: 4.4, h: 0.8, text: Separata beställningar, size: 24, align: center, bold: true}
+  - {type: text, x: 7.5, y: 5.8, w: 5, h: 0.8, text: Gemensamma plattformstjänster, size: 24, align: center, bold: true}
+- theme: modern-technology
+  objects:
+  - {type: text, x: 0.65, y: 0.5, w: 12, h: 0.8, text: AI nära verksamheten, size: 36, bold: true}
+  - type: group
+    children:
+    - {type: professional-icon, icon: phosphor/regular/user, x: 6.7, y: 2, w: 1.2, h: 1.2, color: primary}
+    - {type: professional-icon, icon: phosphor/regular/robot, x: 8.6, y: 2, w: 1.2, h: 1.2, color: primary}
+    - {type: professional-icon, icon: phosphor/regular/brain, x: 10.5, y: 2, w: 1.2, h: 1.2, color: primary}
+    - {type: line, from: [7.9, 2.6], to: [8.6, 2.6], arrow: true}
+    - {type: line, from: [9.8, 2.6], to: [10.5, 2.6], arrow: true}
+    - {type: line, from: [9.2, 3.2], to: [9.2, 4.2]}
+    - {type: line, from: [7.8, 4.2], to: [10.6, 4.2]}
+    - {type: professional-icon, icon: phosphor/regular/database, x: 7.2, y: 4.4, w: 1.2, h: 1.2, color: primary}
+    - {type: professional-icon, icon: phosphor/regular/browser, x: 10, y: 4.4, w: 1.2, h: 1.2, color: primary}
+  - {type: text, x: 0.65, y: 2.1, w: 5.2, h: 1.2, text: Från enskilda verktyg till integrerat AI-stöd, size: 29, bold: true}
+  - {type: text, x: 0.65, y: 3.8, w: 5, h: 1.4, text: Assistenter och agenter samverkar med data och befintliga IT-stöd., size: 22, color: muted}

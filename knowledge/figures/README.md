@@ -1,10 +1,5 @@
-# Figurbibliotek
-25 grundfigurer och metaforer samt fyra sammansatta illustrationer. Originalgrafik skapad för projektet, utan externa ikonpaket; får återanvändas i genererade presentationer. Ingen tredjepartslicens krävs för dessa former.
+# Ikonbibliotek
 
-`library.yaml` beskriver varje figur med stabilt ID, svensk etikett, kategori, delar och valfria komponenter. Koordinater är relativa till 100 × 100. Delar anges som [form, x, y, bredd, höjd, färgroll]; för line är bredd/höjd signerade ändpunktsförskjutningar. Komponenter anges som [figur-ID, x, y, bredd, höjd]. Rita delar i ordning, sedan komponenter rekursivt. Använd samma färgroller från themes.yaml; behåll proportioner och gruppera figuren. Textetiketter ligger separat. Former kan anpassas och förenklas efter budskap; använd inte katalogen som obligatorisk notation. Vid behov av mer avancerade illustrationer, använd värdens bildfunktioner.
+127 professionella originalikoner från Phosphor och Tabler. Se technical-icon-register.yaml, visual-selection-guide.md och professional-icons-guide.md. Komponera illustrationer med redigerbara former, linjer, text och grupper vid presentationstillfället. Inga fördefinierade egna figurer.
 
-Katalogen i projektets examples/ visar alla figurer i alla tre stilar. Generera den med `python examples/generate_catalog.py` (python-pptx och PyYAML). Detta är ett utvecklingsverktyg, inte ett obligatoriskt runtimeverktyg. Den egna generella PowerPoint-motorn kommer i DEV-005.
-
-Konturikonerna inkluderar cloud native (cube, container, api, events, infinity, scale, wrench, cloud), team-workstation, person-solid, check-status och warning-status. Se examples/generations.py i projektet för återanvändbara plattforms- och infrastrukturkompositioner.
-
-Använd professionella Phosphor- och Tabler-ikoner enligt visual-selection-guide.md. Egna sammansatta figurer används som illustrationsbyggstenar.
+För zoner, lager, relationer och grupper: se ../graphic-composition-guide.md.

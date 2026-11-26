@@ -1,0 +1,24 @@
+theme: executive-clean
+slides:
+- objects:
+  - {type: text, x: 0.6, y: 0.35, w: 12, h: 0.65, text: 'Grafiska byggblock – exempelarkitektur', size: 30, bold: true}
+  - {type: text, x: 0.6, y: 1.0, w: 12, h: 0.4, text: 'Zoner, plattformstjänster och integrationsmönster komponeras per bild.', size: 17, color: muted}
+  - {type: shape, shape: round, x: 0.65, y: 1.75, w: 5.5, h: 4.65, fill: surface, fill_opacity: 0.55, stroke: primary, stroke_pt: 1.5, stroke_dash: dash, roundness: 0.07}
+  - {type: shape, shape: round, x: 7.15, y: 1.75, w: 5.5, h: 4.65, fill: surface, fill_opacity: 0.35, stroke: accent, stroke_pt: 1.5, stroke_dash: dash, roundness: 0.07}
+  - {type: text, x: 0.95, y: 2.0, w: 3.5, h: 0.5, text: 'Datacenter', size: 22, bold: true}
+  - {type: text, x: 7.45, y: 2.0, w: 4.3, h: 0.5, text: 'Molnplattform', size: 22, bold: true}
+  - type: group
+    children:
+      - {type: professional-icon, icon: phosphor/regular/browser, x: 1.55, y: 3.0, w: 1.0, h: 1.0, color: primary}
+      - {type: text, x: 1.1, y: 4.1, w: 2, h: 0.35, text: 'IT-stöd', align: center, size: 17}
+      - {type: professional-icon, icon: phosphor/regular/database, x: 4.0, y: 3.0, w: 1.0, h: 1.0, color: primary}
+      - {type: text, x: 3.5, y: 4.1, w: 2, h: 0.35, text: 'Databas', align: center, size: 17}
+      - {type: line, from: [2.55, 3.5], to: [4.0, 3.5], stroke_pt: 2.0, color: primary}
+  - {type: shape, shape: round, x: 7.75, y: 3.0, w: 4.3, h: 1.55, fill: primary, roundness: 0.08}
+  - {type: professional-icon, icon: phosphor/regular/broadcast, x: 8.0, y: 3.25, w: 1.0, h: 1.0, color: on_primary}
+  - {type: text, x: 9.2, y: 3.4, w: 2.65, h: 0.6, text: 'Händelseplattform', color: on_primary, size: 20, bold: true}
+  - {type: line, from: [6.15, 3.3], to: [7.75, 3.3], arrow: true, stroke_pt: 2.3, color: accent}
+  - {type: text, x: 6.27, y: 2.78, w: 1.5, h: 0.4, text: 'API', size: 15, align: center, color: muted}
+  - {type: line, from: [6.15, 5.15], to: [7.75, 5.15], arrow: true, stroke_dash: dash, stroke_pt: 2.3, color: accent}
+  - {type: text, x: 6.15, y: 5.42, w: 1.65, h: 0.45, text: 'Händelser', size: 15, align: center, color: muted}
+  - {type: text, x: 0.65, y: 6.85, w: 12, h: 0.35, text: 'Heldragen = synkront API-anrop · streckad = asynkron publicering (illustrativt)', size: 14, color: muted}

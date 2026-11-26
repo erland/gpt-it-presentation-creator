@@ -6,7 +6,6 @@ ROOT = Path(__file__).resolve().parents[1]
 def test_visual_selection():
     folder = ROOT / 'knowledge/figures'
     libraries = {
-        'figure': yaml.safe_load((folder/'library.yaml').read_text())['figures'],
         'professional-icon': yaml.safe_load((folder/'professional-icons.yaml').read_text())['icons'],
     }
     guide = (folder/'visual-selection-guide.md').read_text()
@@ -30,6 +29,7 @@ def test_retired_icons_and_examples(tmp_path):
     sys.path.insert(0, str(ROOT/'scripts/itpc'))
     from render import render
     assert not (ROOT/'knowledge/figures/outline-icons.yaml').exists()
+    assert not (ROOT/'knowledge/figures/library.yaml').exists()
     for name in ('cloud-native','reconstruction','professional-generations','composed-generations'):
         model = yaml.safe_load((ROOT/'examples'/f'{name}.yaml').read_text())
         output = tmp_path/f'{name}.pptx'
