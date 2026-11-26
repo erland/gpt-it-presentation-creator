@@ -34,8 +34,8 @@ state:
   - 0.5.2 distribuerad enligt bifogat paket; DEV-010 värdtest och DEV-011 verifiering återstår.
 next_step:
   recommended: 12
-  title: DEV-012D – Visuell acceptans av referensarkitekturer
-  reason: DEV-012B/C verifierade med 32 tester, Engine-självtest och sju distributionspaket på PR #7; fortsatt DEV-012D innebär faktisk renderingsgranskning av arkitekturillustrationer.
+  title: DEV-012D – Verifiera CI-artefakter och värdacceptans
+  reason: Fyra lokalt renderade och visuellt granskade arkitekturreferenser med tre dokumenterade kontrollomgångar finns i DEV-012D. Verifiera nya GitHub-CI-körningen och förhandsvisningsartefakterna; oberoende värdacceptans återstår.
 resume:
   supported: true
   required_files:

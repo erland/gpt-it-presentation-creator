@@ -18,3 +18,7 @@ Välj zoner bara när de har faktisk arkitekturell betydelse; markera inte slump
 Både `fill_opacity` och `stroke_dash` är valfria; befintliga figurer behåller tidigare standardutseende. Ogiltiga värden ska stoppa genereringen. `fill_opacity` tillåts inte tillsammans med `gradient` eller `fill: none`. Detta är presentationsbyggblock, inte ett formellt arkitekturnotationsspråk.
 
 **Demonstration:** `examples/graphic-blocks.yaml` visar driftszon, molnzon, synkront API-anrop, asynkron händelseförmedling, transparent zongräns och tematonad plattformsyta. Kontrollera resultatet i faktisk PowerPoint-rendering innan en komplex illustration godkänns.
+
+## DEV-012D: testade referenskompositioner
+
+`examples/reference-architectures.json` demonstrerar fyra fria kompositioner: hybridmiljöer, händelsedriven integration, en gemensam datagrund och en AI-assistent med separat kunskapsindex. De är **exempel** för vidare anpassning, inte beställbara figurer i ikonbiblioteket. Generera med `python examples/render_reference_architectures.py --output-dir build/reference-review --with-previews`. Läs `docs/visual-review-012d.md` i projektpaketet för faktisk granskningshistorik och begränsningar.

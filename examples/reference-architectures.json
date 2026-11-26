@@ -1,0 +1,1744 @@
+{
+  "theme": "executive-clean",
+  "size": [
+    13.333,
+    7.5
+  ],
+  "slides": [
+    {
+      "objects": [
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 0.55,
+          "y": 0.32,
+          "w": 0.08,
+          "h": 0.49,
+          "fill": "accent",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 0.77,
+          "y": 0.3,
+          "w": 11.8,
+          "h": 0.27,
+          "text": "01  /  CLOUD NATIVE / HYBRID",
+          "size": 14,
+          "color": "muted",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 0.75,
+          "y": 0.78,
+          "w": 12,
+          "h": 0.58,
+          "text": "En gemensam leveransmodell för flera driftsmiljöer",
+          "size": 30,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 0.75,
+          "y": 1.45,
+          "w": 11.7,
+          "h": 0.45,
+          "text": "Standardiserad paketering och automation förbättrar möjligheten att byta körmiljö.",
+          "size": 16,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 0.75,
+          "y": 2.08,
+          "w": 5.35,
+          "h": 4.22,
+          "fill": "surface",
+          "roundness": 0.09,
+          "allow_overlap": true,
+          "stroke": "accent",
+          "stroke_pt": 1.2,
+          "fill_opacity": 0.94
+        },
+        {
+          "type": "text",
+          "x": 1,
+          "y": 2.25,
+          "w": 4.85,
+          "h": 0.4,
+          "text": "Eget datacenter",
+          "size": 19,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 7.25,
+          "y": 2.08,
+          "w": 5.35,
+          "h": 4.22,
+          "fill": "surface",
+          "roundness": 0.09,
+          "allow_overlap": true,
+          "stroke": "accent",
+          "stroke_pt": 1.2,
+          "fill_opacity": 0.94
+        },
+        {
+          "type": "text",
+          "x": 7.5,
+          "y": 2.25,
+          "w": 4.85,
+          "h": 0.4,
+          "text": "Alternativ drift / moln",
+          "size": 19,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 1.04,
+          "y": 2.8,
+          "w": 4.78,
+          "h": 0.86,
+          "fill": "F0F6FA",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/browser",
+          "x": 1.2,
+          "y": 2.9699999999999998,
+          "w": 0.52,
+          "h": 0.52,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 1.85,
+          "y": 2.92,
+          "w": 3.85,
+          "h": 0.31,
+          "text": "IT-stöd",
+          "size": 14.5,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 1.85,
+          "y": 3.2699999999999996,
+          "w": 3.85,
+          "h": 0.31,
+          "text": "Paketerad tjänst",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 1.04,
+          "y": 3.8499999999999996,
+          "w": 4.78,
+          "h": 0.86,
+          "fill": "F0F6FA",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/git-merge",
+          "x": 1.2,
+          "y": 4.02,
+          "w": 0.52,
+          "h": 0.52,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 1.85,
+          "y": 3.9699999999999998,
+          "w": 3.85,
+          "h": 0.31,
+          "text": "Automatiserad leverans",
+          "size": 14.5,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 1.85,
+          "y": 4.319999999999999,
+          "w": 3.85,
+          "h": 0.31,
+          "text": "Versionsstyrd distribution",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 1.04,
+          "y": 4.9,
+          "w": 4.78,
+          "h": 0.86,
+          "fill": "F0F6FA",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/stack",
+          "x": 1.2,
+          "y": 5.07,
+          "w": 0.52,
+          "h": 0.52,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 1.85,
+          "y": 5.0200000000000005,
+          "w": 3.85,
+          "h": 0.31,
+          "text": "Plattformsförmågor",
+          "size": 14.5,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 1.85,
+          "y": 5.37,
+          "w": 3.85,
+          "h": 0.31,
+          "text": "Nätverk, data, övervakning",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 7.54,
+          "y": 2.8,
+          "w": 4.78,
+          "h": 0.86,
+          "fill": "F0F6FA",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/browser",
+          "x": 7.7,
+          "y": 2.9699999999999998,
+          "w": 0.52,
+          "h": 0.52,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 8.35,
+          "y": 2.92,
+          "w": 3.85,
+          "h": 0.31,
+          "text": "IT-stöd",
+          "size": 14.5,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 8.35,
+          "y": 3.2699999999999996,
+          "w": 3.85,
+          "h": 0.31,
+          "text": "Samma leveransprincip",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 7.54,
+          "y": 3.8499999999999996,
+          "w": 4.78,
+          "h": 0.86,
+          "fill": "F0F6FA",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/git-merge",
+          "x": 7.7,
+          "y": 4.02,
+          "w": 0.52,
+          "h": 0.52,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 8.35,
+          "y": 3.9699999999999998,
+          "w": 3.85,
+          "h": 0.31,
+          "text": "Automatiserad leverans",
+          "size": 14.5,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 8.35,
+          "y": 4.319999999999999,
+          "w": 3.85,
+          "h": 0.31,
+          "text": "Anpassade miljövärden",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 7.54,
+          "y": 4.9,
+          "w": 4.78,
+          "h": 0.86,
+          "fill": "F0F6FA",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/stack",
+          "x": 7.7,
+          "y": 5.07,
+          "w": 0.52,
+          "h": 0.52,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 8.35,
+          "y": 5.0200000000000005,
+          "w": 3.85,
+          "h": 0.31,
+          "text": "Plattformsförmågor",
+          "size": 14.5,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 8.35,
+          "y": 5.37,
+          "w": 3.85,
+          "h": 0.31,
+          "text": "Likvärdiga kritiska tjänster",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "line",
+          "from": [
+            6.17,
+            4.16
+          ],
+          "to": [
+            7.15,
+            4.16
+          ],
+          "arrow": true,
+          "color": "accent",
+          "stroke_pt": 2.3
+        },
+        {
+          "type": "text",
+          "x": 5.86,
+          "y": 3.68,
+          "w": 1.56,
+          "h": 0.4,
+          "text": "Portabilitet",
+          "size": 14,
+          "color": "muted",
+          "bold": true,
+          "align": "center"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 0.75,
+          "y": 6.62,
+          "w": 11.85,
+          "h": 0.025,
+          "fill": "line",
+          "roundness": 0,
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 0.75,
+          "y": 6.78,
+          "w": 11.85,
+          "h": 0.39,
+          "text": "Viktigt: flyttbarhet är ett arkitekturmål – beroenden och tekniska skillnader måste prövas.",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 0.55,
+          "y": 0.32,
+          "w": 0.08,
+          "h": 0.49,
+          "fill": "accent",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 0.77,
+          "y": 0.3,
+          "w": 11.8,
+          "h": 0.27,
+          "text": "02  /  HÄNDELSEDRIVEN INTEGRATION",
+          "size": 14,
+          "color": "muted",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 0.75,
+          "y": 0.78,
+          "w": 12,
+          "h": 0.58,
+          "text": "Händelser minskar direkta beroenden mellan IT-stöd",
+          "size": 30,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 0.75,
+          "y": 1.45,
+          "w": 11.7,
+          "h": 0.45,
+          "text": "Avsändare publicerar ett kontrakt; mottagare prenumererar och hanterar händelsen.",
+          "size": 16,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 0.75,
+          "y": 2.1,
+          "w": 3.22,
+          "h": 3.92,
+          "fill": "surface",
+          "roundness": 0.09,
+          "allow_overlap": true,
+          "stroke": "accent",
+          "stroke_pt": 1.2,
+          "fill_opacity": 0.94
+        },
+        {
+          "type": "text",
+          "x": 1,
+          "y": 2.27,
+          "w": 2.72,
+          "h": 0.4,
+          "text": "Publicerande IT-stöd",
+          "size": 19,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 4.65,
+          "y": 2.1,
+          "w": 4.02,
+          "h": 3.92,
+          "fill": "surface",
+          "roundness": 0.09,
+          "allow_overlap": true,
+          "stroke": "accent",
+          "stroke_pt": 1.2,
+          "fill_opacity": 0.94
+        },
+        {
+          "type": "text",
+          "x": 4.9,
+          "y": 2.27,
+          "w": 3.5199999999999996,
+          "h": 0.4,
+          "text": "Händelseplattform",
+          "size": 19,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 9.35,
+          "y": 2.1,
+          "w": 3.22,
+          "h": 3.92,
+          "fill": "surface",
+          "roundness": 0.09,
+          "allow_overlap": true,
+          "stroke": "accent",
+          "stroke_pt": 1.2,
+          "fill_opacity": 0.94
+        },
+        {
+          "type": "text",
+          "x": 9.6,
+          "y": 2.27,
+          "w": 2.72,
+          "h": 0.4,
+          "text": "Mottagande IT-stöd",
+          "size": 19,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 1.02,
+          "y": 2.9,
+          "w": 2.66,
+          "h": 0.97,
+          "fill": "F0F6FA",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/browser",
+          "x": 1.18,
+          "y": 3.125,
+          "w": 0.52,
+          "h": 0.52,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 1.83,
+          "y": 3.02,
+          "w": 1.73,
+          "h": 0.31,
+          "text": "E-tjänst",
+          "size": 14.5,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 1.83,
+          "y": 3.37,
+          "w": 1.73,
+          "h": 0.31,
+          "text": "Ny händelse",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 1.02,
+          "y": 4.18,
+          "w": 2.66,
+          "h": 0.97,
+          "fill": "F0F6FA",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/hard-drives",
+          "x": 1.18,
+          "y": 4.404999999999999,
+          "w": 0.52,
+          "h": 0.52,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 1.83,
+          "y": 4.3,
+          "w": 1.73,
+          "h": 0.31,
+          "text": "Ärendesystem",
+          "size": 14.5,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 1.83,
+          "y": 4.6499999999999995,
+          "w": 1.73,
+          "h": 0.31,
+          "text": "Publicerar ändring",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 9.62,
+          "y": 2.9,
+          "w": 2.66,
+          "h": 0.97,
+          "fill": "F0F6FA",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/chart-bar",
+          "x": 9.78,
+          "y": 3.125,
+          "w": 0.52,
+          "h": 0.52,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 10.43,
+          "y": 3.02,
+          "w": 1.73,
+          "h": 0.31,
+          "text": "Analysstöd",
+          "size": 14.5,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 10.43,
+          "y": 3.37,
+          "w": 1.73,
+          "h": 0.31,
+          "text": "Tar emot data",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 9.62,
+          "y": 4.18,
+          "w": 2.66,
+          "h": 0.97,
+          "fill": "F0F6FA",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/package",
+          "x": 9.78,
+          "y": 4.404999999999999,
+          "w": 0.52,
+          "h": 0.52,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 10.43,
+          "y": 4.3,
+          "w": 1.73,
+          "h": 0.31,
+          "text": "Annan tjänst",
+          "size": 14.5,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 10.43,
+          "y": 4.6499999999999995,
+          "w": 1.73,
+          "h": 0.31,
+          "text": "Utlöser åtgärd",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 5.05,
+          "y": 3.16,
+          "w": 3.2,
+          "h": 1.46,
+          "fill": "primary",
+          "roundness": 0.09,
+          "allow_overlap": true,
+          "text": "Publicera &\nprenumerera",
+          "size": 17,
+          "color": "on_primary",
+          "bold": true,
+          "align": "right",
+          "valign": "middle",
+          "padding": 0.21
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/broadcast",
+          "x": 5.35,
+          "y": 3.57,
+          "w": 0.67,
+          "h": 0.67,
+          "color": "on_primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "line",
+          "from": [
+            4.02,
+            3.43
+          ],
+          "to": [
+            4.58,
+            3.43
+          ],
+          "arrow": true,
+          "color": "accent",
+          "stroke_pt": 2,
+          "stroke_dash": "dash"
+        },
+        {
+          "type": "line",
+          "from": [
+            4.02,
+            4.72
+          ],
+          "to": [
+            4.58,
+            4.72
+          ],
+          "arrow": true,
+          "color": "accent",
+          "stroke_pt": 2,
+          "stroke_dash": "dash"
+        },
+        {
+          "type": "line",
+          "from": [
+            8.7,
+            3.43
+          ],
+          "to": [
+            9.27,
+            3.43
+          ],
+          "arrow": true,
+          "color": "accent",
+          "stroke_pt": 2,
+          "stroke_dash": "dash"
+        },
+        {
+          "type": "line",
+          "from": [
+            8.7,
+            4.72
+          ],
+          "to": [
+            9.27,
+            4.72
+          ],
+          "arrow": true,
+          "color": "accent",
+          "stroke_pt": 2,
+          "stroke_dash": "dash"
+        },
+        {
+          "type": "text",
+          "x": 3.98,
+          "y": 2.84,
+          "w": 0.7,
+          "h": 0.3,
+          "text": "Ut",
+          "size": 14,
+          "color": "muted",
+          "bold": true,
+          "align": "center"
+        },
+        {
+          "type": "text",
+          "x": 8.71,
+          "y": 2.84,
+          "w": 0.7,
+          "h": 0.3,
+          "text": "In",
+          "size": 14,
+          "color": "muted",
+          "bold": true,
+          "align": "center"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 0.75,
+          "y": 6.62,
+          "w": 11.85,
+          "h": 0.025,
+          "fill": "line",
+          "roundness": 0,
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 0.75,
+          "y": 6.78,
+          "w": 11.85,
+          "h": 0.39,
+          "text": "Behöver gemensamma kontrakt, ägarskap, övervakning och hantering av upprepade eller försenade händelser.",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 0.55,
+          "y": 0.32,
+          "w": 0.08,
+          "h": 0.49,
+          "fill": "accent",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 0.77,
+          "y": 0.3,
+          "w": 11.8,
+          "h": 0.27,
+          "text": "03  /  DATA & ANALYS",
+          "size": 14,
+          "color": "muted",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 0.75,
+          "y": 0.78,
+          "w": 12,
+          "h": 0.58,
+          "text": "En delad datagrund för flera analysbehov",
+          "size": 30,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 0.75,
+          "y": 1.45,
+          "w": 11.7,
+          "h": 0.45,
+          "text": "Lakehouse är ett möjligt mönster – datakvalitet, åtkomst och informationsansvar är fortfarande avgörande.",
+          "size": 16,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 0.75,
+          "y": 2.12,
+          "w": 3.1,
+          "h": 4.12,
+          "fill": "surface",
+          "roundness": 0.09,
+          "allow_overlap": true,
+          "stroke": "accent",
+          "stroke_pt": 1.2,
+          "fill_opacity": 0.94
+        },
+        {
+          "type": "text",
+          "x": 1,
+          "y": 2.29,
+          "w": 2.6,
+          "h": 0.4,
+          "text": "Källdata",
+          "size": 19,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 4.55,
+          "y": 2.12,
+          "w": 4.2,
+          "h": 4.12,
+          "fill": "surface",
+          "roundness": 0.09,
+          "allow_overlap": true,
+          "stroke": "accent",
+          "stroke_pt": 1.2,
+          "fill_opacity": 0.94
+        },
+        {
+          "type": "text",
+          "x": 4.8,
+          "y": 2.29,
+          "w": 3.7,
+          "h": 0.4,
+          "text": "Gemensam datagrund",
+          "size": 19,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 9.45,
+          "y": 2.12,
+          "w": 3.12,
+          "h": 4.12,
+          "fill": "surface",
+          "roundness": 0.09,
+          "allow_overlap": true,
+          "stroke": "accent",
+          "stroke_pt": 1.2,
+          "fill_opacity": 0.94
+        },
+        {
+          "type": "text",
+          "x": 9.7,
+          "y": 2.29,
+          "w": 2.62,
+          "h": 0.4,
+          "text": "Konsumtion",
+          "size": 19,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 1.02,
+          "y": 2.92,
+          "w": 2.55,
+          "h": 0.91,
+          "fill": "F0F6FA",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/database",
+          "x": 1.18,
+          "y": 3.1149999999999998,
+          "w": 0.52,
+          "h": 0.52,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 1.83,
+          "y": 3.04,
+          "w": 1.6199999999999997,
+          "h": 0.31,
+          "text": "IT-stöd",
+          "size": 14.5,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 1.83,
+          "y": 3.3899999999999997,
+          "w": 1.6199999999999997,
+          "h": 0.31,
+          "text": "Tabeller",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 1.02,
+          "y": 4.1899999999999995,
+          "w": 2.55,
+          "h": 0.91,
+          "fill": "F0F6FA",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/file-text",
+          "x": 1.18,
+          "y": 4.385,
+          "w": 0.52,
+          "h": 0.52,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 1.83,
+          "y": 4.31,
+          "w": 1.6199999999999997,
+          "h": 0.31,
+          "text": "Filer & köer",
+          "size": 14.5,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 1.83,
+          "y": 4.659999999999999,
+          "w": 1.6199999999999997,
+          "h": 0.31,
+          "text": "Fler datatyper",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 4.87,
+          "y": 3,
+          "w": 3.58,
+          "h": 2.34,
+          "fill": "E7F0F7",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/archive",
+          "x": 5.2,
+          "y": 3.48,
+          "w": 0.8,
+          "h": 0.8,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 6.25,
+          "y": 3.28,
+          "w": 1.95,
+          "h": 0.87,
+          "text": "Lagring &\ntabellformat",
+          "size": 18,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 5.2,
+          "y": 4.58,
+          "w": 2.95,
+          "h": 0.39,
+          "text": "Metadata · kvalitet · åtkomst",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 9.73,
+          "y": 2.92,
+          "w": 2.55,
+          "h": 0.91,
+          "fill": "F0F6FA",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/chart-bar",
+          "x": 9.89,
+          "y": 3.1149999999999998,
+          "w": 0.52,
+          "h": 0.52,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 10.540000000000001,
+          "y": 3.04,
+          "w": 1.6199999999999997,
+          "h": 0.31,
+          "text": "BI & rapporter",
+          "size": 14.5,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 10.540000000000001,
+          "y": 3.3899999999999997,
+          "w": 1.6199999999999997,
+          "h": 0.31,
+          "text": "Uppföljning",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 9.73,
+          "y": 4.1899999999999995,
+          "w": 2.55,
+          "h": 0.91,
+          "fill": "F0F6FA",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/brain",
+          "x": 9.89,
+          "y": 4.385,
+          "w": 0.52,
+          "h": 0.52,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 10.540000000000001,
+          "y": 4.31,
+          "w": 1.6199999999999997,
+          "h": 0.31,
+          "text": "Analys & AI",
+          "size": 14.5,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 10.540000000000001,
+          "y": 4.659999999999999,
+          "w": 1.6199999999999997,
+          "h": 0.31,
+          "text": "Utforskning",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "line",
+          "from": [
+            3.91,
+            3.93
+          ],
+          "to": [
+            4.48,
+            3.93
+          ],
+          "arrow": true,
+          "color": "accent",
+          "stroke_pt": 2
+        },
+        {
+          "type": "line",
+          "from": [
+            8.79,
+            3.93
+          ],
+          "to": [
+            9.38,
+            3.93
+          ],
+          "arrow": true,
+          "color": "accent",
+          "stroke_pt": 2
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 0.75,
+          "y": 6.62,
+          "w": 11.85,
+          "h": 0.025,
+          "fill": "line",
+          "roundness": 0,
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 0.75,
+          "y": 6.78,
+          "w": 11.85,
+          "h": 0.39,
+          "text": "Samma datagrund kan ha flera bearbetningssätt. Välj arkitekturmönster efter faktiska krav.",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 0.55,
+          "y": 0.32,
+          "w": 0.08,
+          "h": 0.49,
+          "fill": "accent",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 0.77,
+          "y": 0.3,
+          "w": 11.8,
+          "h": 0.27,
+          "text": "04  /  AI I VERKSAMHETEN",
+          "size": 14,
+          "color": "muted",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 0.75,
+          "y": 0.78,
+          "w": 12,
+          "h": 0.58,
+          "text": "AI-assistenter samverkar med kunskap och IT-stöd",
+          "size": 30,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 0.75,
+          "y": 1.45,
+          "w": 11.7,
+          "h": 0.45,
+          "text": "Modell, informationshämtning och tillåtna åtgärder är separata ansvar.",
+          "size": 16,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 0.75,
+          "y": 2.35,
+          "w": 2.18,
+          "h": 3.52,
+          "fill": "surface",
+          "roundness": 0.09,
+          "allow_overlap": true,
+          "stroke": "accent",
+          "stroke_pt": 1.2,
+          "fill_opacity": 0.94
+        },
+        {
+          "type": "text",
+          "x": 1,
+          "y": 2.52,
+          "w": 1.6800000000000002,
+          "h": 0.4,
+          "text": "Användare",
+          "size": 19,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/user",
+          "x": 1.45,
+          "y": 3.1,
+          "w": 0.78,
+          "h": 0.78,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 1.03,
+          "y": 4.17,
+          "w": 1.68,
+          "h": 0.63,
+          "text": "Fråga eller\nuppdrag",
+          "size": 17,
+          "color": "text",
+          "bold": true,
+          "align": "center"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 3.55,
+          "y": 2.35,
+          "w": 4.46,
+          "h": 3.52,
+          "fill": "surface",
+          "roundness": 0.09,
+          "allow_overlap": true,
+          "stroke": "accent",
+          "stroke_pt": 1.2,
+          "fill_opacity": 0.94
+        },
+        {
+          "type": "text",
+          "x": 3.8,
+          "y": 2.52,
+          "w": 3.96,
+          "h": 0.4,
+          "text": "AI-assistent / agent",
+          "size": 19,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 3.85,
+          "y": 3.12,
+          "w": 3.84,
+          "h": 0.77,
+          "fill": "E8F1F8",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/robot",
+          "x": 4.12,
+          "y": 3.22,
+          "w": 0.54,
+          "h": 0.54,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 4.86,
+          "y": 3.34,
+          "w": 2.45,
+          "h": 0.38,
+          "text": "Orkestrering",
+          "size": 17,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 3.85,
+          "y": 4.08,
+          "w": 3.84,
+          "h": 0.63,
+          "fill": "F1F5F7",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/shield-check",
+          "x": 4.12,
+          "y": 4.13,
+          "w": 0.49,
+          "h": 0.49,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 4.86,
+          "y": 4.18,
+          "w": 2.57,
+          "h": 0.34,
+          "text": "Behörighet & loggning",
+          "size": 16,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 3.85,
+          "y": 4.88,
+          "w": 3.84,
+          "h": 0.62,
+          "fill": "F1F5F7",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/magnifying-glass",
+          "x": 4.12,
+          "y": 4.93,
+          "w": 0.49,
+          "h": 0.49,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 4.86,
+          "y": 4.98,
+          "w": 2.57,
+          "h": 0.34,
+          "text": "Sökning i kunskap",
+          "size": 16,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 8.68,
+          "y": 2.35,
+          "w": 3.87,
+          "h": 3.52,
+          "fill": "surface",
+          "roundness": 0.09,
+          "allow_overlap": true,
+          "stroke": "accent",
+          "stroke_pt": 1.2,
+          "fill_opacity": 0.94
+        },
+        {
+          "type": "text",
+          "x": 8.93,
+          "y": 2.52,
+          "w": 3.37,
+          "h": 0.4,
+          "text": "Anslutna resurser",
+          "size": 19,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 8.96,
+          "y": 2.97,
+          "w": 3.34,
+          "h": 0.79,
+          "fill": "F0F6FA",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/brain",
+          "x": 9.120000000000001,
+          "y": 3.1050000000000004,
+          "w": 0.52,
+          "h": 0.52,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 9.770000000000001,
+          "y": 3.0900000000000003,
+          "w": 2.4099999999999997,
+          "h": 0.31,
+          "text": "Språkmodell",
+          "size": 14.5,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 9.770000000000001,
+          "y": 3.4400000000000004,
+          "w": 2.4099999999999997,
+          "h": 0.31,
+          "text": "Genererar text",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 8.96,
+          "y": 3.94,
+          "w": 3.34,
+          "h": 0.79,
+          "fill": "F0F6FA",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/browser",
+          "x": 9.120000000000001,
+          "y": 4.075,
+          "w": 0.52,
+          "h": 0.52,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 9.770000000000001,
+          "y": 4.06,
+          "w": 2.4099999999999997,
+          "h": 0.31,
+          "text": "IT-stöd",
+          "size": 14.5,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 9.770000000000001,
+          "y": 4.41,
+          "w": 2.4099999999999997,
+          "h": 0.31,
+          "text": "Behörighetsstyrd åtkomst",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 8.96,
+          "y": 4.91,
+          "w": 3.34,
+          "h": 0.79,
+          "fill": "F0F6FA",
+          "roundness": 0.09,
+          "allow_overlap": true
+        },
+        {
+          "type": "professional-icon",
+          "icon": "phosphor/regular/books",
+          "x": 9.120000000000001,
+          "y": 5.045,
+          "w": 0.52,
+          "h": 0.52,
+          "color": "primary",
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 9.770000000000001,
+          "y": 5.03,
+          "w": 2.4099999999999997,
+          "h": 0.31,
+          "text": "Kunskapsindex",
+          "size": 14.5,
+          "color": "text",
+          "bold": true,
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "x": 9.770000000000001,
+          "y": 5.38,
+          "w": 2.4099999999999997,
+          "h": 0.31,
+          "text": "Sökbara källor och fakta",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        },
+        {
+          "type": "line",
+          "from": [
+            2.96,
+            3.86
+          ],
+          "to": [
+            3.48,
+            3.86
+          ],
+          "arrow": true,
+          "color": "accent",
+          "stroke_pt": 2
+        },
+        {
+          "type": "line",
+          "from": [
+            8.06,
+            3.37
+          ],
+          "to": [
+            8.6,
+            3.37
+          ],
+          "arrow": true,
+          "color": "accent",
+          "stroke_pt": 2
+        },
+        {
+          "type": "line",
+          "from": [
+            8.06,
+            4.33
+          ],
+          "to": [
+            8.6,
+            4.33
+          ],
+          "arrow": true,
+          "color": "accent",
+          "stroke_pt": 2
+        },
+        {
+          "type": "line",
+          "from": [
+            8.06,
+            5.28
+          ],
+          "to": [
+            8.6,
+            5.28
+          ],
+          "arrow": true,
+          "color": "accent",
+          "stroke_pt": 2
+        },
+        {
+          "type": "shape",
+          "shape": "round",
+          "x": 0.75,
+          "y": 6.62,
+          "w": 11.85,
+          "h": 0.025,
+          "fill": "line",
+          "roundness": 0,
+          "allow_overlap": true
+        },
+        {
+          "type": "text",
+          "x": 0.75,
+          "y": 6.78,
+          "w": 11.85,
+          "h": 0.39,
+          "text": "Guardrails, behörigheter och spårbarhet krävs för varje dataåtkomst och åtgärd – inte bara runt modellen.",
+          "size": 14,
+          "color": "muted",
+          "bold": false,
+          "align": "left"
+        }
+      ]
+    }
+  ]
+}

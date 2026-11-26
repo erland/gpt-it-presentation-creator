@@ -37,6 +37,8 @@ jobs:
           python scripts/validate_generated_delivery.py --project-root .
       - name: PowerPoint engine self-test
         run: python scripts/itpc/selftest.py
+      - name: Render DEV-012D architecture references
+        run: python examples/render_reference_architectures.py --output-dir build/reference-review --with-previews
       - name: Build distributions
         run: python scripts/build_distributions.py --project-root . --version 0.0.0-ci --targets project,chat,claude_project,claude_skills,opencode,plugin
       - name: Validate distributions
@@ -47,4 +49,9 @@ jobs:
         with:
           name: distributions
           path: dist/
+          if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reference-architecture-previews
+          path: build/reference-review/
           if-no-files-found: error

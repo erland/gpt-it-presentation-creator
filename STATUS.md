@@ -8,3 +8,5 @@ DEV-012A2: katalog renderad och urvalspolicy införd; CI återstår. 38 äldre k
 DEV-012B: 30 egna figurer och typen figure avvecklade; 127 professionella ikoner kvar. CI godkänd: 23 tester, Engine-självtest och sju distributionspaket. DEV-012C: fria byggblock för zoner, halvtransparent fyllning och heldragna/streckade samband med regressionstester tillagda. Slutlig CI godkänd för commit aa3ecd78: 32 tester, självtest, projekthygien, alla sju distributioner och paritetskontroll. Visuell acceptans återstår till DEV-012D.
 
 DEV-012B: även de tre incheckade YAML-acceptansexemplen migrerade från avvecklad figurtyp till professionella redigerbara ikoner. De inkluderades i den godkända CI-körningen.
+
+DEV-012D: fyra redigerbara, leverantörsneutrala arkitekturreferenser (hybrid, händelser, datagrund, AI) har skapats och granskats i tre lokala LibreOffice-renderingsomgångar; sista lokala modellen hade 0 automatiska audit-avvikelser, inga rasterbilder och konsekvent flödessemantik. `examples/reference-architectures.json`, renderare, tester, CI-artefakt och granskningsrapport har lagts till på utvecklingsgrenen. GitHub CI för själva PR:en och oberoende värdacceptans återstår.

@@ -31,3 +31,5 @@ DEV-009B: GitHub CI och manuell taggbaserad release, lokalt verifierade.
 **DEV-012B** – Avveckla de 30 egna figurerna och migrera exempel och tester till fria kompositioner. Behåll 127 professionella ikoner.
 
 **DEV-012C** – Ingen ny katalog med sammansatta figurer: komplettera Engine med redigerbara zoner, transparenta paneler och heldragna/streckade flöden. Verifiera ny exempelarkitektur och regressionstester. **DEV-012D** – Visuell renderingsgranskning av typiska arkitekturillustrationer samt oberoende värdacceptans.
+
+**DEV-012D – genomfört under separat granskningssteg:** fyra leverantörsneutrala referensarkitekturer i fri JSON-baserad kompositionsmodell; deterministisk PPTX-generering, tekniska regressionstester, faktiska LibreOffice/PNG-renderingar och tre dokumenterade visuella granskningsomgångar. Se `docs/visual-review-012d.md`. Full CI, oberoende visuell kontroll av CI-artefakterna och funktionell värdacceptans krävs för slutligt godkännande.
