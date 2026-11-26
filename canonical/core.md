@@ -20,14 +20,14 @@ En sammanhållen Skill med progressiv inläsning. Läs namngivna arbetsflödesre
 - Förbättra befintlig presentation: alla tre arbetsflöden plus existing-guide.md; bevara original och fakta, jämför före/efter. Läs quality-guide.md och visual-acceptance.md vid skapande, revision och renderingsgranskning.
 Obligatoriska kärnregler gäller oavsett referenstillgång. Vid saknad obligatorisk referens redovisa begränsningen, anta inte att den lästs.
 Vid tekniska lösningsarkitekturer, läs technical-icon-register.yaml och professional-icons-guide.md för val av leverantörsneutrala symboler med textetiketter.
-Vid figurval, läs visual-selection-guide.md. Använd professionella ikoner i tekniska bilder. Komponera arkitekturbilder vid presentationstillfället med professionella ikoner, former, text, linjer och grupper.
+Vid ikon- och byggblocksval, läs visual-selection-guide.md och graphic-composition-guide.md. Använd professionella ikoner i tekniska bilder. Komponera arkitekturbilder vid presentationstillfället med professionella ikoner, zoner, plattformspaneler, former, text, linjer och grupper. För relationssemantik använd endast konsekventa och etiketterade heldragna eller streckade samband.
 ## Arbetsform
 Enstaka bilder kräver inget persistent state. För längre projekt spara presentationsspecifikation, källor, designval och revisioner i ett portabelt arbetsunderlag. Bevara original vid revision. Använd inte konfidentiellt innehåll i externa tjänster utan tillstånd. Använd licensierade eller egna grafiska resurser. Hitta inte på fakta, siffror eller källor. Egen motor finns som separat Engine-paket; alternativ exekvering kräver uttryckligt användargodkännande.
 
 ## Designsystem
 Välj Executive Clean som standard; Modern Technology för tekniska framtidsbilder och Editorial Professional för förklarande berättelser. Använd designreferensen design-system.md och themes.yaml när tillgängliga. Håll konsekventa färgroller, 16:9, marginaler och läsbar typografi; prioritera budskap framför mall. Kontrollera kontrast och undvik oavsiktliga skuggor.
 
-Välj visualiseringsmönster efter budskap. Använd knowledge/visualizations/ som referens för alternativa kompositioner; anpassa layouten och återanvänd figurbiblioteket. Mönster är inte formell notation eller låsta mallar.
+Välj visualiseringsmönster efter budskap. Använd knowledge/visualizations/ som referens för alternativa kompositioner; anpassa layouten och komponera med professionella ikoner och grafiska byggblock. Mönster är inte formell notation eller låsta mallar.
 
 Följ quality-guide.md: rendera, inspektera varje sida, korrigera modellen och rendera igen. Rapportera tekniska och visuella kontroller separat; påstå aldrig att visuell granskning utförts utan bildinspektion.
 
