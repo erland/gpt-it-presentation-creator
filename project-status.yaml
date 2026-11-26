@@ -34,8 +34,8 @@ state:
   - 0.5.2 distribuerad enligt bifogat paket; DEV-010 värdtest och DEV-011 verifiering återstår.
 next_step:
   recommended: 12
-  title: Renodlat ikonbibliotek
-  reason: Verifiera DEV-012B i CI före DEV-012C (grafiska byggblock).
+  title: Visualisera och granska tekniska referensarkitekturer
+  reason: DEV-012B och DEV-012C är implementerade på PR #7; verifiera CI och visuell kvalitet innan merge, därefter DEV-012D.
 resume:
   supported: true
   required_files:
