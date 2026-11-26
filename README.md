@@ -1,5 +1,5 @@
 # IT Presentation Creator
-Version 0.5.3 (planerad) – releasekandidat; värdacceptans återstår. GitHub-baserad utveckling. Läs PROJECT.md, STATUS.md och docs/development-plan.md. Fem runtimepaket byggs från canonical/. Egen PPTX-motor ingår som separat Engine-paket. Alternativ filgenerering kräver uttryckligt godkännande enligt DEV-010.
+Föreslagen releasekandidat 0.5.3-rc.1 (DEV-013) – ännu ej publicerad eller stabil; värdacceptans återstår. GitHub-baserad utveckling. Läs PROJECT.md, STATUS.md och docs/development-plan.md. Fem runtimepaket byggs från canonical/. Egen PPTX-motor ingår som separat Engine-paket. Alternativ filgenerering kräver uttryckligt godkännande enligt DEV-010.
 
 ## Designsystem 0.2.0
 Se knowledge/design/ och examples/design-styles.pptx. Exempelgeneratorn är utvecklingsverktyg, inte runtimeverktyg. Kör python tests/test_design.py med python-pptx och PyYAML.
@@ -35,3 +35,7 @@ Denna komposition innehåller inte något nytt fast figur-ID. GitHub CI laddar u
 ### DEV-012F: relationer som följer komponenter
 
 Använd `from_id` och `to_id` på linjer för att koppla dem till unika objekt-ID:n, eller behåll explicita `from/to`-koordinater. Se `examples/anchored-connections.yaml` och `docs/dev-012f-quality-notes.md`. `quality.audit` tar hänsyn till solida bakomliggande färger och transparens, och `suggest_text_size` föreslår läsbar textstorlek (minst 14 pt). GitHub CI laddar upp en faktisk PPTX/PNG som `anchored-connections-preview`.
+
+### DEV-013: kandidatverifiering
+
+GitHub CI bygger `0.5.3-rc.1` som **testartefakt** och verifierar alla sju ZIP-paket, SHA256, fem runtimeversioner och separat Engine. Se `docs/dev-013-release-candidate.md` för releaseprocedur och återstående värdtester. `scripts/verify_release_candidate.py` tillämpar motsvarande kontroll vid den taggade releasen.
