@@ -15,7 +15,7 @@ Repository: erland/gpt-it-presentation-creator.
 
 - En GitHub Actions-artefakt är inte samma sak som en publicerad Release. En versionsspecifik nedladdningslänk får inte beskrivas som tillgänglig innan den fungerar.
 - `release: published` startar distributionsbygget, men publicering ersätter inte kvalitetsgrindarna. För en draft-kandidat använd manuell `workflow_dispatch`.
-- Uppladdning avbryts vid befintligt assetnamn, utan överskrivning. Efter delvis uppladdning: inspektera releasen före en ny körning. Skapa hellre ny kandidat än att byta ut testade filer.
+- Vid befintligt assetnamn laddar flödet ned den befintliga filen och kräver byteidentiskt innehåll. Identiska filer återanvänds utan överskrivning; avvikande innehåll stoppar publiceringskörningen. Saknade filer laddas upp. En delvis genomförd uppladdning kan därmed återköras säkert, men testade paket ska aldrig bytas ut under samma versionsnummer.
 - Test i Microsoft PowerPoint samt verklig installation i valda värdar sker separat; vid fel dokumentera avvikelsen och skapa nästa kandidat.
 
 Projektet använder GPT Byggaren 1.6.33:s kanoniska mallar för fem runtimepaket och separat Engine. Releaseflödet kör lint, test, projekthygien, Engine-självtest, verklig PPTX/PNG-rendering, distributionsbygge och kandidatverifiering innan uppladdning.
