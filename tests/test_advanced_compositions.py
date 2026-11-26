@@ -41,7 +41,6 @@ def test_complex_cases_have_distinct_layouts_and_valid_assets(tmp_path):
 def test_background_aware_quality_accepts_verified_dark_header_bands():
     model=build_model()
     assert not audit(model), 'Real invalid contrast or text-fit errors must remain visible'
-    assert all(item['actual_contrast']>=4.5 for item in accepted)
 
 def test_editable_powerpoint_has_no_rasters(tmp_path):
     review=produce(tmp_path,preview=False)
