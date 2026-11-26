@@ -5,4 +5,4 @@ DEV-012A: 54 nya Phosphor Regular-ikoner och 63 registrerade tekniska begrepp. C
 
 DEV-012A2: katalog renderad och urvalspolicy införd; CI återstår. 38 äldre konturikoner borttagna; 157 aktiva definitioner.
 
-DEV-012B: egna figurer avvecklade i utvecklingsgren; 127 professionella ikoner kvar. CI och distributionsverifiering återstår.
+DEV-012B: 30 egna figurer och typen figure avvecklade; 127 professionella ikoner kvar. CI godkänd: 23 tester, Engine-självtest och sju distributionspaket. DEV-012C: fria byggblock för zoner, halvtransparent fyllning och heldragna/streckade samband med regressionstester tillagda. Ny CI och visuell acceptans återstår.
