@@ -114,10 +114,10 @@ def test_anchored_architecture_example_renders_in_source_order(tmp_path):
     # Connections intentionally occur before component declarations.
     assert source['slides'][0]['objects'][2]['from_id']=='service'
     resolved=resolve_anchored_lines(source['slides'][0]['objects'])
-    assert resolved[2]['from']==[3.6,3.4]
-    assert resolved[2]['to']==[5.45,3.4]
-    assert resolved[3]['from']==[6.825,4.2]
-    assert resolved[3]['to']==[6.825,5.05]
+    assert resolved[2]['from']==pytest.approx([3.6,3.4])
+    assert resolved[2]['to']==pytest.approx([5.45,3.4])
+    assert resolved[3]['from']==pytest.approx([6.825,4.2])
+    assert resolved[3]['to']==pytest.approx([6.825,5.05])
     assert not [x for x in audit(source) if x['code'] in {'contrast','contrast_unknown','small_text'}]
     pptx=tmp_path/'anchored.pptx'
     render(source,pptx)
