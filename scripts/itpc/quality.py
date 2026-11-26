@@ -75,6 +75,27 @@ def estimate_text_lines(value,width_pt,size_pt):
         count+=1
     return count
 
+def suggest_text_size(value,width_in,height_in,preferred_pt=24,min_pt=14,padding_in=0):
+    """Suggest a legible font size without silently dropping below the floor.
+
+    This models wrapping before rendering and never mutates source objects.
+    Actual PowerPoint/LibreOffice text placement still requires PDF inspection.
+    """
+    if not all(isinstance(v,(float,int)) and math.isfinite(v) for v in
+               (width_in,height_in,preferred_pt,min_pt,padding_in)):
+        raise ValueError('Non-finite text-fit request')
+    if width_in<=0 or height_in<=0 or padding_in<0 or min_pt<14 or preferred_pt<min_pt:
+        raise ValueError('Invalid text-fit bounds or font sizes')
+    usable_w=(width_in-2*padding_in)*72
+    usable_h=(height_in-2*padding_in)*72
+    if min(usable_w,usable_h)<=0:raise ValueError('Text padding leaves no space')
+    size=preferred_pt
+    while size>=min_pt:
+        lines=estimate_text_lines(value,usable_w,size)
+        if lines*size*1.2<=usable_h:return round(size,1)
+        size-=.5
+    raise ValueError('No legible text size fits: enlarge text box or shorten text')
+
 def audit(model):
     issues=[];W,H=model.get('size',[13.333,7.5])
     for n,s in enumerate(model['slides']):
