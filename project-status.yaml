@@ -34,8 +34,8 @@ state:
   - 0.5.2 distribuerad enligt bifogat paket; DEV-010 värdtest och DEV-011 verifiering återstår.
 next_step:
   recommended: 12
-  title: Visualisera och granska tekniska referensarkitekturer
-  reason: DEV-012B och DEV-012C är implementerade på PR #7; verifiera CI och visuell kvalitet innan merge, därefter DEV-012D.
+  title: DEV-012D – Visuell acceptans av referensarkitekturer
+  reason: DEV-012B/C verifierade med 32 tester, Engine-självtest och sju distributionspaket på PR #7; fortsatt DEV-012D innebär faktisk renderingsgranskning av arkitekturillustrationer.
 resume:
   supported: true
   required_files:
