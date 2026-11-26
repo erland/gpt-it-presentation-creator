@@ -21,3 +21,9 @@ DEV-008F: obligatorisk visuell acceptansgrind och reproducerbar komposition i ex
 GitHub-projekt: se [CI och release](docs/github-release.md).
 
 DEV-011: en sammanhållen Skill med tre progressivt inlästa arbetsflöden under knowledge/workflows/. Kritiska grindar ligger kvar i canonical/core.md.
+
+### DEV-012D: redigerbara arkitekturreferenser
+
+Fyra granskningsbilder definieras i `examples/reference-architectures.json` och genereras med
+`python examples/render_reference_architectures.py --output-dir build/reference-review --with-previews`.
+Denna komposition innehåller inte något nytt fast figur-ID. GitHub CI laddar upp både redigerbar PPTX och fyra renderade PNG samt teknisk rapport som artefakten `reference-architecture-previews`. Se `docs/visual-review-012d.md` för tre visuella granskningsomgångar och öppna begränsningar.
