@@ -126,3 +126,22 @@ def test_anchored_architecture_example_renders_in_source_order(tmp_path):
     assert not list(prs.slides[0]._element.iter(qn('p:pic')))
     connectors=[x for x in prs.slides[0].shapes if x.shape_type==9]
     assert len(connectors)==2
+
+def test_actual_anchored_label_is_not_broken_by_ci_font_fallback(tmp_path):
+    import shutil, subprocess, xml.etree.ElementTree as ET, yaml
+    if not shutil.which('libreoffice') or not shutil.which('pdftotext'):
+        pytest.skip('Actual PDF text validation requires LibreOffice and Poppler')
+    m=yaml.safe_load((ROOT/'examples/anchored-connections.yaml').read_text())
+    pptx=tmp_path/'anchored.pptx'
+    render(m,pptx)
+    subprocess.run(['libreoffice',
+                    '-env:UserInstallation='+(tmp_path/'lo-profile').as_uri(),
+                    '--headless','--convert-to','pdf','--outdir',str(tmp_path),
+                    str(pptx)],check=True,capture_output=True,timeout=90)
+    pdf=tmp_path/'anchored.pdf'
+    assert pdf.exists()
+    xml=tmp_path/'text-bbox.html'
+    subprocess.run(['pdftotext','-bbox',str(pdf),str(xml)],
+                   check=True,capture_output=True,timeout=30)
+    words=[node.text for node in ET.parse(xml).getroot().findall('.//{*}word')]
+    assert 'Integration' in words, 'The component label wrapped in the real PDF rendering'
