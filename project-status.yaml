@@ -10,9 +10,9 @@ delivery:
   planned_repository: erland/gpt-it-presentation-creator
 plan:
   path: docs/development-plan.md
-  total_steps: 12
+  total_steps: 15
 progress:
-  current_step: 12
+  current_step: 13
   last_completed_step: 9
   completed_steps:
   - 1
@@ -33,9 +33,9 @@ state:
     projekt-state-machine).'
   - 0.5.2 distribuerad enligt bifogat paket; DEV-010 värdtest och DEV-011 verifiering återstår.
 next_step:
-  recommended: 12
-  title: DEV-012F – Kvalitetsanalys, textpassning och förankrade samband
-  reason: DEV-012F avhjälper identifierade brister från DEV-012E med bakgrundsmedveten kontrast, ordmedvetna textmått och ID-ankrade samband. Verifiera CI och därefter värdacceptans.
+  recommended: 13
+  title: DEV-013 – Förbered och verifiera releasekandidat 0.5.3-rc.1
+  reason: DEV-012F är mergad och tekniskt verifierad. DEV-013 CI ska verifiera alla kandidatpaket före beslut om taggad prerelease; stabil release kräver praktisk värdacceptans.
 resume:
   supported: true
   required_files:

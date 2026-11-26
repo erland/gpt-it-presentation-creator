@@ -37,3 +37,9 @@ DEV-009B: GitHub CI och manuell taggbaserad release, lokalt verifierade.
 **DEV-012E – avancerad kompositionsacceptans:** tre fördjupade prov (fyra IT-generationer, verksamhetsintegrerad AI, DW → Lakehouse) med redigerbara PPTX, faktisk PNG-rendering, tre visuella granskningsomgångar, regressionskontroller och specificerade begränsningar. Se `docs/visual-review-012e.md`. **DEV-012F** avgränsas till verkliga fel i bakgrundsmedveten kontrastanalys, textpassning, förankrade samband och kompositionskvalitet. GitHub CI och värdacceptans ska verifieras separat.
 
 **DEV-012F – riktade förbättringar:** bakgrundsmedveten kontrastgranskning med transparens och `contrast_unknown` för okända färgytor, ordmedveten uppskattning av textpassning samt `suggest_text_size` med minst 14 pt, förankrade relationslinjer med komponent-ID och automatiskt beräknade kantpunkter. Regressionstester mot DEV-012E och separat visuell/värdbaserad acceptans.
+
+**DEV-013 – Ny releasekandidat:** bygg och integritetsverifiera `0.5.3-rc.1` i CI; kontrollera fem runtimepaket, projekt och separat Engine, gemensam versionssträng, SHA256, distributionsparitet samt faktiska referensrenderingar. Dokumentera hur en taggad draft-prerelease skapas utan att automatiskt publicera en stabil release.
+
+**DEV-014 – Praktisk värdacceptans (planerat):** genomför installations-, Engine-preflight- och PowerPoint-tester enligt `docs/release-tests.md`; dokumentera testresultat och åtgärda identifierade fel i en ny kandidat.
+
+**DEV-015 – Stabil release (villkorad):** först efter oberoende dokumenterad användaracceptans och godkända tekniska grindar. Ingen implicit publicering av 1.0.0.
