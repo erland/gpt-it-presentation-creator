@@ -64,3 +64,5 @@ def test_actual_png_previews(tmp_path):
     assert len(report['previews'])==3
     assert all((tmp_path/p).stat().st_size>10_000 for p in report['previews'])
     assert (tmp_path/'contact-sheet.png').stat().st_size>30_000
+    assert len(report['rendered_text_placement'])==3
+    assert all(row['heading_line_delta_pt']<=6 for row in report['rendered_text_placement'])
