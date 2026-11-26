@@ -48,7 +48,10 @@ def verify(root: Path, version: str) -> dict:
     if (hashlib.sha256(check_file.read_bytes()).hexdigest()!=listed['SHA256SUMS.txt']['sha256']
             or check_file.stat().st_size!=listed['SHA256SUMS.txt']['size']):
         raise ValueError('Checksum-list integrity mismatch')
-    result={'schema_version':1,'version':version,'technical_status':'pass',
+    result={'schema_version':1,'version':version,'result':'pass',
+            'gates':{'archive_set':'pass','version_consistency':'pass',
+                     'sha256_and_manifest':'pass','engine_integrity':'pass','runtime_parity':'pass'},
+            'technical_status':'pass',
             'host_acceptance':'not_run','visual_acceptance':'not_verified_in_powerpoint',
             'artifacts':[],'engine':{},'runtime_parity':{}}
     engine_icon_hash=None
@@ -91,7 +94,8 @@ def verify(root: Path, version: str) -> dict:
                         raise ValueError(f'Runtime version mismatch: {filename}')
                     if any(json.loads(z.read(x))['version']!=version for x in manifest_entries):
                         raise ValueError(f'Runtime manifest version mismatch: {filename}')
-            result['artifacts'].append({'file':filename,'sha256':actual_hash,
+            target=next(t for t in TARGETS if filename==f'{pid}-{t}-{version}.zip')
+            result['artifacts'].append({'type':target,'file':filename,'sha256':actual_hash,
                                         'bytes':path.stat().st_size,'entries':len(names)})
     for runtime in RUNTIMES:
         filename=f'{pid}-{runtime}-{version}.zip'
