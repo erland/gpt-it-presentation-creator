@@ -7,6 +7,7 @@ from pathlib import Path
 
 import pytest
 import yaml
+from jsonschema import validate
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
@@ -65,6 +66,10 @@ def fixture_candidate(tmp_path,icon_override=None):
 def test_candidate_gate_accepts_one_consistent_engine_and_five_runtimes(tmp_path):
     root=fixture_candidate(tmp_path)
     result=verify(root,VERSION)
+    schema=json.loads((ROOT/'schemas/release-candidate.schema.json').read_text())
+    validate(instance=result,schema=schema)
+    assert result['result']=='pass'
+    assert all(state=='pass' for state in result['gates'].values())
     assert result['technical_status']=='pass'
     assert result['host_acceptance']=='not_run'
     assert result['visual_acceptance']=='not_verified_in_powerpoint'
