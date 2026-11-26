@@ -58,7 +58,7 @@ def estimate_text_lines(value,width_pt,size_pt):
         return sum(size_pt*(.26 if c in narrow else .86 if c in wide else
                            .64 if c.isupper() else .52) for c in s)
     count=0
-    for paragraph in value.split('\\n'):
+    for paragraph in value.split('\n'):
         words=paragraph.split()
         if not words:count+=1;continue
         used=0
